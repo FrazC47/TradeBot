@@ -1,0 +1,36 @@
+MTF FRAMEWORK SUMMARY
+
+PHASE 1: Data Loading
+- Load all 7 timeframes
+- Verify minimum candles
+
+PHASE 2: Regime Detection
+- 7 regimes: TREND_BULL, TREND_BEAR, PULLBACK_BULL, PULLBACK_BEAR, DISTRIBUTION, ACCUMULATION, RANGE
+- Top-down analysis (1M → 5m)
+
+PHASE 3: Weighted MTF Scoring
+- Macro (1M,1w): 40%
+- Intermediate (1d,4h): 35%
+- Execution (1h,15m,5m): 25%
+
+PHASE 4: Signal State Machine
+- PENDING → ACTIVE → COOLDOWN → EXPIRED
+- 120-minute cooldown
+- Duplicate prevention
+
+PHASE 5: Trade Setup
+- Entry: Fib 0.618
+- Stop: Fib 0.786
+- Target: Fib 0.382
+- Min R:R 1:2
+
+PHASE 6: Candle Confirmation
+- Wait for candle close
+- Validate signal
+- Then alert
+
+Files:
+- regime_detector.py
+- weighted_mtf_scorer.py
+- signal_state_machine.py
+- professional_mtf_engine.py

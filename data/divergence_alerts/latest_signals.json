@@ -1,0 +1,134 @@
+[
+  {
+    "timestamp": 1772434800000,
+    "datetime": "2026-03-02 15:00",
+    "symbol": "BTCUSDT",
+    "interval": "1h",
+    "type": "FUTURES_DISCOUNT",
+    "price_diff_pct": -0.5687,
+    "spot_price": 66196.07,
+    "futures_price": 65819.6,
+    "severity": "HIGH",
+    "interpretation": "Leverage shorts dominant. Risk of short squeeze if price rises."
+  },
+  {
+    "timestamp": 1772434800000,
+    "datetime": "2026-03-02 15:00",
+    "symbol": "BTCUSDT",
+    "interval": "1h",
+    "type": "FUTURES_VOLUME_HIGH",
+    "volume_diff_pct": 3546289.12,
+    "severity": "HIGH",
+    "interpretation": "Speculation driving futures volume"
+  },
+  {
+    "timestamp": 1772424000000,
+    "datetime": "2026-03-02 12:00",
+    "symbol": "BTCUSDT",
+    "interval": "4h",
+    "type": "FUTURES_DISCOUNT",
+    "price_diff_pct": -1.5085,
+    "spot_price": 66830.0,
+    "futures_price": 65821.9,
+    "severity": "HIGH",
+    "interpretation": "Leverage shorts dominant. Risk of short squeeze if price rises."
+  },
+  {
+    "timestamp": 1772424000000,
+    "datetime": "2026-03-02 12:00",
+    "symbol": "BTCUSDT",
+    "interval": "4h",
+    "type": "FUTURES_VOLUME_HIGH",
+    "volume_diff_pct": 3786891.23,
+    "severity": "HIGH",
+    "interpretation": "Speculation driving futures volume"
+  },
+  {
+    "timestamp": 1772434800000,
+    "datetime": "2026-03-02 15:00",
+    "symbol": "ETHUSDT",
+    "interval": "1h",
+    "type": "FUTURES_DISCOUNT",
+    "price_diff_pct": -0.4266,
+    "spot_price": 1943.39,
+    "futures_price": 1935.1,
+    "severity": "MEDIUM",
+    "interpretation": "Leverage shorts dominant. Risk of short squeeze if price rises."
+  },
+  {
+    "timestamp": 1772434800000,
+    "datetime": "2026-03-02 15:00",
+    "symbol": "ETHUSDT",
+    "interval": "1h",
+    "type": "FUTURES_VOLUME_HIGH",
+    "volume_diff_pct": 632289.49,
+    "severity": "HIGH",
+    "interpretation": "Speculation driving futures volume"
+  },
+  {
+    "timestamp": 1772424000000,
+    "datetime": "2026-03-02 12:00",
+    "symbol": "ETHUSDT",
+    "interval": "4h",
+    "type": "FUTURES_DISCOUNT",
+    "price_diff_pct": -1.91,
+    "spot_price": 1972.78,
+    "futures_price": 1935.1,
+    "severity": "HIGH",
+    "interpretation": "Leverage shorts dominant. Risk of short squeeze if price rises."
+  },
+  {
+    "timestamp": 1772424000000,
+    "datetime": "2026-03-02 12:00",
+    "symbol": "ETHUSDT",
+    "interval": "4h",
+    "type": "FUTURES_VOLUME_HIGH",
+    "volume_diff_pct": 17589878.31,
+    "severity": "HIGH",
+    "interpretation": "Speculation driving futures volume"
+  },
+  {
+    "timestamp": 1772434800000,
+    "datetime": "2026-03-02 15:00",
+    "symbol": "BNBUSDT",
+    "interval": "1h",
+    "type": "FUTURES_DISCOUNT",
+    "price_diff_pct": -0.2414,
+    "spot_price": 617.35,
+    "futures_price": 615.86,
+    "severity": "MEDIUM",
+    "interpretation": "Leverage shorts dominant. Risk of short squeeze if price rises."
+  },
+  {
+    "timestamp": 1772434800000,
+    "datetime": "2026-03-02 15:00",
+    "symbol": "BNBUSDT",
+    "interval": "1h",
+    "type": "FUTURES_VOLUME_HIGH",
+    "volume_diff_pct": 50948.38,
+    "severity": "HIGH",
+    "interpretation": "Speculation driving futures volume"
+  },
+  {
+    "timestamp": 1772424000000,
+    "datetime": "2026-03-02 12:00",
+    "symbol": "BNBUSDT",
+    "interval": "4h",
+    "type": "FUTURES_DISCOUNT",
+    "price_diff_pct": -1.4088,
+    "spot_price": 624.66,
+    "futures_price": 615.86,
+    "severity": "HIGH",
+    "interpretation": "Leverage shorts dominant. Risk of short squeeze if price rises."
+  },
+  {
+    "timestamp": 1772424000000,
+    "datetime": "2026-03-02 12:00",
+    "symbol": "BNBUSDT",
+    "interval": "4h",
+    "type": "FUTURES_VOLUME_HIGH",
+    "volume_diff_pct": 5089643.28,
+    "severity": "HIGH",
+    "interpretation": "Speculation driving futures volume"
+  }
+]

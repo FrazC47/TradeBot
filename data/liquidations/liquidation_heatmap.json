@@ -1,0 +1,382 @@
+{
+  "BTCUSDT": {
+    "timestamp": "2026-03-02T01:12:14.351267",
+    "symbol": "BTCUSDT",
+    "current_price": 66095.66671014,
+    "open_interest": 79254.996,
+    "funding_rate": 1.558e-05,
+    "funding_impact": {
+      "bias": "neutral",
+      "pressure": "none",
+      "intensity": "low"
+    },
+    "long_short_ratio": 1.963,
+    "estimated_leverage": 20,
+    "liquidation_zones": [
+      {
+        "leverage_tier": 5,
+        "liquidation_pct": 19.0,
+        "long_liquidation_price": 53537.49,
+        "short_liquidation_price": 78653.84,
+        "distance_pct_long": -19.0,
+        "distance_pct_short": 19.0,
+        "estimated_liquidation_value_usd": 104768236.01,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 10,
+        "liquidation_pct": 9.0,
+        "long_liquidation_price": 60147.06,
+        "short_liquidation_price": 72044.28,
+        "distance_pct_long": -9.0,
+        "distance_pct_short": 9.0,
+        "estimated_liquidation_value_usd": 52384118.01,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 20,
+        "liquidation_pct": 4.0,
+        "long_liquidation_price": 63451.84,
+        "short_liquidation_price": 68739.49,
+        "distance_pct_long": -4.0,
+        "distance_pct_short": 4.0,
+        "estimated_liquidation_value_usd": 26192059.0,
+        "heat_score": 35
+      },
+      {
+        "leverage_tier": 50,
+        "liquidation_pct": 1.0,
+        "long_liquidation_price": 65434.71,
+        "short_liquidation_price": 66756.62,
+        "distance_pct_long": -1.0,
+        "distance_pct_short": 1.0,
+        "estimated_liquidation_value_usd": 10476823.6,
+        "heat_score": 45
+      }
+    ],
+    "nearest_long_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 53537.49,
+      "short_liquidation_price": 78653.84,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 104768236.01,
+      "heat_score": 20
+    },
+    "nearest_short_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 53537.49,
+      "short_liquidation_price": 78653.84,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 104768236.01,
+      "heat_score": 20
+    }
+  },
+  "ETHUSDT": {
+    "timestamp": "2026-03-02T01:12:14.589472",
+    "symbol": "ETHUSDT",
+    "current_price": 1970.74,
+    "open_interest": 1857155.106,
+    "funding_rate": 4.35e-05,
+    "funding_impact": {
+      "bias": "neutral",
+      "pressure": "none",
+      "intensity": "low"
+    },
+    "long_short_ratio": 2.3146,
+    "estimated_leverage": 25,
+    "liquidation_zones": [
+      {
+        "leverage_tier": 5,
+        "liquidation_pct": 19.0,
+        "long_liquidation_price": 1596.3,
+        "short_liquidation_price": 2345.18,
+        "distance_pct_long": -19.0,
+        "distance_pct_short": 19.0,
+        "estimated_liquidation_value_usd": 73199397.07,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 10,
+        "liquidation_pct": 9.0,
+        "long_liquidation_price": 1793.37,
+        "short_liquidation_price": 2148.11,
+        "distance_pct_long": -9.0,
+        "distance_pct_short": 9.0,
+        "estimated_liquidation_value_usd": 36599698.54,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 20,
+        "liquidation_pct": 4.0,
+        "long_liquidation_price": 1891.91,
+        "short_liquidation_price": 2049.57,
+        "distance_pct_long": -4.0,
+        "distance_pct_short": 4.0,
+        "estimated_liquidation_value_usd": 18299849.27,
+        "heat_score": 35
+      },
+      {
+        "leverage_tier": 50,
+        "liquidation_pct": 1.0,
+        "long_liquidation_price": 1951.03,
+        "short_liquidation_price": 1990.45,
+        "distance_pct_long": -1.0,
+        "distance_pct_short": 1.0,
+        "estimated_liquidation_value_usd": 7319939.71,
+        "heat_score": 45
+      }
+    ],
+    "nearest_long_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 1596.3,
+      "short_liquidation_price": 2345.18,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 73199397.07,
+      "heat_score": 20
+    },
+    "nearest_short_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 1596.3,
+      "short_liquidation_price": 2345.18,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 73199397.07,
+      "heat_score": 20
+    }
+  },
+  "BNBUSDT": {
+    "timestamp": "2026-03-02T01:12:14.825165",
+    "symbol": "BNBUSDT",
+    "current_price": 623.28,
+    "open_interest": 495350.77,
+    "funding_rate": 0.0,
+    "funding_impact": {
+      "bias": "neutral",
+      "pressure": "none",
+      "intensity": "low"
+    },
+    "long_short_ratio": 2.4471,
+    "estimated_leverage": 15,
+    "liquidation_zones": [
+      {
+        "leverage_tier": 5,
+        "liquidation_pct": 19.0,
+        "long_liquidation_price": 504.86,
+        "short_liquidation_price": 741.7,
+        "distance_pct_long": -19.0,
+        "distance_pct_short": 19.0,
+        "estimated_liquidation_value_usd": 6174844.56,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 10,
+        "liquidation_pct": 9.0,
+        "long_liquidation_price": 567.18,
+        "short_liquidation_price": 679.38,
+        "distance_pct_long": -9.0,
+        "distance_pct_short": 9.0,
+        "estimated_liquidation_value_usd": 3087422.28,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 20,
+        "liquidation_pct": 4.0,
+        "long_liquidation_price": 598.35,
+        "short_liquidation_price": 648.21,
+        "distance_pct_long": -4.0,
+        "distance_pct_short": 4.0,
+        "estimated_liquidation_value_usd": 1543711.14,
+        "heat_score": 35
+      },
+      {
+        "leverage_tier": 50,
+        "liquidation_pct": 1.0,
+        "long_liquidation_price": 617.05,
+        "short_liquidation_price": 629.51,
+        "distance_pct_long": -1.0,
+        "distance_pct_short": 1.0,
+        "estimated_liquidation_value_usd": 617484.46,
+        "heat_score": 45
+      }
+    ],
+    "nearest_long_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 504.86,
+      "short_liquidation_price": 741.7,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 6174844.56,
+      "heat_score": 20
+    },
+    "nearest_short_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 504.86,
+      "short_liquidation_price": 741.7,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 6174844.56,
+      "heat_score": 20
+    }
+  },
+  "SOLUSDT": {
+    "timestamp": "2026-03-02T01:12:15.061701",
+    "symbol": "SOLUSDT",
+    "current_price": 84.03,
+    "open_interest": 9776726.4,
+    "funding_rate": 3.294e-05,
+    "funding_impact": {
+      "bias": "neutral",
+      "pressure": "none",
+      "intensity": "low"
+    },
+    "long_short_ratio": 2.8153,
+    "estimated_leverage": 20,
+    "liquidation_zones": [
+      {
+        "leverage_tier": 5,
+        "liquidation_pct": 19.0,
+        "long_liquidation_price": 68.06,
+        "short_liquidation_price": 100.0,
+        "distance_pct_long": -19.0,
+        "distance_pct_short": 19.0,
+        "estimated_liquidation_value_usd": 16430766.39,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 10,
+        "liquidation_pct": 9.0,
+        "long_liquidation_price": 76.47,
+        "short_liquidation_price": 91.59,
+        "distance_pct_long": -9.0,
+        "distance_pct_short": 9.0,
+        "estimated_liquidation_value_usd": 8215383.19,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 20,
+        "liquidation_pct": 4.0,
+        "long_liquidation_price": 80.67,
+        "short_liquidation_price": 87.39,
+        "distance_pct_long": -4.0,
+        "distance_pct_short": 4.0,
+        "estimated_liquidation_value_usd": 4107691.6,
+        "heat_score": 35
+      },
+      {
+        "leverage_tier": 50,
+        "liquidation_pct": 1.0,
+        "long_liquidation_price": 83.19,
+        "short_liquidation_price": 84.87,
+        "distance_pct_long": -1.0,
+        "distance_pct_short": 1.0,
+        "estimated_liquidation_value_usd": 1643076.64,
+        "heat_score": 45
+      }
+    ],
+    "nearest_long_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 68.06,
+      "short_liquidation_price": 100.0,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 16430766.39,
+      "heat_score": 20
+    },
+    "nearest_short_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 68.06,
+      "short_liquidation_price": 100.0,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 16430766.39,
+      "heat_score": 20
+    }
+  },
+  "XRPUSDT": {
+    "timestamp": "2026-03-02T01:12:15.297414",
+    "symbol": "XRPUSDT",
+    "current_price": 1.3682,
+    "open_interest": 272385396.5,
+    "funding_rate": -5.144e-05,
+    "funding_impact": {
+      "bias": "neutral",
+      "pressure": "none",
+      "intensity": "low"
+    },
+    "long_short_ratio": 2.3245,
+    "estimated_leverage": 15,
+    "liquidation_zones": [
+      {
+        "leverage_tier": 5,
+        "liquidation_pct": 19.0,
+        "long_liquidation_price": 1.11,
+        "short_liquidation_price": 1.63,
+        "distance_pct_long": -19.0,
+        "distance_pct_short": 19.0,
+        "estimated_liquidation_value_usd": 7453553.99,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 10,
+        "liquidation_pct": 9.0,
+        "long_liquidation_price": 1.25,
+        "short_liquidation_price": 1.49,
+        "distance_pct_long": -9.0,
+        "distance_pct_short": 9.0,
+        "estimated_liquidation_value_usd": 3726776.99,
+        "heat_score": 20
+      },
+      {
+        "leverage_tier": 20,
+        "liquidation_pct": 4.0,
+        "long_liquidation_price": 1.31,
+        "short_liquidation_price": 1.42,
+        "distance_pct_long": -4.0,
+        "distance_pct_short": 4.0,
+        "estimated_liquidation_value_usd": 1863388.5,
+        "heat_score": 35
+      },
+      {
+        "leverage_tier": 50,
+        "liquidation_pct": 1.0,
+        "long_liquidation_price": 1.35,
+        "short_liquidation_price": 1.38,
+        "distance_pct_long": -1.0,
+        "distance_pct_short": 1.0,
+        "estimated_liquidation_value_usd": 745355.4,
+        "heat_score": 45
+      }
+    ],
+    "nearest_long_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 1.11,
+      "short_liquidation_price": 1.63,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 7453553.99,
+      "heat_score": 20
+    },
+    "nearest_short_liquidation": {
+      "leverage_tier": 5,
+      "liquidation_pct": 19.0,
+      "long_liquidation_price": 1.11,
+      "short_liquidation_price": 1.63,
+      "distance_pct_long": -19.0,
+      "distance_pct_short": 19.0,
+      "estimated_liquidation_value_usd": 7453553.99,
+      "heat_score": 20
+    }
+  }
+}

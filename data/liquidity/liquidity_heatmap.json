@@ -1,0 +1,572 @@
+{
+  "BTCUSDT": {
+    "timestamp": "2026-03-02T01:03:56.362936",
+    "symbol": "BTCUSDT",
+    "current_price": 66035.70000000001,
+    "spread": 0.2,
+    "spread_pct": 0.0003,
+    "liquidity_profile": {
+      "0.1%": {
+        "price_range": [
+          65969.66,
+          66101.74
+        ],
+        "bid_qty": 72.35,
+        "ask_qty": 187.622,
+        "bid_value_usd": 4777682.9,
+        "ask_value_usd": 12389750.11,
+        "imbalance": -0.4434
+      },
+      "0.5%": {
+        "price_range": [
+          65705.52,
+          66365.88
+        ],
+        "bid_qty": 83.462,
+        "ask_qty": 198.636,
+        "bid_value_usd": 5511471.59,
+        "ask_value_usd": 13117067.31,
+        "imbalance": -0.4083
+      },
+      "1%": {
+        "price_range": [
+          65375.34,
+          66696.06
+        ],
+        "bid_qty": 83.462,
+        "ask_qty": 198.636,
+        "bid_value_usd": 5511471.59,
+        "ask_value_usd": 13117067.31,
+        "imbalance": -0.4083
+      },
+      "2%": {
+        "price_range": [
+          64714.99,
+          67356.41
+        ],
+        "bid_qty": 83.462,
+        "ask_qty": 198.636,
+        "bid_value_usd": 5511471.59,
+        "ask_value_usd": 13117067.31,
+        "imbalance": -0.4083
+      },
+      "5%": {
+        "price_range": [
+          62733.92,
+          69337.49
+        ],
+        "bid_qty": 83.462,
+        "ask_qty": 198.636,
+        "bid_value_usd": 5511471.59,
+        "ask_value_usd": 13117067.31,
+        "imbalance": -0.4083
+      }
+    },
+    "support_walls": [
+      {
+        "price": 66000,
+        "qty": 12.25,
+        "value_usd": 808937.33,
+        "distance_pct": -0.05
+      }
+    ],
+    "resistance_walls": [
+      {
+        "price": 66000,
+        "qty": 103.267,
+        "value_usd": 6819308.63,
+        "distance_pct": -0.05
+      }
+    ],
+    "cumulative_liquidity": [
+      {
+        "move_pct": 0.5,
+        "bid_liquidation_wall": 83.462,
+        "ask_liquidation_wall": 198.636
+      },
+      {
+        "move_pct": 1.0,
+        "bid_liquidation_wall": 83.462,
+        "ask_liquidation_wall": 198.636
+      },
+      {
+        "move_pct": 1.5,
+        "bid_liquidation_wall": 83.462,
+        "ask_liquidation_wall": 198.636
+      },
+      {
+        "move_pct": 2.0,
+        "bid_liquidation_wall": 83.462,
+        "ask_liquidation_wall": 198.636
+      },
+      {
+        "move_pct": 3.0,
+        "bid_liquidation_wall": 83.462,
+        "ask_liquidation_wall": 198.636
+      },
+      {
+        "move_pct": 5.0,
+        "bid_liquidation_wall": 83.462,
+        "ask_liquidation_wall": 198.636
+      }
+    ],
+    "total_bid_qty": 83.462,
+    "total_ask_qty": 198.636
+  },
+  "ETHUSDT": {
+    "timestamp": "2026-03-02T01:03:56.469571",
+    "symbol": "ETHUSDT",
+    "current_price": 1968.245,
+    "spread": 0.03,
+    "spread_pct": 0.0015,
+    "liquidity_profile": {
+      "0.1%": {
+        "price_range": [
+          1966.28,
+          1970.21
+        ],
+        "bid_qty": 2062.836,
+        "ask_qty": 1615.944,
+        "bid_value_usd": 4060166.64,
+        "ask_value_usd": 3180573.7,
+        "imbalance": 0.1215
+      },
+      "0.5%": {
+        "price_range": [
+          1958.4,
+          1978.09
+        ],
+        "bid_qty": 6669.275,
+        "ask_qty": 5558.504,
+        "bid_value_usd": 13126767.17,
+        "ask_value_usd": 10940497.71,
+        "imbalance": 0.0908
+      },
+      "1%": {
+        "price_range": [
+          1948.56,
+          1987.93
+        ],
+        "bid_qty": 6669.275,
+        "ask_qty": 5558.504,
+        "bid_value_usd": 13126767.17,
+        "ask_value_usd": 10940497.71,
+        "imbalance": 0.0908
+      },
+      "2%": {
+        "price_range": [
+          1928.88,
+          2007.61
+        ],
+        "bid_qty": 6669.275,
+        "ask_qty": 5558.504,
+        "bid_value_usd": 13126767.17,
+        "ask_value_usd": 10940497.71,
+        "imbalance": 0.0908
+      },
+      "5%": {
+        "price_range": [
+          1869.83,
+          2066.66
+        ],
+        "bid_qty": 6669.275,
+        "ask_qty": 5558.504,
+        "bid_value_usd": 13126767.17,
+        "ask_value_usd": 10940497.71,
+        "imbalance": 0.0908
+      }
+    },
+    "support_walls": [
+      {
+        "price": 2000,
+        "qty": 1435.037,
+        "value_usd": 2824504.4,
+        "distance_pct": 1.61
+      }
+    ],
+    "resistance_walls": [
+      {
+        "price": 2000,
+        "qty": 725.595,
+        "value_usd": 1428148.73,
+        "distance_pct": 1.61
+      }
+    ],
+    "cumulative_liquidity": [
+      {
+        "move_pct": 0.5,
+        "bid_liquidation_wall": 6669.275,
+        "ask_liquidation_wall": 5558.504
+      },
+      {
+        "move_pct": 1.0,
+        "bid_liquidation_wall": 6669.275,
+        "ask_liquidation_wall": 5558.504
+      },
+      {
+        "move_pct": 1.5,
+        "bid_liquidation_wall": 6669.275,
+        "ask_liquidation_wall": 5558.504
+      },
+      {
+        "move_pct": 2.0,
+        "bid_liquidation_wall": 6669.275,
+        "ask_liquidation_wall": 5558.504
+      },
+      {
+        "move_pct": 3.0,
+        "bid_liquidation_wall": 6669.275,
+        "ask_liquidation_wall": 5558.504
+      },
+      {
+        "move_pct": 5.0,
+        "bid_liquidation_wall": 6669.275,
+        "ask_liquidation_wall": 5558.504
+      }
+    ],
+    "total_bid_qty": 6669.275,
+    "total_ask_qty": 5558.504
+  },
+  "BNBUSDT": {
+    "timestamp": "2026-03-02T01:03:56.576197",
+    "symbol": "BNBUSDT",
+    "current_price": 622.315,
+    "spread": 0.01,
+    "spread_pct": 0.0016,
+    "liquidity_profile": {
+      "0.1%": {
+        "price_range": [
+          621.69,
+          622.94
+        ],
+        "bid_qty": 875.23,
+        "ask_qty": 774.07,
+        "bid_value_usd": 544668.76,
+        "ask_value_usd": 481715.37,
+        "imbalance": 0.0613
+      },
+      "0.5%": {
+        "price_range": [
+          619.2,
+          625.43
+        ],
+        "bid_qty": 5751.84,
+        "ask_qty": 5756.97,
+        "bid_value_usd": 3579456.31,
+        "ask_value_usd": 3582648.79,
+        "imbalance": -0.0004
+      },
+      "1%": {
+        "price_range": [
+          616.09,
+          628.54
+        ],
+        "bid_qty": 8022.28,
+        "ask_qty": 7871.32,
+        "bid_value_usd": 4992385.18,
+        "ask_value_usd": 4898440.51,
+        "imbalance": 0.0095
+      },
+      "2%": {
+        "price_range": [
+          609.87,
+          634.76
+        ],
+        "bid_qty": 8022.28,
+        "ask_qty": 7871.32,
+        "bid_value_usd": 4992385.18,
+        "ask_value_usd": 4898440.51,
+        "imbalance": 0.0095
+      },
+      "5%": {
+        "price_range": [
+          591.2,
+          653.43
+        ],
+        "bid_qty": 8022.28,
+        "ask_qty": 7871.32,
+        "bid_value_usd": 4992385.18,
+        "ask_value_usd": 4898440.51,
+        "imbalance": 0.0095
+      }
+    },
+    "support_walls": [
+      {
+        "price": 600,
+        "qty": 1518.97,
+        "value_usd": 945277.82,
+        "distance_pct": -3.59
+      }
+    ],
+    "resistance_walls": [
+      {
+        "price": 600,
+        "qty": 1461.05,
+        "value_usd": 909233.33,
+        "distance_pct": -3.59
+      }
+    ],
+    "cumulative_liquidity": [
+      {
+        "move_pct": 0.5,
+        "bid_liquidation_wall": 5751.84,
+        "ask_liquidation_wall": 5756.97
+      },
+      {
+        "move_pct": 1.0,
+        "bid_liquidation_wall": 8022.28,
+        "ask_liquidation_wall": 7871.32
+      },
+      {
+        "move_pct": 1.5,
+        "bid_liquidation_wall": 8022.28,
+        "ask_liquidation_wall": 7871.32
+      },
+      {
+        "move_pct": 2.0,
+        "bid_liquidation_wall": 8022.28,
+        "ask_liquidation_wall": 7871.32
+      },
+      {
+        "move_pct": 3.0,
+        "bid_liquidation_wall": 8022.28,
+        "ask_liquidation_wall": 7871.32
+      },
+      {
+        "move_pct": 5.0,
+        "bid_liquidation_wall": 8022.28,
+        "ask_liquidation_wall": 7871.32
+      }
+    ],
+    "total_bid_qty": 8022.28,
+    "total_ask_qty": 7871.32
+  },
+  "SOLUSDT": {
+    "timestamp": "2026-03-02T01:03:56.680232",
+    "symbol": "SOLUSDT",
+    "current_price": 83.845,
+    "spread": 0.01,
+    "spread_pct": 0.0119,
+    "liquidity_profile": {
+      "0.1%": {
+        "price_range": [
+          83.76,
+          83.93
+        ],
+        "bid_qty": 12477.81,
+        "ask_qty": 23131.89,
+        "bid_value_usd": 1046201.98,
+        "ask_value_usd": 1939493.32,
+        "imbalance": -0.2992
+      },
+      "0.5%": {
+        "price_range": [
+          83.43,
+          84.26
+        ],
+        "bid_qty": 116007.1,
+        "ask_qty": 108670.29,
+        "bid_value_usd": 9726615.3,
+        "ask_value_usd": 9111460.47,
+        "imbalance": 0.0327
+      },
+      "1%": {
+        "price_range": [
+          83.01,
+          84.68
+        ],
+        "bid_qty": 228722.45,
+        "ask_qty": 210251.1,
+        "bid_value_usd": 19177233.82,
+        "ask_value_usd": 17628503.48,
+        "imbalance": 0.0421
+      },
+      "2%": {
+        "price_range": [
+          82.17,
+          85.52
+        ],
+        "bid_qty": 404280.98,
+        "ask_qty": 361052.36,
+        "bid_value_usd": 33896938.77,
+        "ask_value_usd": 30272435.12,
+        "imbalance": 0.0565
+      },
+      "5%": {
+        "price_range": [
+          79.65,
+          88.04
+        ],
+        "bid_qty": 704397.49,
+        "ask_qty": 617876.3,
+        "bid_value_usd": 59060207.55,
+        "ask_value_usd": 51805838.37,
+        "imbalance": 0.0654
+      }
+    },
+    "support_walls": [
+      {
+        "price": 100,
+        "qty": 247652.06,
+        "value_usd": 20764386.97,
+        "distance_pct": 19.27
+      }
+    ],
+    "resistance_walls": [
+      {
+        "price": 100,
+        "qty": 231555.06,
+        "value_usd": 19414734.01,
+        "distance_pct": 19.27
+      }
+    ],
+    "cumulative_liquidity": [
+      {
+        "move_pct": 0.5,
+        "bid_liquidation_wall": 116007.1,
+        "ask_liquidation_wall": 108670.29
+      },
+      {
+        "move_pct": 1.0,
+        "bid_liquidation_wall": 228722.45,
+        "ask_liquidation_wall": 210251.1
+      },
+      {
+        "move_pct": 1.5,
+        "bid_liquidation_wall": 278192.65,
+        "ask_liquidation_wall": 266244.83
+      },
+      {
+        "move_pct": 2.0,
+        "bid_liquidation_wall": 404280.98,
+        "ask_liquidation_wall": 361052.36
+      },
+      {
+        "move_pct": 3.0,
+        "bid_liquidation_wall": 633571.84,
+        "ask_liquidation_wall": 518644.6
+      },
+      {
+        "move_pct": 5.0,
+        "bid_liquidation_wall": 704397.49,
+        "ask_liquidation_wall": 617876.3
+      }
+    ],
+    "total_bid_qty": 720027.57,
+    "total_ask_qty": 638601.0
+  },
+  "XRPUSDT": {
+    "timestamp": "2026-03-02T01:03:56.785988",
+    "symbol": "XRPUSDT",
+    "current_price": 1.36645,
+    "spread": 0.0,
+    "spread_pct": 0.0073,
+    "liquidity_profile": {
+      "0.1%": {
+        "price_range": [
+          1.37,
+          1.37
+        ],
+        "bid_qty": 806765.6,
+        "ask_qty": 645349.5,
+        "bid_value_usd": 1102404.85,
+        "ask_value_usd": 881837.82,
+        "imbalance": 0.1112
+      },
+      "0.5%": {
+        "price_range": [
+          1.36,
+          1.37
+        ],
+        "bid_qty": 5242837.7,
+        "ask_qty": 4637945.9,
+        "bid_value_usd": 7164075.58,
+        "ask_value_usd": 6337521.18,
+        "imbalance": 0.0612
+      },
+      "1%": {
+        "price_range": [
+          1.35,
+          1.38
+        ],
+        "bid_qty": 9093165.4,
+        "ask_qty": 7775351.6,
+        "bid_value_usd": 12425355.86,
+        "ask_value_usd": 10624629.19,
+        "imbalance": 0.0781
+      },
+      "2%": {
+        "price_range": [
+          1.34,
+          1.39
+        ],
+        "bid_qty": 18821636.6,
+        "ask_qty": 13742488.6,
+        "bid_value_usd": 25718825.33,
+        "ask_value_usd": 18778423.55,
+        "imbalance": 0.156
+      },
+      "5%": {
+        "price_range": [
+          1.3,
+          1.43
+        ],
+        "bid_qty": 27030458.0,
+        "ask_qty": 23697114.3,
+        "bid_value_usd": 36935769.33,
+        "ask_value_usd": 32380921.84,
+        "imbalance": 0.0657
+      }
+    },
+    "support_walls": [
+      {
+        "price": 0,
+        "qty": 8055951.1,
+        "value_usd": 11008054.38,
+        "distance_pct": -100.0
+      }
+    ],
+    "resistance_walls": [
+      {
+        "price": 0,
+        "qty": 6916615.1,
+        "value_usd": 9451208.7,
+        "distance_pct": -100.0
+      }
+    ],
+    "cumulative_liquidity": [
+      {
+        "move_pct": 0.5,
+        "bid_liquidation_wall": 5242837.7,
+        "ask_liquidation_wall": 4637945.9
+      },
+      {
+        "move_pct": 1.0,
+        "bid_liquidation_wall": 9093165.4,
+        "ask_liquidation_wall": 7775351.6
+      },
+      {
+        "move_pct": 1.5,
+        "bid_liquidation_wall": 12960477.4,
+        "ask_liquidation_wall": 9996548.3
+      },
+      {
+        "move_pct": 2.0,
+        "bid_liquidation_wall": 18821636.6,
+        "ask_liquidation_wall": 13742488.6
+      },
+      {
+        "move_pct": 3.0,
+        "bid_liquidation_wall": 25064472.8,
+        "ask_liquidation_wall": 21738745.3
+      },
+      {
+        "move_pct": 5.0,
+        "bid_liquidation_wall": 27030458.0,
+        "ask_liquidation_wall": 23697114.3
+      }
+    ],
+    "total_bid_qty": 27030458.0,
+    "total_ask_qty": 23697114.3
+  }
+}

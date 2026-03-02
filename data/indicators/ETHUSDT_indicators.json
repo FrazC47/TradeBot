@@ -1,0 +1,335 @@
+{
+  "1M": {
+    "symbol": "ETHUSDT",
+    "interval": "1M",
+    "timestamp": 1772323200000,
+    "close": 1965.28,
+    "indicators": {
+      "ema_50": 2459.5072888244636,
+      "ema_200": null,
+      "macd_line": -4.27511519066411,
+      "macd_signal": 164.1939901328789,
+      "macd_hist": -168.469105323543,
+      "volume_sma_20": 15096194.270319,
+      "fib_levels": {
+        "0.0": 4956.78,
+        "0.236": 4113.85172,
+        "0.382": 3592.37914,
+        "0.5": 3170.915,
+        "0.618": 2749.45086,
+        "0.786": 2149.40022,
+        "1.0": 1385.05
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 2111.0,
+            "touches": 1,
+            "range": [
+              2111.0,
+              2111.0
+            ]
+          },
+          {
+            "price": 1385.05,
+            "touches": 1,
+            "range": [
+              1385.05,
+              1385.05
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 4107.8,
+            "touches": 1,
+            "range": [
+              4107.8,
+              4107.8
+            ]
+          },
+          {
+            "price": 4956.78,
+            "touches": 1,
+            "range": [
+              4956.78,
+              4956.78
+            ]
+          }
+        ],
+        "swing_highs_count": 12,
+        "swing_lows_count": 11
+      }
+    }
+  },
+  "1w": {
+    "symbol": "ETHUSDT",
+    "interval": "1w",
+    "timestamp": 1772409600000,
+    "close": 1939.3,
+    "indicators": {
+      "ema_50": 2980.427425115897,
+      "ema_200": 2577.494670074415,
+      "macd_line": -398.4725140125561,
+      "macd_signal": -259.8126814245681,
+      "macd_hist": -138.65983258798798,
+      "volume_sma_20": 3315869.6450799997,
+      "fib_levels": {
+        "0.0": 4253.72,
+        "0.236": 3662.32288,
+        "0.382": 3296.45856,
+        "0.5": 3000.76,
+        "0.618": 2705.0614400000004,
+        "0.786": 2284.0668800000003,
+        "1.0": 1747.8
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 3435.0,
+            "touches": 1,
+            "range": [
+              3435.0,
+              3435.0
+            ]
+          },
+          {
+            "price": 2623.57,
+            "touches": 1,
+            "range": [
+              2623.57,
+              2623.57
+            ]
+          },
+          {
+            "price": 2111.89,
+            "touches": 1,
+            "range": [
+              2111.89,
+              2111.89
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 2879.22,
+            "touches": 1,
+            "range": [
+              2879.22,
+              2879.22
+            ]
+          },
+          {
+            "price": 3402.89,
+            "touches": 1,
+            "range": [
+              3402.89,
+              3402.89
+            ]
+          },
+          {
+            "price": 3447.44,
+            "touches": 1,
+            "range": [
+              3447.44,
+              3447.44
+            ]
+          }
+        ],
+        "swing_highs_count": 53,
+        "swing_lows_count": 61
+      }
+    }
+  },
+  "1d": {
+    "symbol": "ETHUSDT",
+    "interval": "1d",
+    "timestamp": 1772409600000,
+    "close": 1939.3,
+    "indicators": {
+      "ema_20": 2020.3631673803598,
+      "ema_50": 2313.1408248188773,
+      "vwap": 2990.036068384695,
+      "rsi_14": 47.83072029451182,
+      "macd_line": -112.56353148321227,
+      "macd_signal": -144.7113284607361,
+      "macd_hist": 32.147796977523825,
+      "atr_14": 127.87680543042447,
+      "volume_sma_20": 406918.45507,
+      "fib_levels": {
+        "0.0": 2148.39,
+        "0.236": 2066.1699599999997,
+        "0.382": 2015.30502,
+        "0.5": 1974.195,
+        "0.618": 1933.0849799999999,
+        "0.786": 1874.55546,
+        "1.0": 1800.0
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 1902.12,
+            "touches": 2,
+            "range": [
+              1897.24,
+              1907.0
+            ]
+          },
+          {
+            "price": 1835.36,
+            "touches": 1,
+            "range": [
+              1835.36,
+              1835.36
+            ]
+          },
+          {
+            "price": 1800.0,
+            "touches": 1,
+            "range": [
+              1800.0,
+              1800.0
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 1995.56,
+            "touches": 1,
+            "range": [
+              1995.56,
+              1995.56
+            ]
+          },
+          {
+            "price": 2039.05,
+            "touches": 1,
+            "range": [
+              2039.05,
+              2039.05
+            ]
+          },
+          {
+            "price": 2107.67,
+            "touches": 1,
+            "range": [
+              2107.67,
+              2107.67
+            ]
+          }
+        ],
+        "swing_highs_count": 68,
+        "swing_lows_count": 72
+      }
+    }
+  },
+  "4h": {
+    "symbol": "ETHUSDT",
+    "interval": "4h",
+    "timestamp": 1772424000000,
+    "close": 1972.78,
+    "indicators": {
+      "ema_9": 1966.450761240247,
+      "ema_21": 1963.5289108251875,
+      "rsi_14": 56.89024062012165,
+      "macd_line": 2.8570199739867803,
+      "macd_signal": 1.8858582212513069,
+      "macd_hist": 0.9711617527354734,
+      "vwap": 2568.409899261825,
+      "volume_sma_20": 74431.263265,
+      "atr_14": 50.527330241751706,
+      "obv": -1309625.1206000005,
+      "cvd": -1315201.874164432,
+      "open_interest": 1857155.106,
+      "funding_rate": 4.35e-05
+    }
+  },
+  "1h": {
+    "symbol": "ETHUSDT",
+    "interval": "1h",
+    "timestamp": 1772434800000,
+    "close": 1943.39,
+    "indicators": {
+      "ema_9": 1955.7223874444505,
+      "ema_25": 1960.4196833599153,
+      "rsi_14": 42.38774903360095,
+      "vwap": 2038.3595237451145,
+      "volume_sma_20": 19418.6766,
+      "atr_14": 27.17066868725772,
+      "obv": -1991747.017999996,
+      "cvd": -760628.2660637595
+    }
+  },
+  "15m": {
+    "symbol": "ETHUSDT",
+    "interval": "15m",
+    "timestamp": 1772436600000,
+    "close": 1935.6,
+    "indicators": {
+      "ema_9": 1947.0972832288312,
+      "ema_21": 1954.8889827396968,
+      "ema_50": 1958.8083825839587,
+      "rsi_9": 28.087030234529465,
+      "vwap": 1956.7390316478863,
+      "atr_7": 11.191279720053867,
+      "obv": 301131.5264000003,
+      "cvd": 51691.530946597486,
+      "liquidity": {
+        "support_walls": [
+          {
+            "price": 2000,
+            "qty": 1435.037,
+            "value_usd": 2824504.4,
+            "distance_pct": 1.61
+          }
+        ],
+        "resistance_walls": [
+          {
+            "price": 2000,
+            "qty": 725.595,
+            "value_usd": 1428148.73,
+            "distance_pct": 1.61
+          }
+        ],
+        "imbalance_1pct": 0.0908
+      }
+    }
+  },
+  "5m": {
+    "symbol": "ETHUSDT",
+    "interval": "5m",
+    "timestamp": 1772436900000,
+    "close": 1935.39,
+    "indicators": {
+      "ema_9": 1936.5054877170446,
+      "rsi_7": 36.38132295719863,
+      "vwap": 1949.652586886685,
+      "atr_5": 5.3479310892514516,
+      "volume_delta": 28.3728,
+      "liquidation": {
+        "nearest_long_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 1596.3,
+          "short_liquidation_price": 2345.18,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 73199397.07,
+          "heat_score": 20
+        },
+        "nearest_short_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 1596.3,
+          "short_liquidation_price": 2345.18,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 73199397.07,
+          "heat_score": 20
+        },
+        "long_short_ratio": 2.3146,
+        "funding_bias": "neutral"
+      }
+    }
+  }
+}

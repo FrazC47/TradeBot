@@ -1,0 +1,335 @@
+{
+  "1M": {
+    "symbol": "BTCUSDT",
+    "interval": "1M",
+    "timestamp": 1772323200000,
+    "close": 66971.16,
+    "indicators": {
+      "ema_50": 64967.57564074502,
+      "ema_200": null,
+      "macd_line": 5921.428518201181,
+      "macd_signal": 12028.948708045757,
+      "macd_hist": -6107.520189844576,
+      "volume_sma_20": 688154.25546525,
+      "fib_levels": {
+        "0.0": 126199.63,
+        "0.236": 110576.51732,
+        "0.382": 100911.37134,
+        "0.5": 93099.815,
+        "0.618": 85288.25865999999,
+        "0.786": 74166.72082,
+        "1.0": 60000.0
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 74508.0,
+            "touches": 1,
+            "range": [
+              74508.0,
+              74508.0
+            ]
+          },
+          {
+            "price": 49000.0,
+            "touches": 1,
+            "range": [
+              49000.0,
+              49000.0
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 109588.0,
+            "touches": 1,
+            "range": [
+              109588.0,
+              109588.0
+            ]
+          },
+          {
+            "price": 126199.63,
+            "touches": 1,
+            "range": [
+              126199.63,
+              126199.63
+            ]
+          }
+        ],
+        "swing_highs_count": 10,
+        "swing_lows_count": 13
+      }
+    }
+  },
+  "1w": {
+    "symbol": "BTCUSDT",
+    "interval": "1w",
+    "timestamp": 1772409600000,
+    "close": 65784.37,
+    "indicators": {
+      "ema_50": 91082.53911566598,
+      "ema_200": 68018.2847230522,
+      "macd_line": -9798.997019667673,
+      "macd_signal": -7237.422149924569,
+      "macd_hist": -2561.5748697431045,
+      "volume_sma_20": 143590.73646,
+      "fib_levels": {
+        "0.0": 116400.0,
+        "0.236": 103089.6,
+        "0.382": 94855.2,
+        "0.5": 88200.0,
+        "0.618": 81544.8,
+        "0.786": 72069.6,
+        "1.0": 60000.0
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 111920.0,
+            "touches": 1,
+            "range": [
+              111920.0,
+              111920.0
+            ]
+          },
+          {
+            "price": 107255.0,
+            "touches": 1,
+            "range": [
+              107255.0,
+              107255.0
+            ]
+          },
+          {
+            "price": 102000.0,
+            "touches": 1,
+            "range": [
+              102000.0,
+              102000.0
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 88765.43,
+            "touches": 1,
+            "range": [
+              88765.43,
+              88765.43
+            ]
+          },
+          {
+            "price": 94588.99,
+            "touches": 1,
+            "range": [
+              94588.99,
+              94588.99
+            ]
+          },
+          {
+            "price": 97924.49,
+            "touches": 1,
+            "range": [
+              97924.49,
+              97924.49
+            ]
+          }
+        ],
+        "swing_highs_count": 57,
+        "swing_lows_count": 55
+      }
+    }
+  },
+  "1d": {
+    "symbol": "BTCUSDT",
+    "interval": "1d",
+    "timestamp": 1772409600000,
+    "close": 65784.37,
+    "indicators": {
+      "ema_20": 68171.58155235561,
+      "ema_50": 74657.53899714834,
+      "vwap": 94023.15336519714,
+      "rsi_14": 40.657486306189824,
+      "macd_line": -2723.2228415414866,
+      "macd_signal": -3314.355729868274,
+      "macd_hist": 591.1328883267875,
+      "atr_14": 3109.726322782268,
+      "volume_sma_20": 20094.276246999998,
+      "fib_levels": {
+        "0.0": 70983.0,
+        "0.236": 68983.43807999999,
+        "0.382": 67746.42096,
+        "0.5": 66746.64,
+        "0.618": 65746.85904,
+        "0.786": 64323.44208,
+        "1.0": 62510.28
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 65374.92,
+            "touches": 2,
+            "range": [
+              65118.0,
+              65631.83
+            ]
+          },
+          {
+            "price": 63030.0,
+            "touches": 1,
+            "range": [
+              63030.0,
+              63030.0
+            ]
+          },
+          {
+            "price": 62510.28,
+            "touches": 1,
+            "range": [
+              62510.28,
+              62510.28
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 68698.7,
+            "touches": 1,
+            "range": [
+              68698.7,
+              68698.7
+            ]
+          },
+          {
+            "price": 69988.83,
+            "touches": 1,
+            "range": [
+              69988.83,
+              69988.83
+            ]
+          },
+          {
+            "price": 70983.0,
+            "touches": 1,
+            "range": [
+              70983.0,
+              70983.0
+            ]
+          }
+        ],
+        "swing_highs_count": 69,
+        "swing_lows_count": 70
+      }
+    }
+  },
+  "4h": {
+    "symbol": "BTCUSDT",
+    "interval": "4h",
+    "timestamp": 1772424000000,
+    "close": 66830.0,
+    "indicators": {
+      "ema_9": 66457.62757781144,
+      "ema_21": 66366.12995033835,
+      "rsi_14": 57.34474872456457,
+      "macd_line": 46.1821841573983,
+      "macd_signal": -29.38681587788104,
+      "macd_hist": 75.56900003527934,
+      "vwap": 79722.31591216558,
+      "volume_sma_20": 3496.0163975000005,
+      "atr_14": 1233.7086918044863,
+      "obv": -43675.3194400001,
+      "cvd": -71754.54303719837,
+      "open_interest": 79254.996,
+      "funding_rate": 1.558e-05
+    }
+  },
+  "1h": {
+    "symbol": "BTCUSDT",
+    "interval": "1h",
+    "timestamp": 1772434800000,
+    "close": 66196.07,
+    "indicators": {
+      "ema_9": 66366.45698668914,
+      "ema_25": 66322.61988347965,
+      "rsi_14": 50.68971201916294,
+      "vwap": 68654.5702805765,
+      "volume_sma_20": 867.478407,
+      "atr_14": 668.8037804479709,
+      "obv": -54329.419059999935,
+      "cvd": -35087.81689860835
+    }
+  },
+  "15m": {
+    "symbol": "BTCUSDT",
+    "interval": "15m",
+    "timestamp": 1772436600000,
+    "close": 65790.95,
+    "indicators": {
+      "ema_9": 66140.9937276167,
+      "ema_21": 66327.23340680575,
+      "ema_50": 66334.96605131276,
+      "rsi_9": 23.347210267760147,
+      "vwap": 66538.31094503752,
+      "atr_7": 285.3211789023489,
+      "obv": 10657.816399999992,
+      "cvd": -419.71645152721754,
+      "liquidity": {
+        "support_walls": [
+          {
+            "price": 66000,
+            "qty": 12.25,
+            "value_usd": 808937.33,
+            "distance_pct": -0.05
+          }
+        ],
+        "resistance_walls": [
+          {
+            "price": 66000,
+            "qty": 103.267,
+            "value_usd": 6819308.63,
+            "distance_pct": -0.05
+          }
+        ],
+        "imbalance_1pct": -0.4083
+      }
+    }
+  },
+  "5m": {
+    "symbol": "BTCUSDT",
+    "interval": "5m",
+    "timestamp": 1772436900000,
+    "close": 65813.18,
+    "indicators": {
+      "ema_9": 65848.96444814921,
+      "rsi_7": 28.984169947506686,
+      "vwap": 66147.08288418259,
+      "atr_5": 139.80108443326074,
+      "volume_delta": 5.56362,
+      "liquidation": {
+        "nearest_long_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 53537.49,
+          "short_liquidation_price": 78653.84,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 104768236.01,
+          "heat_score": 20
+        },
+        "nearest_short_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 53537.49,
+          "short_liquidation_price": 78653.84,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 104768236.01,
+          "heat_score": 20
+        },
+        "long_short_ratio": 1.963,
+        "funding_bias": "neutral"
+      }
+    }
+  }
+}

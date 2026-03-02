@@ -1,0 +1,3639 @@
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-26 10:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260226_1000.md
+
+# Futures Sentiment Summary (08:00 - 10:00)
+**Period:** 2026-02-26 08:00 - 10:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0020% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.53 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0078% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.44 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.20 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 12:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-26 12:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260226_1200.md
+
+# Futures Sentiment Summary (10:00 - 12:00)
+**Period:** 2026-02-26 10:00 - 12:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0020% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.51 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0078% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.41 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.16 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 14:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-26 14:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260226_1400.md
+
+# Futures Sentiment Summary (12:00 - 14:00)
+**Period:** 2026-02-26 12:00 - 14:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0020% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.57 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0078% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.49 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.18 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 16:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-26 16:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260226_1600.md
+
+# Futures Sentiment Summary (14:00 - 16:00)
+**Period:** 2026-02-26 14:00 - 16:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0020% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.55 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0078% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.47 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.18 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 18:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-26 18:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260226_1800.md
+
+# Futures Sentiment Summary (16:00 - 18:00)
+**Period:** 2026-02-26 16:00 - 18:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0011% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.55 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0026% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.46 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.19 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 20:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-26 20:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260226_2000.md
+
+# Futures Sentiment Summary (18:00 - 20:00)
+**Period:** 2026-02-26 18:00 - 20:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0011% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.57 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0026% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.44 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.24 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 22:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-26 22:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260226_2200.md
+
+# Futures Sentiment Summary (20:00 - 22:00)
+**Period:** 2026-02-26 20:00 - 22:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0011% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.60 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0026% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.49 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.26 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 00:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 00:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_0000.md
+
+# Futures Sentiment Summary (22:00 - 00:00)
+**Period:** 2026-02-26 22:00 - 00:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0011% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.60 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0026% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.46 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.24 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 02:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 02:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_0200.md
+
+# Futures Sentiment Summary (00:00 - 02:00)
+**Period:** 2026-02-27 00:00 - 02:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.69 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0039% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.63 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.22 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 04:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 04:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_0400.md
+
+# Futures Sentiment Summary (02:00 - 04:00)
+**Period:** 2026-02-27 02:00 - 04:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.78 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0039% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.76 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.25 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 06:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 06:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_0600.md
+
+# Futures Sentiment Summary (04:00 - 06:00)
+**Period:** 2026-02-27 04:00 - 06:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.81 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0039% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.80 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.32 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 08:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 08:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_0800.md
+
+# Futures Sentiment Summary (06:00 - 08:00)
+**Period:** 2026-02-27 06:00 - 08:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.82 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0039% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.81 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.31 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 10:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 10:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_1000.md
+
+# Futures Sentiment Summary (08:00 - 10:00)
+**Period:** 2026-02-27 08:00 - 10:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0010% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.79 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0014% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.73 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.26 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 12:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 12:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_1200.md
+
+# Futures Sentiment Summary (10:00 - 12:00)
+**Period:** 2026-02-27 10:00 - 12:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0010% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.81 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0014% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.77 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.29 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 14:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 14:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_1400.md
+
+# Futures Sentiment Summary (12:00 - 14:00)
+**Period:** 2026-02-27 12:00 - 14:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0010% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.83 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0014% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.77 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.34 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 16:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 16:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_1600.md
+
+# Futures Sentiment Summary (14:00 - 16:00)
+**Period:** 2026-02-27 14:00 - 16:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0010% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.81 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0014% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.80 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.32 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 18:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 18:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_1800.md
+
+# Futures Sentiment Summary (16:00 - 18:00)
+**Period:** 2026-02-27 16:00 - 18:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0081% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.79 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0003% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.84 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.33 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 20:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 20:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_2000.md
+
+# Futures Sentiment Summary (18:00 - 20:00)
+**Period:** 2026-02-27 18:00 - 20:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0081% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.86 | Balanced |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0003% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 1.96 | Balanced |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.37 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 22:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-27 22:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260227_2200.md
+
+# Futures Sentiment Summary (20:00 - 22:00)
+**Period:** 2026-02-27 20:00 - 22:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+✓ L/S ratios are within normal ranges
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0081% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.00 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0003% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.11 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.46 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 00:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 00:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_0000.md
+
+# Futures Sentiment Summary (22:00 - 00:00)
+**Period:** 2026-02-27 22:00 - 00:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.51 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0081% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.13 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0003% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.24 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.51 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 02:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 02:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_0200.md
+
+# Futures Sentiment Summary (00:00 - 02:00)
+**Period:** 2026-02-28 00:00 - 02:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.54 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0007% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.15 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0110% | Elevated Shorts |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.31 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.54 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 04:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 04:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_0400.md
+
+# Futures Sentiment Summary (02:00 - 04:00)
+**Period:** 2026-02-28 02:00 - 04:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.54 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0007% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.24 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0110% | Elevated Shorts |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.45 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.54 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 06:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 06:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_0600.md
+
+# Futures Sentiment Summary (04:00 - 06:00)
+**Period:** 2026-02-28 04:00 - 06:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 ETHUSDT: 2.53 (LONG bias)
+- 🔴 BNBUSDT: 2.55 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0007% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.23 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0110% | Elevated Shorts |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.53 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.55 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 08:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 08:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_0800.md
+
+# Futures Sentiment Summary (06:00 - 08:00)
+**Period:** 2026-02-28 06:00 - 08:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 ETHUSDT: 2.63 (LONG bias)
+- 🔴 BNBUSDT: 2.55 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0007% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.23 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (50% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0110% | Elevated Shorts |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.63 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.55 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 10:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 10:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_1000.md
+
+# Futures Sentiment Summary (08:00 - 10:00)
+**Period:** 2026-02-28 08:00 - 10:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 ETHUSDT: 2.76 (LONG bias)
+- 🔴 BNBUSDT: 2.60 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.35 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0088% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.76 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.60 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 12:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 12:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_1200.md
+
+# Futures Sentiment Summary (10:00 - 12:00)
+**Period:** 2026-02-28 10:00 - 12:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 ETHUSDT: 2.79 (LONG bias)
+- 🔴 BNBUSDT: 2.61 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.35 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0088% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.79 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.61 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 14:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 14:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_1400.md
+
+# Futures Sentiment Summary (12:00 - 14:00)
+**Period:** 2026-02-28 12:00 - 14:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 ETHUSDT: 2.74 (LONG bias)
+- 🔴 BNBUSDT: 2.62 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.29 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0088% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.74 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.62 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 16:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 16:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_1600.md
+
+# Futures Sentiment Summary (14:00 - 16:00)
+**Period:** 2026-02-28 14:00 - 16:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 ETHUSDT: 2.74 (LONG bias)
+- 🔴 BNBUSDT: 2.62 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0040% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.29 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0088% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.74 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.62 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 18:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 18:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_1800.md
+
+# Futures Sentiment Summary (16:00 - 18:00)
+**Period:** 2026-02-28 16:00 - 18:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 20:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 20:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_2000.md
+
+# Futures Sentiment Summary (18:00 - 20:00)
+**Period:** 2026-02-28 18:00 - 20:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 22:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-02-28 22:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260228_2200.md
+
+# Futures Sentiment Summary (20:00 - 22:00)
+**Period:** 2026-02-28 20:00 - 22:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 00:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 00:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_0000.md
+
+# Futures Sentiment Summary (22:00 - 00:00)
+**Period:** 2026-02-28 22:00 - 00:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 02:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 02:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_0200.md
+
+# Futures Sentiment Summary (00:00 - 02:00)
+**Period:** 2026-03-01 00:00 - 02:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 04:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 04:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_0400.md
+
+# Futures Sentiment Summary (02:00 - 04:00)
+**Period:** 2026-03-01 02:00 - 04:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 06:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 06:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_0600.md
+
+# Futures Sentiment Summary (04:00 - 06:00)
+**Period:** 2026-03-01 04:00 - 06:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 08:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 08:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_0800.md
+
+# Futures Sentiment Summary (06:00 - 08:00)
+**Period:** 2026-03-01 06:00 - 08:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 10:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 10:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_1000.md
+
+# Futures Sentiment Summary (08:00 - 10:00)
+**Period:** 2026-03-01 08:00 - 10:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 12:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 12:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_1200.md
+
+# Futures Sentiment Summary (10:00 - 12:00)
+**Period:** 2026-03-01 10:00 - 12:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 14:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 14:00:02
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_1400.md
+
+# Futures Sentiment Summary (12:00 - 14:00)
+**Period:** 2026-03-01 12:00 - 14:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 16:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 16:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_1600.md
+
+# Futures Sentiment Summary (14:00 - 16:00)
+**Period:** 2026-03-01 14:00 - 16:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 18:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 18:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_1800.md
+
+# Futures Sentiment Summary (16:00 - 18:00)
+**Period:** 2026-03-01 16:00 - 18:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 20:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 20:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_2000.md
+
+# Futures Sentiment Summary (18:00 - 20:00)
+**Period:** 2026-03-01 18:00 - 20:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 22:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-01 22:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260301_2200.md
+
+# Futures Sentiment Summary (20:00 - 22:00)
+**Period:** 2026-03-01 20:00 - 22:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 00:00*
+
+*This analysis is for informational purposes only. Not financial advice.*
+======================================================================
+Futures Sentiment Summary Generator
+Time: 2026-03-02 00:00:01
+======================================================================
+
+✓ Summary generated: /root/.openclaw/workspace/projects/crypto-analysis/analysis/sentiment/summary_20260302_0000.md
+
+# Futures Sentiment Summary (22:00 - 00:00)
+**Period:** 2026-03-01 22:00 - 00:00 (Asia/Shanghai)
+
+---
+
+## Market Sentiment Overview
+
+**Overall Market Bias:** ⚪ NEUTRAL
+- Bullish: 0 | Neutral: 3 | Bearish: 0
+
+### Funding Rate Summary
+
+✓ Funding rates are within normal ranges
+
+### Long/Short Ratio Summary
+
+⚠️ **Extreme Positioning Detected:**
+- 🔴 BNBUSDT: 2.65 (LONG bias)
+
+---
+
+## Individual Asset Summary
+
+### BTCUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0037% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.30 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### ETHUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | -0.0095% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.50 | Long Bias |
+| Liquidation Risk | Low | - |
+
+### BNBUSDT
+
+**Sentiment:** ⚪ NEUTRAL (60% confidence)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Funding Rate | 0.0000% | Neutral |
+| OI Change (1h) | +0.0% | Stable |
+| L/S Ratio | 2.65 | Long Bias |
+| Liquidation Risk | Low | - |
+
+---
+
+## Key Observations
+
+- No significant divergences or extreme conditions detected
+
+---
+
+## Action Items
+
+- [ ] Monitor funding rates for extreme moves (>0.05% or <-0.05%)
+- [ ] Watch for OI spikes (>10% in 1h) indicating new positions
+- [ ] Track L/S ratio extremes (>3.0 or <0.5) for contrarian signals
+- [ ] Alert on liquidation cascade conditions
+
+---
+
+*Next summary: 02:00*
+
+*This analysis is for informational purposes only. Not financial advice.*

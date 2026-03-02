@@ -1,0 +1,85 @@
+{
+  "symbol": "BTCUSDT",
+  "timestamp": "2026-03-02T10:43:21.968585",
+  "timeframe_analysis": {
+    "1M": {
+      "timeframe": "1M",
+      "regime": "distribution",
+      "direction": "NEUTRAL",
+      "strength": 0.6,
+      "confidence": 0.06032950310474462,
+      "key_level": 93099.815,
+      "current_price": 66971.16,
+      "structure_broken": false
+    },
+    "1w": {
+      "timeframe": "1w",
+      "regime": "distribution",
+      "direction": "NEUTRAL",
+      "strength": 0.6,
+      "confidence": 0.1734217709953801,
+      "key_level": 78962.245,
+      "current_price": 65784.37,
+      "structure_broken": false
+    },
+    "1d": {
+      "timeframe": "1d",
+      "regime": "unknown",
+      "direction": "NEUTRAL",
+      "strength": 0.3,
+      "confidence": 0.19812639613149688,
+      "key_level": 66249.555,
+      "current_price": 65784.37,
+      "structure_broken": false
+    },
+    "4h": {
+      "timeframe": "4h",
+      "regime": "unknown",
+      "direction": "NEUTRAL",
+      "strength": 0.3,
+      "confidence": 0.14236523481354807,
+      "key_level": 66013.595,
+      "current_price": 65784.37,
+      "structure_broken": false
+    },
+    "1h": {
+      "timeframe": "1h",
+      "regime": "unknown",
+      "direction": "NEUTRAL",
+      "strength": 0.3,
+      "confidence": 0.27674277248541534,
+      "key_level": 66067.5,
+      "current_price": 66547.9,
+      "structure_broken": false
+    },
+    "15m": {
+      "timeframe": "15m",
+      "regime": "range",
+      "direction": "NEUTRAL",
+      "strength": 0.5,
+      "confidence": 0.028065013660277235,
+      "key_level": 66443.715,
+      "current_price": 66202.5,
+      "structure_broken": false
+    },
+    "5m": {
+      "timeframe": "5m",
+      "regime": "unknown",
+      "direction": "NEUTRAL",
+      "strength": 0.3,
+      "confidence": 0.11212926833217465,
+      "key_level": 66258.07,
+      "current_price": 66404.5,
+      "structure_broken": false
+    }
+  },
+  "mtf_score": {
+    "macro": 0.0,
+    "intermediate": 0.0,
+    "execution": 0.0,
+    "overall": 0.0,
+    "direction": "NEUTRAL",
+    "confidence": 0.14381756129953452,
+    "tradeable": false
+  }
+}

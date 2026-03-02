@@ -1,0 +1,335 @@
+{
+  "1M": {
+    "symbol": "BNBUSDT",
+    "interval": "1M",
+    "timestamp": 1772323200000,
+    "close": 617.63,
+    "indicators": {
+      "ema_50": 533.9022002915658,
+      "ema_200": null,
+      "macd_line": 78.54784008898162,
+      "macd_signal": 106.34678716872205,
+      "macd_hist": -27.79894707974043,
+      "volume_sma_20": 9197892.490530001,
+      "fib_levels": {
+        "0.0": 1375.11,
+        "0.236": 1173.30404,
+        "0.382": 1048.45798,
+        "0.5": 947.555,
+        "0.618": 846.65202,
+        "0.786": 702.9935399999999,
+        "1.0": 520.0
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 500.0,
+            "touches": 1,
+            "range": [
+              500.0,
+              500.0
+            ]
+          },
+          {
+            "price": 400.0,
+            "touches": 1,
+            "range": [
+              400.0,
+              400.0
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 721.8,
+            "touches": 1,
+            "range": [
+              721.8,
+              721.8
+            ]
+          },
+          {
+            "price": 793.86,
+            "touches": 1,
+            "range": [
+              793.86,
+              793.86
+            ]
+          },
+          {
+            "price": 1375.11,
+            "touches": 1,
+            "range": [
+              1375.11,
+              1375.11
+            ]
+          }
+        ],
+        "swing_highs_count": 13,
+        "swing_lows_count": 10
+      }
+    }
+  },
+  "1w": {
+    "symbol": "BNBUSDT",
+    "interval": "1w",
+    "timestamp": 1772409600000,
+    "close": 617.95,
+    "indicators": {
+      "ema_50": 787.7107905196026,
+      "ema_200": 558.5204669086869,
+      "macd_line": -65.40549673655005,
+      "macd_signal": -24.862221768253953,
+      "macd_hist": -40.543274968296096,
+      "volume_sma_20": 1550676.45985,
+      "fib_levels": {
+        "0.0": 1182.6,
+        "0.236": 1038.04056,
+        "0.382": 948.6097199999999,
+        "0.5": 876.3299999999999,
+        "0.618": 804.0502799999999,
+        "0.786": 701.14356,
+        "1.0": 570.06
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 860.11,
+            "touches": 1,
+            "range": [
+              860.11,
+              860.11
+            ]
+          },
+          {
+            "price": 790.79,
+            "touches": 1,
+            "range": [
+              790.79,
+              790.79
+            ]
+          },
+          {
+            "price": 601.25,
+            "touches": 1,
+            "range": [
+              601.25,
+              601.25
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 644.88,
+            "touches": 1,
+            "range": [
+              644.88,
+              644.88
+            ]
+          },
+          {
+            "price": 697.73,
+            "touches": 1,
+            "range": [
+              697.73,
+              697.73
+            ]
+          },
+          {
+            "price": 900.71,
+            "touches": 1,
+            "range": [
+              900.71,
+              900.71
+            ]
+          }
+        ],
+        "swing_highs_count": 51,
+        "swing_lows_count": 56
+      }
+    }
+  },
+  "1d": {
+    "symbol": "BNBUSDT",
+    "interval": "1d",
+    "timestamp": 1772409600000,
+    "close": 617.95,
+    "indicators": {
+      "ema_20": 633.1011298031339,
+      "ema_50": 707.3788668942431,
+      "vwap": 771.2686998376754,
+      "rsi_14": 50.85900110443001,
+      "macd_line": -29.659670409997943,
+      "macd_signal": -39.34292159372073,
+      "macd_hist": 9.683251183722788,
+      "atr_14": 28.881127566982745,
+      "volume_sma_20": 138063.75745,
+      "fib_levels": {
+        "0.0": 642.49,
+        "0.236": 627.0485199999999,
+        "0.382": 617.49574,
+        "0.5": 609.775,
+        "0.618": 602.05426,
+        "0.786": 591.06202,
+        "1.0": 577.06
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 596.0,
+            "touches": 1,
+            "range": [
+              596.0,
+              596.0
+            ]
+          },
+          {
+            "price": 587.89,
+            "touches": 2,
+            "range": [
+              587.14,
+              588.64
+            ]
+          },
+          {
+            "price": 577.06,
+            "touches": 1,
+            "range": [
+              577.06,
+              577.06
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 634.8,
+            "touches": 1,
+            "range": [
+              634.8,
+              634.8
+            ]
+          },
+          {
+            "price": 641.52,
+            "touches": 2,
+            "range": [
+              640.55,
+              642.49
+            ]
+          }
+        ],
+        "swing_highs_count": 70,
+        "swing_lows_count": 73
+      }
+    }
+  },
+  "4h": {
+    "symbol": "BNBUSDT",
+    "interval": "4h",
+    "timestamp": 1772424000000,
+    "close": 624.66,
+    "indicators": {
+      "ema_9": 621.1795678264531,
+      "ema_21": 618.21677242592,
+      "rsi_14": 58.687120941848,
+      "macd_line": 2.801913824448661,
+      "macd_signal": 2.0242559507021416,
+      "macd_hist": 0.7776578737465196,
+      "vwap": 791.5235251936608,
+      "volume_sma_20": 24813.9144,
+      "atr_14": 10.082956837519843,
+      "obv": -351509.3759999983,
+      "cvd": 9056.70917456047,
+      "open_interest": 495350.77,
+      "funding_rate": 0.0
+    }
+  },
+  "1h": {
+    "symbol": "BNBUSDT",
+    "interval": "1h",
+    "timestamp": 1772434800000,
+    "close": 617.35,
+    "indicators": {
+      "ema_9": 620.0834006873757,
+      "ema_25": 619.9499948905425,
+      "rsi_14": 42.532042898247404,
+      "vwap": 643.6037251339604,
+      "volume_sma_20": 6218.6722,
+      "atr_14": 5.4336502337065795,
+      "obv": -657175.1720000001,
+      "cvd": -401895.5905289327
+    }
+  },
+  "15m": {
+    "symbol": "BNBUSDT",
+    "interval": "15m",
+    "timestamp": 1772436600000,
+    "close": 615.2,
+    "indicators": {
+      "ema_9": 618.0117499815331,
+      "ema_21": 619.866073335097,
+      "ema_50": 620.4731180252973,
+      "rsi_9": 26.75159235668758,
+      "vwap": 611.3971339463569,
+      "atr_7": 2.413009778942063,
+      "obv": 27608.682999999968,
+      "cvd": 6215.164782861746,
+      "liquidity": {
+        "support_walls": [
+          {
+            "price": 600,
+            "qty": 1518.97,
+            "value_usd": 945277.82,
+            "distance_pct": -3.59
+          }
+        ],
+        "resistance_walls": [
+          {
+            "price": 600,
+            "qty": 1461.05,
+            "value_usd": 909233.33,
+            "distance_pct": -3.59
+          }
+        ],
+        "imbalance_1pct": 0.0095
+      }
+    }
+  },
+  "5m": {
+    "symbol": "BNBUSDT",
+    "interval": "5m",
+    "timestamp": 1772436900000,
+    "close": 615.55,
+    "indicators": {
+      "ema_9": 615.6277499194123,
+      "rsi_7": 36.13707165109071,
+      "vwap": 608.1706899599346,
+      "atr_5": 1.1644099059929656,
+      "volume_delta": 4.165,
+      "liquidation": {
+        "nearest_long_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 504.86,
+          "short_liquidation_price": 741.7,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 6174844.56,
+          "heat_score": 20
+        },
+        "nearest_short_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 504.86,
+          "short_liquidation_price": 741.7,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 6174844.56,
+          "heat_score": 20
+        },
+        "long_short_ratio": 2.4471,
+        "funding_bias": "neutral"
+      }
+    }
+  }
+}

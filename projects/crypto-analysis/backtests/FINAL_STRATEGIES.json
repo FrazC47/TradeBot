@@ -1,0 +1,91 @@
+{
+  "_comment": "FINAL OPTIMIZED STRATEGIES - March 1, 2026",
+  "_version": "2.0",
+  
+  "BTCUSDT": {
+    "name": "BTC Trend Following",
+    "description": "Wide stops work best for BTC volatility",
+    "fib_levels": ["0.618", "0.5", "0.382"],
+    "fib_tolerance": 0.01,
+    "stop_atr_mult": 3.0,
+    "target_atr_mult": 6.0,
+    "min_stop_pct": 0.75,
+    "rsi_long_max": 70,
+    "rsi_short_min": 30,
+    "rsi_period": 14,
+    "volume_min": 0.8,
+    "holding_periods": 20,
+    "backtest_result": {
+      "trades": 308,
+      "win_rate": 40.9,
+      "pnl_pct": 46.63,
+      "avg_stop": 0.84
+    }
+  },
+  
+  "ETHUSDT": {
+    "name": "ETH Selective Momentum",
+    "description": "ETH needs strict filters for best performance",
+    "fib_levels": ["0.618", "0.5"],
+    "fib_tolerance": 0.01,
+    "stop_atr_mult": 1.5,
+    "target_atr_mult": 3.0,
+    "min_stop_pct": 0.38,
+    "rsi_long_max": 70,
+    "rsi_short_min": 30,
+    "rsi_period": 14,
+    "volume_min": 0.8,
+    "holding_periods": 20,
+    "filters": {
+      "consecutive_candles": 3,
+      "comment": "Wait for 3 consecutive candles in trend direction"
+    },
+    "backtest_result": {
+      "trades": 3,
+      "win_rate": 100.0,
+      "pnl_pct": 4.49,
+      "avg_stop": 1.45
+    }
+  },
+  
+  "BNBUSDT": {
+    "name": "BNB Extreme Selectivity",
+    "description": "BNB only works with extreme trend and volume filters",
+    "fib_levels": ["0.5"],
+    "fib_tolerance": 0.01,
+    "stop_atr_mult": 3.0,
+    "target_atr_mult": 6.0,
+    "min_stop_pct": 0.75,
+    "rsi_long_max": 65,
+    "rsi_short_min": 35,
+    "rsi_period": 14,
+    "volume_min": 1.5,
+    "holding_periods": 30,
+    "filters": {
+      "trend_lookback_days": 10,
+      "min_trend_change_pct": 5.0,
+      "comment": "Require >5% trend move over 10 days"
+    },
+    "backtest_result": {
+      "trades": 18,
+      "win_rate": 55.6,
+      "pnl_pct": 12.75,
+      "avg_stop": 1.26
+    }
+  },
+  
+  "futures_config": {
+    "leverage": 5,
+    "risk_per_trade": 0.03,
+    "margin_mode": "isolated",
+    "comment": "3% risk per trade with 5x leverage"
+  },
+  
+  "money_management": {
+    "position_sizing": "risk_based",
+    "risk_per_trade": 0.03,
+    "max_daily_risk": 0.09,
+    "max_drawdown": 0.20,
+    "comment": "3% risk per trade, max 9% daily, stop at 20% drawdown"
+  }
+}

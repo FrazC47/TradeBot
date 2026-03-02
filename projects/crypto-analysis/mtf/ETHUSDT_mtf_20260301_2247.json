@@ -1,0 +1,206 @@
+{
+  "symbol": "ETHUSDT",
+  "timestamp": "2026-03-01T22:47:16.634424",
+  "overall_bias": "bullish",
+  "confidence": 57.14285714285714,
+  "timeframe_analysis": {
+    "1M": {
+      "interval": "1M",
+      "trend": "neutral",
+      "trend_strength": 50,
+      "rsi": 39.09473123214259,
+      "ema20": 2785.551955500005,
+      "ema50": 2459.5072888244636,
+      "key_levels": {
+        "high": 4956.78,
+        "low": 1385.05
+      },
+      "fib_levels": {
+        "0.0": 4956.78,
+        "0.236": 4113.85172,
+        "0.382": 3592.37914,
+        "0.5": 3170.915,
+        "0.618": 2749.45086,
+        "0.786": 2149.40022,
+        "1.0": 1385.05
+      },
+      "latest_close": 1965.28,
+      "higher_tf_bias": "unknown",
+      "alignment_with_higher_tf": "misaligned"
+    },
+    "1w": {
+      "interval": "1w",
+      "trend": "bearish",
+      "trend_strength": 130.0,
+      "rsi": 25.99149812781515,
+      "ema20": 2792.6866324662574,
+      "ema50": 3019.9730102946974,
+      "key_levels": {
+        "high": 4292.0,
+        "low": 1747.8
+      },
+      "fib_levels": {
+        "0.0": 4292.0,
+        "0.236": 3691.5688,
+        "0.382": 3320.1156,
+        "0.5": 3019.9,
+        "0.618": 2719.6844,
+        "0.786": 2292.2588,
+        "1.0": 1747.8
+      },
+      "latest_close": 1864.5,
+      "higher_tf_bias": "bearish",
+      "alignment_with_higher_tf": "aligned",
+      "near_higher_tf_level": "none",
+      "confidence": "high"
+    },
+    "1d": {
+      "interval": "1d",
+      "trend": "bearish",
+      "trend_strength": 130.0,
+      "rsi": 38.69546498277841,
+      "ema20": 2025.539596988032,
+      "ema50": 2326.144547994565,
+      "key_levels": {
+        "high": 2124.71,
+        "low": 1847.41
+      },
+      "fib_levels": {
+        "0.0": 2124.71,
+        "0.236": 2059.2672000000002,
+        "0.382": 2018.7814,
+        "0.5": 1986.06,
+        "0.618": 1953.3386,
+        "0.786": 1906.7522000000001,
+        "1.0": 1847.41
+      },
+      "latest_close": 1965.28,
+      "higher_tf_bias": "bearish",
+      "alignment_with_higher_tf": "aligned",
+      "near_higher_tf_level": "none",
+      "confidence": "high"
+    },
+    "4h": {
+      "interval": "4h",
+      "trend": "bullish",
+      "trend_strength": 7.974950225938237,
+      "rsi": 47.25627486101094,
+      "ema20": 1962.646356275286,
+      "ema50": 1960.8603377237664,
+      "key_levels": {
+        "high": 2063.52,
+        "low": 1862.41
+      },
+      "fib_levels": {
+        "0.0": 2063.52,
+        "0.236": 2016.05804,
+        "0.382": 1986.69598,
+        "0.5": 1962.9650000000001,
+        "0.618": 1939.23402,
+        "0.786": 1905.4475400000001,
+        "1.0": 1862.41
+      },
+      "latest_close": 1983.2,
+      "higher_tf_bias": "bearish",
+      "alignment_with_higher_tf": "misaligned",
+      "near_higher_tf_level": "none",
+      "at_higher_tf_fib": "0.5",
+      "higher_tf_fib_price": 1986.06,
+      "confidence": "low"
+    },
+    "1h": {
+      "interval": "1h",
+      "trend": "bullish",
+      "trend_strength": 32.76920842989,
+      "rsi": 53.295271192751606,
+      "ema20": 1979.7940854517126,
+      "ema50": 1964.9981282845388,
+      "key_levels": {
+        "high": 2035.4,
+        "low": 1934.68
+      },
+      "fib_levels": {
+        "0.0": 2035.4,
+        "0.236": 2011.6300800000001,
+        "0.382": 1996.92496,
+        "0.5": 1985.04,
+        "0.618": 1973.15504,
+        "0.786": 1956.2340800000002,
+        "1.0": 1934.68
+      },
+      "latest_close": 2014.53,
+      "higher_tf_bias": "bullish",
+      "alignment_with_higher_tf": "aligned",
+      "near_higher_tf_level": "none",
+      "at_higher_tf_fib": "0.236",
+      "higher_tf_fib_price": 2016.05804,
+      "confidence": "high"
+    },
+    "15m": {
+      "interval": "15m",
+      "trend": "bullish",
+      "trend_strength": 11.526035881318398,
+      "rsi": 74.49674149167274,
+      "ema20": 1991.8954087725606,
+      "ema50": 1987.9841716203161,
+      "key_levels": {
+        "high": 2019.06,
+        "low": 1974.3
+      },
+      "fib_levels": {
+        "0.0": 2019.06,
+        "0.236": 2008.4966399999998,
+        "0.382": 2001.96168,
+        "0.5": 1996.6799999999998,
+        "0.618": 1991.39832,
+        "0.786": 1983.87864,
+        "1.0": 1974.3
+      },
+      "latest_close": 2005.61,
+      "higher_tf_bias": "bullish",
+      "alignment_with_higher_tf": "aligned",
+      "near_higher_tf_level": "high",
+      "higher_tf_level_value": 2035.4,
+      "at_higher_tf_fib": "0.236",
+      "higher_tf_fib_price": 2011.6300800000001,
+      "confidence": "high"
+    },
+    "5m": {
+      "interval": "5m",
+      "trend": "bullish",
+      "trend_strength": 5.1877345663951635,
+      "rsi": 73.40265220012047,
+      "ema20": 1997.8401399123914,
+      "ema50": 1991.8912284780959,
+      "key_levels": {
+        "high": 2020.98,
+        "low": 1968.6
+      },
+      "fib_levels": {
+        "0.0": 2020.98,
+        "0.236": 2008.61832,
+        "0.382": 2000.97084,
+        "0.5": 1994.79,
+        "0.618": 1988.60916,
+        "0.786": 1979.8093199999998,
+        "1.0": 1968.6
+      },
+      "latest_close": 1999.84,
+      "higher_tf_bias": "bullish",
+      "alignment_with_higher_tf": "aligned",
+      "near_higher_tf_level": "high",
+      "higher_tf_level_value": 2019.06,
+      "at_higher_tf_fib": "0.0",
+      "higher_tf_fib_price": 2019.06,
+      "confidence": "high"
+    }
+  },
+  "trade_setup": {
+    "direction": "bearish",
+    "entry_timeframe": "15m",
+    "entry_price": 2005.61,
+    "stop_loss": 2029.16,
+    "target": 1847.41,
+    "risk_reward": 6.72
+  }
+}

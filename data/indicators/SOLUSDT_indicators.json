@@ -1,0 +1,343 @@
+{
+  "1M": {
+    "symbol": "SOLUSDT",
+    "interval": "1M",
+    "timestamp": 1772323200000,
+    "close": 85.18,
+    "indicators": {
+      "ema_50": 111.56112123574131,
+      "ema_200": null,
+      "macd_line": -1.0684577564962296,
+      "macd_signal": 13.660365031322524,
+      "macd_hist": -14.728822787818753,
+      "volume_sma_20": 115630376.5103,
+      "fib_levels": {
+        "0.0": 253.51,
+        "0.236": 209.61164,
+        "0.382": 182.45418,
+        "0.5": 160.505,
+        "0.618": 138.55581999999998,
+        "0.786": 107.30614,
+        "1.0": 67.5
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 110.0,
+            "touches": 1,
+            "range": [
+              110.0,
+              110.0
+            ]
+          },
+          {
+            "price": 95.26,
+            "touches": 1,
+            "range": [
+              95.26,
+              95.26
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 193.98,
+            "touches": 1,
+            "range": [
+              193.98,
+              193.98
+            ]
+          },
+          {
+            "price": 253.51,
+            "touches": 1,
+            "range": [
+              253.51,
+              253.51
+            ]
+          },
+          {
+            "price": 295.83,
+            "touches": 1,
+            "range": [
+              295.83,
+              295.83
+            ]
+          }
+        ],
+        "swing_highs_count": 10,
+        "swing_lows_count": 8
+      }
+    }
+  },
+  "1w": {
+    "symbol": "SOLUSDT",
+    "interval": "1w",
+    "timestamp": 1772409600000,
+    "close": 83.61,
+    "indicators": {
+      "ema_50": 145.4067159442201,
+      "ema_200": 119.96923338603841,
+      "macd_line": -23.832807546189528,
+      "macd_signal": -19.076554692865837,
+      "macd_hist": -4.756252853323691,
+      "volume_sma_20": 23862816.5644,
+      "fib_levels": {
+        "0.0": 205.33,
+        "0.236": 172.80212,
+        "0.382": 152.67894,
+        "0.5": 136.41500000000002,
+        "0.618": 120.15106,
+        "0.786": 96.99562,
+        "1.0": 67.5
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 168.79,
+            "touches": 1,
+            "range": [
+              168.79,
+              168.79
+            ]
+          },
+          {
+            "price": 155.83,
+            "touches": 1,
+            "range": [
+              155.83,
+              155.83
+            ]
+          },
+          {
+            "price": 126.0,
+            "touches": 1,
+            "range": [
+              126.0,
+              126.0
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 147.19,
+            "touches": 2,
+            "range": [
+              146.91,
+              147.48
+            ]
+          },
+          {
+            "price": 148.74,
+            "touches": 1,
+            "range": [
+              148.74,
+              148.74
+            ]
+          },
+          {
+            "price": 187.71,
+            "touches": 1,
+            "range": [
+              187.71,
+              187.71
+            ]
+          }
+        ],
+        "swing_highs_count": 40,
+        "swing_lows_count": 39
+      }
+    }
+  },
+  "1d": {
+    "symbol": "SOLUSDT",
+    "interval": "1d",
+    "timestamp": 1772409600000,
+    "close": 83.61,
+    "indicators": {
+      "ema_20": 86.08246765031515,
+      "ema_50": 99.03123377032948,
+      "vwap": 172.8871271011417,
+      "rsi_14": 46.40247329960651,
+      "macd_line": -4.61361660027066,
+      "macd_signal": -6.184661491169426,
+      "macd_hist": 1.571044890898766,
+      "atr_14": 6.184179221677056,
+      "volume_sma_20": 3347651.26905,
+      "fib_levels": {
+        "0.0": 92.1,
+        "0.236": 88.21307999999999,
+        "0.382": 85.80846,
+        "0.5": 83.865,
+        "0.618": 81.92154,
+        "0.786": 79.15458,
+        "1.0": 75.63
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 79.61,
+            "touches": 1,
+            "range": [
+              79.61,
+              79.61
+            ]
+          },
+          {
+            "price": 76.86,
+            "touches": 2,
+            "range": [
+              76.6,
+              77.12
+            ]
+          },
+          {
+            "price": 75.63,
+            "touches": 1,
+            "range": [
+              75.63,
+              75.63
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 86.72,
+            "touches": 1,
+            "range": [
+              86.72,
+              86.72
+            ]
+          },
+          {
+            "price": 91.26,
+            "touches": 1,
+            "range": [
+              91.26,
+              91.26
+            ]
+          },
+          {
+            "price": 92.1,
+            "touches": 1,
+            "range": [
+              92.1,
+              92.1
+            ]
+          }
+        ],
+        "swing_highs_count": 66,
+        "swing_lows_count": 69
+      }
+    }
+  },
+  "4h": {
+    "symbol": "SOLUSDT",
+    "interval": "4h",
+    "timestamp": 1772424000000,
+    "close": 84.81,
+    "indicators": {
+      "ema_9": 84.38738309490634,
+      "ema_21": 84.02308940168376,
+      "rsi_14": 58.004987531172105,
+      "macd_line": 0.3471444338940586,
+      "macd_signal": 0.246377687205373,
+      "macd_hist": 0.10076674668868557,
+      "vwap": 110.59896906357105,
+      "volume_sma_20": 659940.60995,
+      "atr_14": 2.382993825349903,
+      "obv": -12292289.091000007,
+      "cvd": -8643268.349519458,
+      "open_interest": 9776726.4,
+      "funding_rate": 3.294e-05
+    }
+  },
+  "1h": {
+    "symbol": "SOLUSDT",
+    "interval": "1h",
+    "timestamp": 1772434800000,
+    "close": 83.25,
+    "indicators": {
+      "ema_9": 83.86862465755043,
+      "ema_25": 84.10323164050563,
+      "rsi_14": 45.64705882352942,
+      "vwap": 83.4420319186425,
+      "volume_sma_20": 152001.83745,
+      "atr_14": 1.2302172433402723,
+      "obv": -2116687.2360000014,
+      "cvd": -1932.2953230418996
+    }
+  },
+  "15m": {
+    "symbol": "SOLUSDT",
+    "interval": "15m",
+    "timestamp": 1772436600000,
+    "close": 82.79,
+    "indicators": {
+      "ema_9": 83.29981109643495,
+      "ema_21": 83.73830002569869,
+      "ema_50": 84.01576391161936,
+      "rsi_9": 25.56390977443624,
+      "vwap": 83.72914359248045,
+      "atr_7": 0.4986381133345647,
+      "obv": 2139031.6620000005,
+      "cvd": 710729.5699484652,
+      "liquidity": {
+        "support_walls": [
+          {
+            "price": 100,
+            "qty": 247652.06,
+            "value_usd": 20764386.97,
+            "distance_pct": 19.27
+          }
+        ],
+        "resistance_walls": [
+          {
+            "price": 100,
+            "qty": 231555.06,
+            "value_usd": 19414734.01,
+            "distance_pct": 19.27
+          }
+        ],
+        "imbalance_1pct": 0.0421
+      }
+    }
+  },
+  "5m": {
+    "symbol": "SOLUSDT",
+    "interval": "5m",
+    "timestamp": 1772436900000,
+    "close": 82.88,
+    "indicators": {
+      "ema_9": 82.87912975598385,
+      "rsi_7": 35.46099290780056,
+      "vwap": 82.9764877005261,
+      "atr_5": 0.25208631565616,
+      "volume_delta": 86.257,
+      "liquidation": {
+        "nearest_long_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 68.06,
+          "short_liquidation_price": 100.0,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 16430766.39,
+          "heat_score": 20
+        },
+        "nearest_short_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 68.06,
+          "short_liquidation_price": 100.0,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 16430766.39,
+          "heat_score": 20
+        },
+        "long_short_ratio": 2.8153,
+        "funding_bias": "neutral"
+      }
+    }
+  }
+}

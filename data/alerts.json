@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-02T15:37:25.929580",
+  "alerts": [
+    {
+      "type": "SENTIMENT_EXTREME_LONG",
+      "symbol": "BNBUSDT",
+      "severity": "WARNING",
+      "message": "Extreme long bias: 70.3% long vs 29.7% short (ratio: 2.37)",
+      "suggestion": "Crowded longs - potential for long squeeze if price drops"
+    }
+  ]
+}

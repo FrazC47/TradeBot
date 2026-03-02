@@ -1,0 +1,7 @@
+test_id,role,module,scenario,expected,actual,status,notes,timestamp
+LP-01,Anonymous,Landing Page,"""Start Free Trial"" CTA redirects to Login instead of Registration",Navigate to registration/signup page,Redirects to https://falcon.up.railway.app/login,FAIL,"Still goes to login page, not registration",2026-03-01T16:43:19.598451
+AUTH-CLIENT,Client,Authentication,Client user login,"Successful login, dashboard access","Logged in, URL: https://falcon.up.railway.app/dashboard",PASS,,2026-03-01T16:43:24.715450
+CL-DASH-01,Client,Dashboard,Dashboard welcome message,Welcome message displayed,"Welcome back, Ahmed!",PASS,,2026-03-01T16:43:24.728841
+CL-50,Client,Dashboard,"Statistics Overview shows ""of 0 total""",Should show actual counts,of 0 total,FAIL,Bug CL-50 confirmed - shows 0 counts,2026-03-01T16:43:24.735886
+AUTH-ADMIN,Admin,Authentication,Admin user login,Successful login,"Logged in, URL: https://falcon.up.railway.app/dashboard",PASS,,2026-03-01T16:43:29.822767
+AUTH-CANDIDATE,Candidate,Authentication,Candidate user login,Successful login,Result: https://falcon.up.railway.app/dashboard/interviews,PASS,,2026-03-01T16:43:34.783306

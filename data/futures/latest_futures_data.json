@@ -1,0 +1,42 @@
+{
+  "BTCUSDT": {
+    "open_interest": 79254.996,
+    "open_interest_value": 5293966018.03853,
+    "funding_rate": 1.558e-05,
+    "mark_price": 66095.66671014,
+    "index_price": 66131.43456522,
+    "timestamp": 1772384274769
+  },
+  "ETHUSDT": {
+    "open_interest": 1857155.106,
+    "open_interest_value": 3698771481.604382,
+    "funding_rate": 4.35e-05,
+    "mark_price": 1970.74,
+    "index_price": 1971.78581395,
+    "timestamp": 1772384274769
+  },
+  "BNBUSDT": {
+    "open_interest": 495350.77,
+    "open_interest_value": 310482458.218949,
+    "funding_rate": 0.0,
+    "mark_price": 623.28,
+    "index_price": 623.03677795,
+    "timestamp": 1772384274769
+  },
+  "SOLUSDT": {
+    "open_interest": 9776726.4,
+    "open_interest_value": 836802596.0050149,
+    "funding_rate": 3.294e-05,
+    "mark_price": 84.03,
+    "index_price": 84.08084876,
+    "timestamp": 1772384274769
+  },
+  "XRPUSDT": {
+    "open_interest": 272385396.5,
+    "open_interest_value": 375207797.55220765,
+    "funding_rate": -5.144e-05,
+    "mark_price": 1.3682,
+    "index_price": 1.36886143,
+    "timestamp": 1772384274769
+  }
+}

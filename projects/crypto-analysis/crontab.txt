@@ -1,0 +1,33 @@
+# Crypto Analysis Cron Jobs - Updated 2026-03-02
+# Smart data fetching and analysis pipeline
+
+# =============================================================================
+# DATA FETCHING (Smart - only fetches when new candles available)
+# =============================================================================
+
+# Run smart data fetcher every 5 minutes
+*/5 * * * * cd /root/.openclaw/workspace/projects/crypto-analysis && /usr/bin/python3 scripts/smart_data_fetcher.py >> /root/.openclaw/workspace/projects/crypto-analysis/logs/fetcher.log 2>&1
+
+# =============================================================================
+# TRADE SETUP ANALYSIS (After data fetch)
+# =============================================================================
+
+# Check for trade setups every 5 minutes (after fetch)
+*/5 * * * * sleep 30 && cd /root/.openclaw/workspace/projects/crypto-analysis && /usr/bin/python3 scripts/individual_setup_checker.py >> /root/.openclaw/workspace/projects/crypto-analysis/logs/setups.log 2>&1
+
+# =============================================================================
+# MULTI-TIMEFRAME ANALYSIS (Every 15 minutes)
+# =============================================================================
+
+# Full MTF analysis every 15 minutes
+*/15 * * * * cd /root/.openclaw/workspace/projects/crypto-analysis && /usr/bin/python3 scripts/btc_complete_mtf_analysis.py >> /root/.openclaw/workspace/projects/crypto-analysis/logs/mtf_analysis.log 2>&1
+
+# =============================================================================
+# MAINTENANCE
+# =============================================================================
+
+# Clean up old log files (keep last 30 days)
+0 0 * * * find /root/.openclaw/workspace/projects/crypto-analysis/logs -name "*.log" -mtime +30 -delete
+
+# Create daily summary report
+0 0 * * * cd /root/.openclaw/workspace/projects/crypto-analysis && /usr/bin/python3 scripts/daily_summary.py >> /root/.openclaw/workspace/projects/crypto-analysis/logs/daily.log 2>&1

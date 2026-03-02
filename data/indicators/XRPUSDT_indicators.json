@@ -1,0 +1,343 @@
+{
+  "1M": {
+    "symbol": "XRPUSDT",
+    "interval": "1M",
+    "timestamp": 1772323200000,
+    "close": 1.3766,
+    "indicators": {
+      "ema_50": 1.3266070754361492,
+      "ema_200": null,
+      "macd_line": 0.20532598383990286,
+      "macd_signal": 0.3694462623023978,
+      "macd_hist": -0.16412027846249494,
+      "volume_sma_20": 7577397457.394501,
+      "fib_levels": {
+        "0.0": 3.6607,
+        "0.236": 3.060434,
+        "0.382": 2.689083,
+        "0.5": 2.38895,
+        "0.618": 2.0888169999999997,
+        "0.786": 1.661509,
+        "1.0": 1.1172
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 1.61,
+            "touches": 1,
+            "range": [
+              1.6134,
+              1.6134
+            ]
+          },
+          {
+            "price": 1.25,
+            "touches": 1,
+            "range": [
+              1.2543,
+              1.2543
+            ]
+          },
+          {
+            "price": 0.42,
+            "touches": 1,
+            "range": [
+              0.4188,
+              0.4188
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 3.4,
+            "touches": 1,
+            "range": [
+              3.4,
+              3.4
+            ]
+          },
+          {
+            "price": 3.66,
+            "touches": 1,
+            "range": [
+              3.6607,
+              3.6607
+            ]
+          }
+        ],
+        "swing_highs_count": 15,
+        "swing_lows_count": 16
+      }
+    }
+  },
+  "1w": {
+    "symbol": "XRPUSDT",
+    "interval": "1w",
+    "timestamp": 1772409600000,
+    "close": 1.3524,
+    "indicators": {
+      "ema_50": 2.0561623164808576,
+      "ema_200": 1.4024152371598264,
+      "macd_line": -0.29310390259582775,
+      "macd_signal": -0.22921915976217916,
+      "macd_hist": -0.06388474283364859,
+      "volume_sma_20": 907989933.11,
+      "fib_levels": {
+        "0.0": 2.6975,
+        "0.236": 2.3245492,
+        "0.382": 2.0938254,
+        "0.5": 1.9073499999999999,
+        "0.618": 1.7208746,
+        "0.786": 1.4553842,
+        "1.0": 1.1172
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 2.73,
+            "touches": 1,
+            "range": [
+              2.728,
+              2.728
+            ]
+          },
+          {
+            "price": 2.7,
+            "touches": 1,
+            "range": [
+              2.6975,
+              2.6975
+            ]
+          },
+          {
+            "price": 1.91,
+            "touches": 1,
+            "range": [
+              1.9083,
+              1.9083
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 2.42,
+            "touches": 1,
+            "range": [
+              2.4172,
+              2.4172
+            ]
+          },
+          {
+            "price": 2.65,
+            "touches": 1,
+            "range": [
+              2.6549,
+              2.6549
+            ]
+          },
+          {
+            "price": 2.7,
+            "touches": 1,
+            "range": [
+              2.6975,
+              2.6975
+            ]
+          }
+        ],
+        "swing_highs_count": 50,
+        "swing_lows_count": 64
+      }
+    }
+  },
+  "1d": {
+    "symbol": "XRPUSDT",
+    "interval": "1d",
+    "timestamp": 1772409600000,
+    "close": 1.3524,
+    "indicators": {
+      "ema_20": 1.4224330434490013,
+      "ema_50": 1.5865822446310371,
+      "vwap": 2.138964769924726,
+      "rsi_14": 34.86825904949518,
+      "macd_line": -0.06719387201806404,
+      "macd_signal": -0.07759358767963044,
+      "macd_hist": 0.010399715661566403,
+      "atr_14": 0.0928688935780916,
+      "volume_sma_20": 140566965.76500002,
+      "fib_levels": {
+        "0.0": 1.6714,
+        "0.236": 1.5766696,
+        "0.382": 1.5180652000000001,
+        "0.5": 1.4707,
+        "0.618": 1.4233348000000001,
+        "0.786": 1.3558995999999999,
+        "1.0": 1.27
+      },
+      "support_resistance": {
+        "support_zones": [
+          {
+            "price": 1.38,
+            "touches": 1,
+            "range": [
+              1.3775,
+              1.3775
+            ]
+          },
+          {
+            "price": 1.34,
+            "touches": 1,
+            "range": [
+              1.3421,
+              1.3421
+            ]
+          },
+          {
+            "price": 1.31,
+            "touches": 1,
+            "range": [
+              1.3124,
+              1.3124
+            ]
+          }
+        ],
+        "resistance_zones": [
+          {
+            "price": 1.46,
+            "touches": 1,
+            "range": [
+              1.4642,
+              1.4642
+            ]
+          },
+          {
+            "price": 1.49,
+            "touches": 1,
+            "range": [
+              1.4935,
+              1.4935
+            ]
+          },
+          {
+            "price": 1.67,
+            "touches": 1,
+            "range": [
+              1.6714,
+              1.6714
+            ]
+          }
+        ],
+        "swing_highs_count": 68,
+        "swing_lows_count": 66
+      }
+    }
+  },
+  "4h": {
+    "symbol": "XRPUSDT",
+    "interval": "4h",
+    "timestamp": 1772424000000,
+    "close": 1.374,
+    "indicators": {
+      "ema_9": 1.3693555164571003,
+      "ema_21": 1.3720333432413705,
+      "rsi_14": 54.01816911250875,
+      "macd_line": -0.004677369411067556,
+      "macd_signal": -0.006784522655700558,
+      "macd_hist": 0.0021071532446330027,
+      "vwap": 1.6886082994675133,
+      "volume_sma_20": 29688230.835,
+      "atr_14": 0.034320201399603914,
+      "obv": -630977196.2999997,
+      "cvd": -473277616.83895606,
+      "open_interest": 272385396.5,
+      "funding_rate": -5.144e-05
+    }
+  },
+  "1h": {
+    "symbol": "XRPUSDT",
+    "interval": "1h",
+    "timestamp": 1772434800000,
+    "close": 1.3492,
+    "indicators": {
+      "ema_9": 1.3588911887088488,
+      "ema_25": 1.363882548164776,
+      "rsi_14": 41.52684563758387,
+      "vwap": 1.415708724204306,
+      "volume_sma_20": 5454970.235,
+      "atr_14": 0.017005463407548122,
+      "obv": -260214793.09999996,
+      "cvd": -65824461.835250266
+    }
+  },
+  "15m": {
+    "symbol": "XRPUSDT",
+    "interval": "15m",
+    "timestamp": 1772436600000,
+    "close": 1.3463,
+    "indicators": {
+      "ema_9": 1.352029002102446,
+      "ema_21": 1.3578395670510788,
+      "ema_50": 1.3618573447300697,
+      "rsi_9": 33.1848552338527,
+      "vwap": 1.3808858929066328,
+      "atr_7": 0.006859435503328464,
+      "obv": -10735026.600000013,
+      "cvd": -5155807.196339059,
+      "liquidity": {
+        "support_walls": [
+          {
+            "price": 0,
+            "qty": 8055951.1,
+            "value_usd": 11008054.38,
+            "distance_pct": -100.0
+          }
+        ],
+        "resistance_walls": [
+          {
+            "price": 0,
+            "qty": 6916615.1,
+            "value_usd": 9451208.7,
+            "distance_pct": -100.0
+          }
+        ],
+        "imbalance_1pct": 0.0781
+      }
+    }
+  },
+  "5m": {
+    "symbol": "XRPUSDT",
+    "interval": "5m",
+    "timestamp": 1772436900000,
+    "close": 1.3473,
+    "indicators": {
+      "ema_9": 1.3461607207240411,
+      "rsi_7": 41.708542713567645,
+      "vwap": 1.3523461249660231,
+      "atr_5": 0.0033843925772900365,
+      "volume_delta": 1499.6,
+      "liquidation": {
+        "nearest_long_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 1.11,
+          "short_liquidation_price": 1.63,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 7453553.99,
+          "heat_score": 20
+        },
+        "nearest_short_liq": {
+          "leverage_tier": 5,
+          "liquidation_pct": 19.0,
+          "long_liquidation_price": 1.11,
+          "short_liquidation_price": 1.63,
+          "distance_pct_long": -19.0,
+          "distance_pct_short": 19.0,
+          "estimated_liquidation_value_usd": 7453553.99,
+          "heat_score": 20
+        },
+        "long_short_ratio": 2.3245,
+        "funding_bias": "neutral"
+      }
+    }
+  }
+}
