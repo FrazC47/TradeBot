@@ -163,23 +163,64 @@ def calculate_rsi(prices, period=14):
     return rsi
 
 def calculate_atr(data, period=14):
-    """Calculate ATR"""
-    atr = [0] * period
-    for i in range(period, len(data)):
+    """
+    Proper ATR:
+    - TR computed per candle
+    - Seed ATR at index=period with SMA(TR[1..period])
+    - Wilder smoothing thereafter
+    Returns list same length as data (floats), with early values seeded as 0.0.
+    """
+    n = len(data)
+    if n == 0:
+        return []
+    if n < 2:
+        return [0.0] * n
+
+    # True Range series aligned to candles (TR[0] = 0.0)
+    tr = [0.0] * n
+    for i in range(1, n):
         high = data[i]['high']
         low = data[i]['low']
-        prev_close = data[i-1]['close']
-        tr = max(high - low, abs(high - prev_close), abs(low - prev_close))
-        atr.append(tr)
-    
-    # Smooth with SMA
-    atr_smooth = []
-    for i in range(len(atr)):
-        if i < period:
-            atr_smooth.append(atr[i])
-        else:
-            atr_smooth.append((atr_smooth[-1] * (period-1) + atr[i]) / period)
-    return atr_smooth
+        prev_close = data[i - 1]['close']
+        tr[i] = max(
+            high - low,
+            abs(high - prev_close),
+            abs(low - prev_close)
+        )
+
+    atr = [0.0] * n
+    if n <= period:
+        # not enough data to compute a seeded ATR reliably
+        # return a simple rolling mean of available TR as a best-effort
+        running = 0.0
+        for i in range(1, n):
+            running += tr[i]
+            atr[i] = running / i
+        return atr
+
+    # Seed at index=period using SMA of TR[1..period]
+    seed = sum(tr[1:period + 1]) / period
+    atr[period] = seed
+
+    # Wilder smoothing
+    for i in range(period + 1, n):
+        atr[i] = (atr[i - 1] * (period - 1) + tr[i]) / period
+
+    # Fill early values (0..period-1) with a gentle ramp (optional but useful)
+    # This avoids zeros causing weird compression ratios early in series.
+    running = 0.0
+    for i in range(1, period):
+        running += tr[i]
+        atr[i] = running / i
+
+    return atr
+
+
+def calculate_atr_pct(current_atr, current_close):
+    """ATR as percentage of price (for volatility regime classification)"""
+    if current_close <= 0:
+        return 0.0
+    return current_atr / current_close
 
 def calculate_macd(prices, fast=12, slow=26, signal=9):
     """
