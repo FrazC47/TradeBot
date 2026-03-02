@@ -13357,3 +13357,91 @@ XRPUSDT:
 ==========================================================================================
 INDICATOR CALCULATION COMPLETE
 ==========================================================================================
+==========================================================================================
+COMPREHENSIVE INDICATOR CALCULATOR
+==========================================================================================
+
+
+BTCUSDT:
+------------------------------------------------------------------------------------------
+  1M : ✅ Calculated 8 indicators
+  1w : ✅ Calculated 8 indicators
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 637, in <module>
+    main()
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 616, in main
+    result = calculate_indicators_for_timeframe(symbol, interval)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 508, in calculate_indicators_for_timeframe
+    indicators['indicators']['vwap'] = calculate_vwap(data)[-1]
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 278, in calculate_vwap
+    dt = datetime.fromtimestamp(ts_ms / 1000, datetime.timezone.utc)
+                                              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'timezone'. Did you mean: 'astimezone'?
+==========================================================================================
+COMPREHENSIVE INDICATOR CALCULATOR
+==========================================================================================
+
+
+BTCUSDT:
+------------------------------------------------------------------------------------------
+  1M : ✅ Calculated 8 indicators
+  1w : ✅ Calculated 8 indicators
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 637, in <module>
+    main()
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 616, in main
+    result = calculate_indicators_for_timeframe(symbol, interval)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 508, in calculate_indicators_for_timeframe
+    indicators['indicators']['vwap'] = calculate_vwap(data)[-1]
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 278, in calculate_vwap
+    dt = datetime.fromtimestamp(ts_ms / 1000, datetime.timezone.utc)
+                                              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'timezone'. Did you mean: 'astimezone'?
+==========================================================================================
+COMPREHENSIVE INDICATOR CALCULATOR
+==========================================================================================
+
+
+BTCUSDT:
+------------------------------------------------------------------------------------------
+  1M : ✅ Calculated 8 indicators
+  1w : ✅ Calculated 8 indicators
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 637, in <module>
+    main()
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 616, in main
+    result = calculate_indicators_for_timeframe(symbol, interval)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 508, in calculate_indicators_for_timeframe
+    indicators['indicators']['vwap'] = calculate_vwap(data)[-1]
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 278, in calculate_vwap
+    dt = datetime.fromtimestamp(ts_ms / 1000, datetime.timezone.utc)
+                                              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'timezone'. Did you mean: 'astimezone'?
+==========================================================================================
+COMPREHENSIVE INDICATOR CALCULATOR
+==========================================================================================
+
+
+BTCUSDT:
+------------------------------------------------------------------------------------------
+  1M : ✅ Calculated 8 indicators
+  1w : ✅ Calculated 8 indicators
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 637, in <module>
+    main()
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 616, in main
+    result = calculate_indicators_for_timeframe(symbol, interval)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 508, in calculate_indicators_for_timeframe
+    indicators['indicators']['vwap'] = calculate_vwap(data)[-1]
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py", line 278, in calculate_vwap
+    dt = datetime.fromtimestamp(ts_ms / 1000, datetime.timezone.utc)
+                                              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'timezone'. Did you mean: 'astimezone'?

@@ -7,7 +7,7 @@ Based on the PDF specification for each timeframe
 import csv
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 import math
 
 DATA_DIR = Path('/root/.openclaw/workspace/data/binance')
@@ -275,7 +275,7 @@ def calculate_vwap(data, anchor_type='daily_utc'):
 
     for candle in data:
         ts_ms = candle['timestamp']
-        dt = datetime.fromtimestamp(ts_ms / 1000, datetime.timezone.utc)
+        dt = datetime.fromtimestamp(ts_ms / 1000, timezone.utc)
 
         if anchor_type == 'daily_utc':
             sess = (dt.year, dt.month, dt.day)
