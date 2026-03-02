@@ -1,0 +1,220 @@
+[2026-03-02 17:29:15] Error loading state: FetcherState.__init__() got an unexpected keyword argument 'last_candle'
+[2026-03-02 17:29:15] Server time synced. Offset: -36ms
+[2026-03-02 17:29:15] ============================================================
+[2026-03-02 17:29:15] Smart Data Fetcher Started: 2026-03-02 17:29:15.665567
+[2026-03-02 17:29:15] ============================================================
+[2026-03-02 17:29:15] 
+Processing BTCUSDT...
+[2026-03-02 17:29:15]   1M: FETCH - No existing data
+[2026-03-02 17:29:15] API error for BTCUSDT/1M: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1M&limit=1000&startTime=-819556244371&endTime=1772443755629
+[2026-03-02 17:29:15]     No data returned
+[2026-03-02 17:29:15]   1w: FETCH - No existing data
+[2026-03-02 17:29:16]     Added 0 new candles
+[2026-03-02 17:29:16]   1d: FETCH - No existing data
+[2026-03-02 17:29:16] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:16]     Added 0 new candles
+[2026-03-02 17:29:16]   4h: FETCH - No existing data
+[2026-03-02 17:29:16] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:16]     Added 0 new candles
+[2026-03-02 17:29:16]   1h: FETCH - No existing data
+[2026-03-02 17:29:17] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:17]     Added 0 new candles
+[2026-03-02 17:29:17]   15m: FETCH - No existing data
+[2026-03-02 17:29:17]     Added 0 new candles
+[2026-03-02 17:29:17]   5m: FETCH - No existing data
+[2026-03-02 17:29:17] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:17]     Added 0 new candles
+[2026-03-02 17:29:17] 
+Processing ETHUSDT...
+[2026-03-02 17:29:17]   1M: FETCH - No existing data
+[2026-03-02 17:29:18] API error for ETHUSDT/1M: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1M&limit=1000&startTime=-819556242124&endTime=1772443757876
+[2026-03-02 17:29:18]     No data returned
+[2026-03-02 17:29:18]   1w: FETCH - No existing data
+[2026-03-02 17:29:18]     Added 0 new candles
+[2026-03-02 17:29:18]   1d: FETCH - No existing data
+[2026-03-02 17:29:18] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:18]     Added 0 new candles
+[2026-03-02 17:29:18]   4h: FETCH - No existing data
+[2026-03-02 17:29:19] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:19]     Added 0 new candles
+[2026-03-02 17:29:19]   1h: FETCH - No existing data
+[2026-03-02 17:29:19] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:19]     Added 0 new candles
+[2026-03-02 17:29:19]   15m: FETCH - No existing data
+[2026-03-02 17:29:19]     Added 0 new candles
+[2026-03-02 17:29:19]   5m: FETCH - No existing data
+[2026-03-02 17:29:20]     Added 0 new candles
+[2026-03-02 17:29:20] 
+Processing BNBUSDT...
+[2026-03-02 17:29:20]   1M: FETCH - No existing data
+[2026-03-02 17:29:20] API error for BNBUSDT/1M: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BNBUSDT&interval=1M&limit=1000&startTime=-819556239688&endTime=1772443760312
+[2026-03-02 17:29:20]     No data returned
+[2026-03-02 17:29:20]   1w: FETCH - No existing data
+[2026-03-02 17:29:20]     Added 0 new candles
+[2026-03-02 17:29:20]   1d: FETCH - No existing data
+[2026-03-02 17:29:21] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:21]     Added 0 new candles
+[2026-03-02 17:29:21]   4h: FETCH - No existing data
+[2026-03-02 17:29:21] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:21]     Added 0 new candles
+[2026-03-02 17:29:21]   1h: FETCH - No existing data
+[2026-03-02 17:29:21] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:21]     Added 0 new candles
+[2026-03-02 17:29:21]   15m: FETCH - No existing data
+[2026-03-02 17:29:22]     Added 0 new candles
+[2026-03-02 17:29:22]   5m: FETCH - No existing data
+[2026-03-02 17:29:22]     Added 0 new candles
+[2026-03-02 17:29:22] 
+Processing SOLUSDT...
+[2026-03-02 17:29:22]   1M: FETCH - No existing data
+[2026-03-02 17:29:22] API error for SOLUSDT/1M: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=SOLUSDT&interval=1M&limit=1000&startTime=-819556237446&endTime=1772443762554
+[2026-03-02 17:29:22]     No data returned
+[2026-03-02 17:29:22]   1w: FETCH - No existing data
+[2026-03-02 17:29:23]     Added 0 new candles
+[2026-03-02 17:29:23]   1d: FETCH - No existing data
+[2026-03-02 17:29:23] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:23]     Added 0 new candles
+[2026-03-02 17:29:23]   4h: FETCH - No existing data
+[2026-03-02 17:29:23] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:23]     Added 0 new candles
+[2026-03-02 17:29:23]   1h: FETCH - No existing data
+[2026-03-02 17:29:24] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:24]     Added 0 new candles
+[2026-03-02 17:29:24]   15m: FETCH - No existing data
+[2026-03-02 17:29:24] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:24]     Added 0 new candles
+[2026-03-02 17:29:24]   5m: FETCH - No existing data
+[2026-03-02 17:29:24] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:24]     Added 0 new candles
+[2026-03-02 17:29:24] 
+Processing XRPUSDT...
+[2026-03-02 17:29:24]   1M: FETCH - No existing data
+[2026-03-02 17:29:25] API error for XRPUSDT/1M: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XRPUSDT&interval=1M&limit=1000&startTime=-819556235120&endTime=1772443764880
+[2026-03-02 17:29:25]     No data returned
+[2026-03-02 17:29:25]   1w: FETCH - No existing data
+[2026-03-02 17:29:25]     Added 0 new candles
+[2026-03-02 17:29:25]   1d: FETCH - No existing data
+[2026-03-02 17:29:25] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:25]     Added 0 new candles
+[2026-03-02 17:29:25]   4h: FETCH - No existing data
+[2026-03-02 17:29:26] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:26]     Added 0 new candles
+[2026-03-02 17:29:26]   1h: FETCH - No existing data
+[2026-03-02 17:29:26] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:26]     Added 0 new candles
+[2026-03-02 17:29:26]   15m: FETCH - No existing data
+[2026-03-02 17:29:26] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:26]     Added 0 new candles
+[2026-03-02 17:29:26]   5m: FETCH - No existing data
+[2026-03-02 17:29:26] Error saving CSV: dict contains fields not in fieldnames: 'taker_buy_quote_volume', 'ignore', 'taker_buy_volume'
+[2026-03-02 17:29:26]     Added 0 new candles
+[2026-03-02 17:29:27] 
+============================================================
+[2026-03-02 17:29:27] Complete: 0 candles fetched, 0 skipped
+[2026-03-02 17:29:27] ============================================================
+
+[2026-03-02 17:32:13] Loaded state for 10 symbol/timeframes
+[2026-03-02 17:32:13] Server time synced. Offset: -37ms
+[2026-03-02 17:32:13] ============================================================
+[2026-03-02 17:32:13] Smart Data Fetcher Started: 2026-03-02 17:32:13.645818
+[2026-03-02 17:32:13] ============================================================
+[2026-03-02 17:32:13] 
+Processing BTCUSDT...
+[2026-03-02 17:32:13]   1M: FETCH - No existing data
+[2026-03-02 17:32:13]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:13]     Added 0 new candles
+[2026-03-02 17:32:13]   1w: FETCH - No existing data
+[2026-03-02 17:32:13]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:14]     Added 0 new candles
+[2026-03-02 17:32:14]   1d: FETCH - No existing data
+[2026-03-02 17:32:14]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:14]     Added 0 new candles
+[2026-03-02 17:32:14]   4h: FETCH - No existing data
+[2026-03-02 17:32:14]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:14]     Added 0 new candles
+[2026-03-02 17:32:14]   1h: FETCH - No existing data
+[2026-03-02 17:32:14]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:14]     Added 0 new candles
+[2026-03-02 17:32:15]   15m: SKIP - Next candle in 765s
+[2026-03-02 17:32:15]   5m: SKIP - Next candle in 165s
+[2026-03-02 17:32:15] 
+Processing ETHUSDT...
+[2026-03-02 17:32:15]   1M: FETCH - No existing data
+[2026-03-02 17:32:15]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:15]     Added 0 new candles
+[2026-03-02 17:32:15]   1w: FETCH - No existing data
+[2026-03-02 17:32:15]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:15]     Added 0 new candles
+[2026-03-02 17:32:15]   1d: FETCH - No existing data
+[2026-03-02 17:32:15]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:15]     Added 0 new candles
+[2026-03-02 17:32:16]   4h: FETCH - No existing data
+[2026-03-02 17:32:16]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:16]     Added 0 new candles
+[2026-03-02 17:32:16]   1h: FETCH - No existing data
+[2026-03-02 17:32:16]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:16]     Added 0 new candles
+[2026-03-02 17:32:16]   15m: SKIP - Next candle in 763s
+[2026-03-02 17:32:16]   5m: SKIP - Next candle in 163s
+[2026-03-02 17:32:16] 
+Processing BNBUSDT...
+[2026-03-02 17:32:16]   1M: FETCH - No existing data
+[2026-03-02 17:32:16]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:16]     Added 0 new candles
+[2026-03-02 17:32:17]   1w: FETCH - No existing data
+[2026-03-02 17:32:17]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:17]     Added 0 new candles
+[2026-03-02 17:32:17]   1d: FETCH - No existing data
+[2026-03-02 17:32:17]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:17]     Added 0 new candles
+[2026-03-02 17:32:17]   4h: FETCH - No existing data
+[2026-03-02 17:32:17]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:17]     Added 0 new candles
+[2026-03-02 17:32:17]   1h: FETCH - No existing data
+[2026-03-02 17:32:17]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:18]     Added 0 new candles
+[2026-03-02 17:32:18]   15m: SKIP - Next candle in 762s
+[2026-03-02 17:32:18]   5m: SKIP - Next candle in 162s
+[2026-03-02 17:32:18] 
+Processing SOLUSDT...
+[2026-03-02 17:32:18]   1M: FETCH - No existing data
+[2026-03-02 17:32:18]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:18]     Added 0 new candles
+[2026-03-02 17:32:18]   1w: FETCH - No existing data
+[2026-03-02 17:32:18]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:18]     Added 0 new candles
+[2026-03-02 17:32:18]   1d: FETCH - No existing data
+[2026-03-02 17:32:18]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:19]     Added 0 new candles
+[2026-03-02 17:32:19]   4h: FETCH - No existing data
+[2026-03-02 17:32:19]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:19]     Added 0 new candles
+[2026-03-02 17:32:19]   1h: FETCH - No existing data
+[2026-03-02 17:32:19]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:19]     Added 0 new candles
+[2026-03-02 17:32:19]   15m: SKIP - Next candle in 760s
+[2026-03-02 17:32:19]   5m: SKIP - Next candle in 160s
+[2026-03-02 17:32:19] 
+Processing XRPUSDT...
+[2026-03-02 17:32:19]   1M: FETCH - No existing data
+[2026-03-02 17:32:19]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:19]     Added 0 new candles
+[2026-03-02 17:32:20]   1w: FETCH - No existing data
+[2026-03-02 17:32:20]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:20]     Added 0 new candles
+[2026-03-02 17:32:20]   1d: FETCH - No existing data
+[2026-03-02 17:32:20]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:20]     Added 0 new candles
+[2026-03-02 17:32:20]   4h: FETCH - No existing data
+[2026-03-02 17:32:20]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:20]     Added 0 new candles
+[2026-03-02 17:32:21]   1h: FETCH - No existing data
+[2026-03-02 17:32:21]     No existing data, fetching last 100 candles
+[2026-03-02 17:32:21]     Added 0 new candles
+[2026-03-02 17:32:21]   15m: SKIP - Next candle in 759s
+[2026-03-02 17:32:21]   5m: SKIP - Next candle in 159s
+[2026-03-02 17:32:21] 
+============================================================
+[2026-03-02 17:32:21] Complete: 0 candles fetched, 10 skipped
+[2026-03-02 17:32:21] ============================================================
+
