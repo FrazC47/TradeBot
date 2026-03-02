@@ -1,42 +1,62 @@
 {
   "BTCUSDT_5m": {
-    "last_fetch": 1772445002100,
-    "last_candle": 1772445000000
+    "last_fetch": 1772446201314,
+    "last_candle": 1772446200000
   },
   "BTCUSDT_15m": {
-    "last_fetch": 1772444702041,
-    "last_candle": 1772444700000
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
   },
   "ETHUSDT_5m": {
-    "last_fetch": 1772445002100,
-    "last_candle": 1772445000000
+    "last_fetch": 1772446201314,
+    "last_candle": 1772446200000
   },
   "ETHUSDT_15m": {
-    "last_fetch": 1772444702041,
-    "last_candle": 1772444700000
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
   },
   "BNBUSDT_5m": {
-    "last_fetch": 1772445002100,
-    "last_candle": 1772445000000
+    "last_fetch": 1772446201314,
+    "last_candle": 1772446200000
   },
   "BNBUSDT_15m": {
-    "last_fetch": 1772444702041,
-    "last_candle": 1772444700000
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
   },
   "SOLUSDT_5m": {
-    "last_fetch": 1772445002100,
-    "last_candle": 1772445000000
+    "last_fetch": 1772446201314,
+    "last_candle": 1772446200000
   },
   "SOLUSDT_15m": {
-    "last_fetch": 1772444702041,
-    "last_candle": 1772444700000
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
   },
   "XRPUSDT_5m": {
-    "last_fetch": 1772445002100,
-    "last_candle": 1772445000000
+    "last_fetch": 1772446201314,
+    "last_candle": 1772446200000
   },
   "XRPUSDT_15m": {
-    "last_fetch": 1772444702041,
-    "last_candle": 1772444700000
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
+  },
+  "BTCUSDT_1h": {
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
+  },
+  "ETHUSDT_1h": {
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
+  },
+  "BNBUSDT_1h": {
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
+  },
+  "SOLUSDT_1h": {
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
+  },
+  "XRPUSDT_1h": {
+    "last_fetch": 1772445601212,
+    "last_candle": 1772445600000
   }
 }

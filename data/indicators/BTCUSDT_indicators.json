@@ -23,14 +23,6 @@
       "support_resistance": {
         "support_zones": [
           {
-            "price": 74508.0,
-            "touches": 1,
-            "range": [
-              74508.0,
-              74508.0
-            ]
-          },
-          {
             "price": 49000.0,
             "touches": 1,
             "range": [
@@ -86,27 +78,11 @@
       "support_resistance": {
         "support_zones": [
           {
-            "price": 111920.0,
+            "price": 60000.0,
             "touches": 1,
             "range": [
-              111920.0,
-              111920.0
-            ]
-          },
-          {
-            "price": 107255.0,
-            "touches": 1,
-            "range": [
-              107255.0,
-              107255.0
-            ]
-          },
-          {
-            "price": 102000.0,
-            "touches": 1,
-            "range": [
-              102000.0,
-              102000.0
+              60000.0,
+              60000.0
             ]
           }
         ],
@@ -149,8 +125,8 @@
     "indicators": {
       "ema_20": 68171.58155235561,
       "ema_50": 74657.53899714834,
-      "vwap": 94023.15336519714,
-      "rsi_14": 40.657486306189824,
+      "vwap": 65781.48999999999,
+      "rsi_14": 39.2443066724615,
       "macd_line": -2723.2228415414866,
       "macd_signal": -3314.355729868274,
       "macd_hist": 591.1328883267875,
@@ -231,105 +207,60 @@
     "indicators": {
       "ema_9": 66235.72726224916,
       "ema_21": 66265.42731022494,
-      "rsi_14": 50.67354368932038,
+      "rsi_14": 48.21524484546094,
       "macd_line": -40.37962751707528,
       "macd_signal": -42.08312863307029,
       "macd_hist": 1.7035011159950102,
-      "vwap": 79695.43775731459,
+      "vwap": 66348.5461535062,
       "volume_sma_20": 3568.6169739999996,
       "atr_14": 1241.9611832062062,
       "obv": -47288.3260100001,
-      "cvd": -73774.37918213007,
-      "open_interest": 79254.996,
-      "funding_rate": 1.558e-05
+      "cvd": -73774.37918213007
     }
   },
   "1h": {
     "symbol": "BTCUSDT",
     "interval": "1h",
-    "timestamp": 1772442000000,
-    "close": 66280.44,
+    "timestamp": 1772445600000,
+    "close": 66190.74,
     "indicators": {
-      "ema_9": 66311.60607148106,
-      "ema_25": 66304.13271819477,
-      "rsi_14": 49.65263857058227,
-      "vwap": 68646.40774355603,
-      "volume_sma_20": 902.453117,
-      "atr_14": 660.5212297885947,
-      "obv": -54519.94107999994,
-      "cvd": -35006.299699938056
+      "ema_9": 66269.54165718485,
+      "ema_25": 66287.47031975376,
+      "rsi_14": 48.71535060684218,
+      "vwap": 66374.85027922664,
+      "volume_sma_20": 946.262419,
+      "atr_14": 652.7887439873676,
+      "obv": -56304.16266999993,
+      "cvd": -35369.28310329728
     }
   },
   "15m": {
     "symbol": "BTCUSDT",
     "interval": "15m",
-    "timestamp": 1772444700000,
-    "close": 66383.97,
+    "timestamp": 1772445600000,
+    "close": 66165.65,
     "indicators": {
-      "ema_9": 66262.88122720583,
-      "ema_21": 66274.33552022021,
-      "ema_50": 66298.44062178227,
-      "rsi_9": 73.13188959118746,
-      "vwap": 66533.73657477714,
-      "atr_7": 264.2705342970983,
-      "obv": 11806.668549999991,
-      "cvd": 134.97417716551965,
-      "liquidity": {
-        "support_walls": [
-          {
-            "price": 66000,
-            "qty": 12.25,
-            "value_usd": 808937.33,
-            "distance_pct": -0.05
-          }
-        ],
-        "resistance_walls": [
-          {
-            "price": 66000,
-            "qty": 103.267,
-            "value_usd": 6819308.63,
-            "distance_pct": -0.05
-          }
-        ],
-        "imbalance_1pct": -0.4083
-      }
+      "ema_9": 66208.97898176467,
+      "ema_21": 66246.65749772085,
+      "ema_50": 66285.1192286943,
+      "rsi_9": 46.97083006128689,
+      "vwap": 66362.45320679947,
+      "atr_7": 254.24862123424683,
+      "obv": 11421.793599999992,
+      "cvd": -235.348077511931
     }
   },
   "5m": {
     "symbol": "BTCUSDT",
     "interval": "5m",
-    "timestamp": 1772445000000,
-    "close": 66360.0,
+    "timestamp": 1772446200000,
+    "close": 66316.26,
     "indicators": {
-      "ema_9": 66360.094522053,
-      "rsi_7": 45.052391242304985,
-      "vwap": 66150.65808354969,
-      "atr_5": 120.94155811296946,
-      "volume_delta": 1.41237,
-      "liquidation": {
-        "nearest_long_liq": {
-          "leverage_tier": 5,
-          "liquidation_pct": 19.0,
-          "long_liquidation_price": 53537.49,
-          "short_liquidation_price": 78653.84,
-          "distance_pct_long": -19.0,
-          "distance_pct_short": 19.0,
-          "estimated_liquidation_value_usd": 104768236.01,
-          "heat_score": 20
-        },
-        "nearest_short_liq": {
-          "leverage_tier": 5,
-          "liquidation_pct": 19.0,
-          "long_liquidation_price": 53537.49,
-          "short_liquidation_price": 78653.84,
-          "distance_pct_long": -19.0,
-          "distance_pct_short": 19.0,
-          "estimated_liquidation_value_usd": 104768236.01,
-          "heat_score": 20
-        },
-        "long_short_ratio": 1.963,
-        "funding_bias": "neutral"
-      }
+      "ema_9": 66310.84079623292,
+      "rsi_7": 52.1987774924109,
+      "vwap": 66350.12273750604,
+      "atr_5": 119.85872780307504,
+      "volume_delta": 0.04708
     }
   }
 }

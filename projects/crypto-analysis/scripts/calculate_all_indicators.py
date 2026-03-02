@@ -32,39 +32,75 @@ def load_data(symbol, interval):
             'volume': float(r['volume'])
         } for r in reader]
 
-def load_futures_data(symbol):
-    """Load latest futures data (OI and Funding Rate)"""
+def load_futures_data(symbol, max_age_minutes=60):
+    """Load latest futures data (OI and Funding Rate) with freshness check"""
     latest_file = FUTURES_DATA_DIR / 'latest_futures_data.json'
     if not latest_file.exists():
         return None
     try:
         with open(latest_file, 'r') as f:
             data = json.load(f)
-            return data.get(symbol)
+            symbol_data = data.get(symbol)
+            if not symbol_data:
+                return None
+            
+            # Check freshness
+            timestamp = symbol_data.get('timestamp', 0)
+            age_minutes = (time.time() * 1000 - timestamp) / (1000 * 60)
+            if age_minutes > max_age_minutes:
+                return None  # Data too old
+            
+            return symbol_data
     except Exception:
         return None
 
-def load_liquidity_data(symbol):
-    """Load liquidity heatmap data"""
+def load_liquidity_data(symbol, max_age_minutes=10):
+    """Load liquidity heatmap data with freshness check"""
     liquidity_file = LIQUIDITY_DIR / 'liquidity_heatmap.json'
     if not liquidity_file.exists():
         return None
     try:
         with open(liquidity_file, 'r') as f:
             data = json.load(f)
-            return data.get(symbol)
+            symbol_data = data.get(symbol)
+            if not symbol_data:
+                return None
+            
+            # Check freshness
+            timestamp_str = symbol_data.get('timestamp', '')
+            if timestamp_str:
+                from datetime import datetime
+                timestamp = datetime.fromisoformat(timestamp_str).timestamp()
+                age_minutes = (time.time() - timestamp) / 60
+                if age_minutes > max_age_minutes:
+                    return None  # Data too old
+            
+            return symbol_data
     except Exception:
         return None
 
-def load_liquidation_data(symbol):
-    """Load liquidation heatmap data"""
+def load_liquidation_data(symbol, max_age_minutes=10):
+    """Load liquidation heatmap data with freshness check"""
     liquidation_file = LIQUIDATION_DIR / 'liquidation_heatmap.json'
     if not liquidation_file.exists():
         return None
     try:
         with open(liquidation_file, 'r') as f:
             data = json.load(f)
-            return data.get(symbol)
+            symbol_data = data.get(symbol)
+            if not symbol_data:
+                return None
+            
+            # Check freshness
+            timestamp_str = symbol_data.get('timestamp', '')
+            if timestamp_str:
+                from datetime import datetime
+                timestamp = datetime.fromisoformat(timestamp_str).timestamp()
+                age_minutes = (time.time() - timestamp) / 60
+                if age_minutes > max_age_minutes:
+                    return None  # Data too old
+            
+            return symbol_data
     except Exception:
         return None
 
@@ -91,21 +127,39 @@ def calculate_sma(values, period):
     return sma
 
 def calculate_rsi(prices, period=14):
-    """Calculate RSI"""
-    if len(prices) < period + 1:
-        return [50] * len(prices)
-    
-    deltas = [prices[i] - prices[i-1] for i in range(1, len(prices))]
-    rsi = [50] * period
-    
-    for i in range(period, len(deltas)):
-        gains = [d for d in deltas[i-period:i] if d > 0]
-        losses = [-d for d in deltas[i-period:i] if d < 0]
-        avg_gain = sum(gains) / period if gains else 0.001
-        avg_loss = sum(losses) / period if losses else 0.001
-        rs = avg_gain / avg_loss
-        rsi.append(100 - (100 / (1 + rs)))
-    
+    """
+    Wilder RSI - correct length and smoothing.
+    Returns list same length as prices.
+    """
+    n = len(prices)
+    if n == 0:
+        return []
+    if n < period + 1:
+        return [50.0] * n
+
+    gains = [0.0] * n
+    losses = [0.0] * n
+    for i in range(1, n):
+        d = prices[i] - prices[i - 1]
+        gains[i] = max(d, 0.0)
+        losses[i] = max(-d, 0.0)
+
+    # seed with SMA of first period
+    avg_gain = sum(gains[1:period + 1]) / period
+    avg_loss = sum(losses[1:period + 1]) / period
+
+    rsi = [50.0] * n
+    # first RSI value at index = period
+    rs = avg_gain / (avg_loss if avg_loss > 0 else 1e-12)
+    rsi[period] = 100.0 - (100.0 / (1.0 + rs))
+
+    # Wilder smoothing
+    for i in range(period + 1, n):
+        avg_gain = (avg_gain * (period - 1) + gains[i]) / period
+        avg_loss = (avg_loss * (period - 1) + losses[i]) / period
+        rs = avg_gain / (avg_loss if avg_loss > 0 else 1e-12)
+        rsi[i] = 100.0 - (100.0 / (1.0 + rs))
+
     return rsi
 
 def calculate_atr(data, period=14):
@@ -128,48 +182,76 @@ def calculate_atr(data, period=14):
     return atr_smooth
 
 def calculate_macd(prices, fast=12, slow=26, signal=9):
-    """Calculate MACD"""
+    """
+    MACD with correct index alignment.
+    Returns (macd_line, signal_line, histogram) all length == len(prices).
+    """
+    n = len(prices)
+    if n == 0:
+        return [], [], []
+
     ema_fast = calculate_ema(prices, fast)
     ema_slow = calculate_ema(prices, slow)
-    
-    macd_line = []
-    for i in range(len(prices)):
-        if ema_fast[i] is None or ema_slow[i] is None:
-            macd_line.append(None)
-        else:
-            macd_line.append(ema_fast[i] - ema_slow[i])
-    
-    # Signal line (EMA of MACD)
-    valid_macd = [m for m in macd_line if m is not None]
-    if len(valid_macd) < signal:
-        signal_line = [None] * len(macd_line)
-    else:
-        signal_ema = calculate_ema(valid_macd, signal)
-        signal_line = [None] * (len(macd_line) - len(signal_ema)) + signal_ema
-    
-    # Histogram
-    histogram = []
-    for i in range(len(macd_line)):
+
+    macd_line = [None] * n
+    for i in range(n):
+        if ema_fast[i] is not None and ema_slow[i] is not None:
+            macd_line[i] = ema_fast[i] - ema_slow[i]
+
+    # EMA on macd_line while preserving indices
+    signal_line = [None] * n
+    vals = []
+    idxs = []
+    for i, v in enumerate(macd_line):
+        if v is not None:
+            vals.append(v)
+            idxs.append(i)
+
+    if len(vals) >= signal:
+        sig_vals = calculate_ema(vals, signal)  # aligned to vals length
+        # map back
+        for k, i in enumerate(idxs):
+            signal_line[i] = sig_vals[k]
+
+    histogram = [None] * n
+    for i in range(n):
         if macd_line[i] is not None and signal_line[i] is not None:
-            histogram.append(macd_line[i] - signal_line[i])
-        else:
-            histogram.append(None)
-    
+            histogram[i] = macd_line[i] - signal_line[i]
+
     return macd_line, signal_line, histogram
 
-def calculate_vwap(data, anchor_type='session'):
-    """Calculate VWAP"""
+def calculate_vwap(data, anchor_type='daily_utc'):
+    """
+    Session VWAP:
+    - daily_utc: resets at UTC day boundary using candle['timestamp'] (ms)
+    If you want old behavior, pass anchor_type='anchored' (never resets).
+    """
+    from datetime import datetime
     vwap = []
-    cum_typical_vol = 0
-    cum_vol = 0
-    
+    cum_typical_vol = 0.0
+    cum_vol = 0.0
+    current_session = None  # (yyyy, mm, dd)
+
     for candle in data:
-        typical = (candle['high'] + candle['low'] + candle['close']) / 3
+        ts_ms = candle['timestamp']
+        dt = datetime.fromtimestamp(ts_ms / 1000, datetime.timezone.utc)
+
+        if anchor_type == 'daily_utc':
+            sess = (dt.year, dt.month, dt.day)
+            if current_session is None:
+                current_session = sess
+            elif sess != current_session:
+                # reset at new UTC day
+                current_session = sess
+                cum_typical_vol = 0.0
+                cum_vol = 0.0
+
+        typical = (candle['high'] + candle['low'] + candle['close']) / 3.0
         vol = candle['volume']
         cum_typical_vol += typical * vol
         cum_vol += vol
         vwap.append(cum_typical_vol / cum_vol if cum_vol > 0 else typical)
-    
+
     return vwap
 
 def calculate_fibonacci(high, low):
@@ -232,62 +314,79 @@ def calculate_cvd(data):
         cvd.append(cvd[-1] + delta)
     return cvd
 
-def calculate_support_resistance(data, lookback=20, zone_threshold=0.005):
+def calculate_support_resistance(data, lookback=20, zone_threshold=0.005, max_zones=3):
     """
-    Calculate Support and Resistance zones from swing highs/lows
-    Returns dict with support_zones and resistance_zones
+    Finds swing highs/lows and clusters into zones.
+    Returns nearest supports below current close and nearest resistances above current close.
     """
+    if len(data) < 10:
+        return {
+            'support_zones': [],
+            'resistance_zones': [],
+            'swing_highs_count': 0,
+            'swing_lows_count': 0
+        }
+
     highs = [c['high'] for c in data]
     lows = [c['low'] for c in data]
-    
-    # Find local maxima (swing highs) and minima (swing lows)
+    closes = [c['close'] for c in data]
+    current_close = closes[-1]
+
     swing_highs = []
     swing_lows = []
-    
+
     for i in range(2, len(data) - 2):
-        # Swing high: higher than 2 candles before and after
         if highs[i] > highs[i-1] and highs[i] > highs[i-2] and highs[i] > highs[i+1] and highs[i] > highs[i+2]:
             swing_highs.append((i, highs[i]))
-        # Swing low: lower than 2 candles before and after
         if lows[i] < lows[i-1] and lows[i] < lows[i-2] and lows[i] < lows[i+1] and lows[i] < lows[i+2]:
             swing_lows.append((i, lows[i]))
-    
-    # Cluster swing points into zones
+
     def cluster_levels(levels, threshold):
-        """Cluster price levels that are within threshold % of each other"""
         if not levels:
             return []
         sorted_levels = sorted(levels, key=lambda x: x[1])
         clusters = [[sorted_levels[0]]]
-        
+
         for level in sorted_levels[1:]:
-            avg_cluster = sum([l[1] for l in clusters[-1]]) / len(clusters[-1])
-            if abs(level[1] - avg_cluster) / avg_cluster < threshold:
+            avg_cluster = sum(l[1] for l in clusters[-1]) / len(clusters[-1])
+            if abs(level[1] - avg_cluster) / (avg_cluster if avg_cluster else 1e-12) < threshold:
                 clusters[-1].append(level)
             else:
                 clusters.append([level])
-        
-        # Return zone centers with strength (number of touches)
+
         zones = []
         for cluster in clusters:
-            avg_price = sum([l[1] for l in cluster]) / len(cluster)
+            prices = [l[1] for l in cluster]
+            avg_price = sum(prices) / len(prices)
             zones.append({
                 'price': round(avg_price, 2),
                 'touches': len(cluster),
-                'range': (min([l[1] for l in cluster]), max([l[1] for l in cluster]))
+                'range': (min(prices), max(prices)),
             })
         return zones
-    
-    # Get recent swing points only (last 'lookback' candles)
-    recent_highs = [sh for sh in swing_highs if sh[0] >= len(data) - lookback]
-    recent_lows = [sl for sl in swing_lows if sl[0] >= len(data) - lookback]
-    
-    resistance_zones = cluster_levels(recent_highs, zone_threshold)
-    support_zones = cluster_levels(recent_lows, zone_threshold)
-    
+
+    # only consider recent swings
+    cutoff = max(0, len(data) - lookback)
+    recent_highs = [sh for sh in swing_highs if sh[0] >= cutoff]
+    recent_lows = [sl for sl in swing_lows if sl[0] >= cutoff]
+
+    resistance_zones_all = cluster_levels(recent_highs, zone_threshold)
+    support_zones_all = cluster_levels(recent_lows, zone_threshold)
+
+    # pick nearest zones relative to current close
+    supports = [z for z in support_zones_all if z['price'] < current_close]
+    resistances = [z for z in resistance_zones_all if z['price'] > current_close]
+
+    supports = sorted(supports, key=lambda z: abs(current_close - z['price']))[:max_zones]
+    resistances = sorted(resistances, key=lambda z: abs(z['price'] - current_close))[:max_zones]
+
+    # sort for readability: supports high->low, resist low->high
+    supports = sorted(supports, key=lambda z: z['price'], reverse=True)
+    resistances = sorted(resistances, key=lambda z: z['price'])
+
     return {
-        'support_zones': sorted(support_zones, key=lambda x: x['price'], reverse=True)[:3],  # Top 3
-        'resistance_zones': sorted(resistance_zones, key=lambda x: x['price'])[:3],  # Bottom 3
+        'support_zones': supports,
+        'resistance_zones': resistances,
         'swing_highs_count': len(swing_highs),
         'swing_lows_count': len(swing_lows)
     }
@@ -480,10 +579,12 @@ def main():
             else:
                 print(f"  {interval:3s}: ❌ No data")
         
-        # Save to file
+        # Save to file atomically
         output_file = INDICATORS_DIR / f"{symbol}_indicators.json"
-        with open(output_file, 'w') as f:
+        tmp_file = output_file.with_suffix('.tmp')
+        with open(tmp_file, 'w') as f:
             json.dump(all_indicators, f, indent=2, default=str)
+        tmp_file.rename(output_file)
         print(f"  Saved to: {output_file}")
     
     print()

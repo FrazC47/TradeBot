@@ -23,14 +23,6 @@
       "support_resistance": {
         "support_zones": [
           {
-            "price": 1.61,
-            "touches": 1,
-            "range": [
-              1.6134,
-              1.6134
-            ]
-          },
-          {
             "price": 1.25,
             "touches": 1,
             "range": [
@@ -44,6 +36,14 @@
             "range": [
               0.4188,
               0.4188
+            ]
+          },
+          {
+            "price": 0.38,
+            "touches": 1,
+            "range": [
+              0.3823,
+              0.3823
             ]
           }
         ],
@@ -94,27 +94,19 @@
       "support_resistance": {
         "support_zones": [
           {
-            "price": 2.73,
+            "price": 1.25,
             "touches": 1,
             "range": [
-              2.728,
-              2.728
+              1.2543,
+              1.2543
             ]
           },
           {
-            "price": 2.7,
+            "price": 1.12,
             "touches": 1,
             "range": [
-              2.6975,
-              2.6975
-            ]
-          },
-          {
-            "price": 1.91,
-            "touches": 1,
-            "range": [
-              1.9083,
-              1.9083
+              1.1172,
+              1.1172
             ]
           }
         ],
@@ -157,8 +149,8 @@
     "indicators": {
       "ema_20": 1.4224330434490013,
       "ema_50": 1.5865822446310371,
-      "vwap": 2.138964769924726,
-      "rsi_14": 34.86825904949518,
+      "vwap": 1.3525,
+      "rsi_14": 39.011420539844885,
       "macd_line": -0.06719387201806404,
       "macd_signal": -0.07759358767963044,
       "macd_hist": 0.010399715661566403,
@@ -176,14 +168,6 @@
       "support_resistance": {
         "support_zones": [
           {
-            "price": 1.38,
-            "touches": 1,
-            "range": [
-              1.3775,
-              1.3775
-            ]
-          },
-          {
             "price": 1.34,
             "touches": 1,
             "range": [
@@ -197,6 +181,14 @@
             "range": [
               1.3124,
               1.3124
+            ]
+          },
+          {
+            "price": 1.27,
+            "touches": 1,
+            "range": [
+              1.27,
+              1.27
             ]
           }
         ],
@@ -239,105 +231,60 @@
     "indicators": {
       "ema_9": 1.36052041316568,
       "ema_21": 1.367507171541742,
-      "rsi_14": 48.52224748294899,
+      "rsi_14": 44.75098518385447,
       "macd_line": -0.007798370416876477,
       "macd_signal": -0.0073306312392747985,
       "macd_hist": -0.00046773917760167816,
-      "vwap": 1.6880932983595023,
+      "vwap": 1.3616927256386275,
       "volume_sma_20": 29709029.075,
       "atr_14": 0.03439324823840769,
       "obv": -648196489.5999997,
-      "cvd": -485650394.5288849,
-      "open_interest": 272385396.5,
-      "funding_rate": -5.144e-05
+      "cvd": -485650394.5288849
     }
   },
   "1h": {
     "symbol": "XRPUSDT",
     "interval": "1h",
-    "timestamp": 1772442000000,
-    "close": 1.3538,
+    "timestamp": 1772445600000,
+    "close": 1.3535,
     "indicators": {
-      "ema_9": 1.3568695607736632,
-      "ema_25": 1.3622889076761318,
-      "rsi_14": 44.50726978998392,
-      "vwap": 1.4154178361810104,
-      "volume_sma_20": 5402648.845000001,
-      "atr_14": 0.01659031575155205,
-      "obv": -257450346.49999997,
-      "cvd": -63549239.606990926
+      "ema_9": 1.3560996486189305,
+      "ema_25": 1.361570234304595,
+      "rsi_14": 45.479541182454696,
+      "vwap": 1.3592218775700626,
+      "volume_sma_20": 5240331.89,
+      "atr_14": 0.016105803401951377,
+      "obv": -261614380.1,
+      "cvd": -63985786.13832862
     }
   },
   "15m": {
     "symbol": "XRPUSDT",
     "interval": "15m",
-    "timestamp": 1772444700000,
-    "close": 1.3554,
+    "timestamp": 1772445600000,
+    "close": 1.3535,
     "indicators": {
-      "ema_9": 1.3534562378378978,
-      "ema_21": 1.3548584379809785,
-      "ema_50": 1.3589334764794279,
-      "rsi_9": 62.953367875647544,
-      "vwap": 1.3805095827137068,
-      "atr_7": 0.0064145883158034005,
-      "obv": -5568534.100000011,
-      "cvd": -1204326.9326635103,
-      "liquidity": {
-        "support_walls": [
-          {
-            "price": 0,
-            "qty": 8055951.1,
-            "value_usd": 11008054.38,
-            "distance_pct": -100.0
-          }
-        ],
-        "resistance_walls": [
-          {
-            "price": 0,
-            "qty": 6916615.1,
-            "value_usd": 9451208.7,
-            "distance_pct": -100.0
-          }
-        ],
-        "imbalance_1pct": 0.0781
-      }
+      "ema_9": 1.3531129902703183,
+      "ema_21": 1.3545531254372531,
+      "ema_50": 1.3586375077747366,
+      "rsi_9": 49.341586219595335,
+      "vwap": 1.3587009718315046,
+      "atr_7": 0.005881892025790655,
+      "obv": -6137729.600000011,
+      "cvd": -1740560.4886464179
     }
   },
   "5m": {
     "symbol": "XRPUSDT",
     "interval": "5m",
-    "timestamp": 1772445000000,
-    "close": 1.3551,
+    "timestamp": 1772446200000,
+    "close": 1.3531,
     "indicators": {
-      "ema_9": 1.355242386103429,
-      "rsi_7": 31.395348837207678,
-      "vwap": 1.3522519226431038,
-      "atr_5": 0.0024983219085274915,
-      "volume_delta": 1739.6,
-      "liquidation": {
-        "nearest_long_liq": {
-          "leverage_tier": 5,
-          "liquidation_pct": 19.0,
-          "long_liquidation_price": 1.11,
-          "short_liquidation_price": 1.63,
-          "distance_pct_long": -19.0,
-          "distance_pct_short": 19.0,
-          "estimated_liquidation_value_usd": 7453553.99,
-          "heat_score": 20
-        },
-        "nearest_short_liq": {
-          "leverage_tier": 5,
-          "liquidation_pct": 19.0,
-          "long_liquidation_price": 1.11,
-          "short_liquidation_price": 1.63,
-          "distance_pct_long": -19.0,
-          "distance_pct_short": 19.0,
-          "estimated_liquidation_value_usd": 7453553.99,
-          "heat_score": 20
-        },
-        "long_short_ratio": 2.3245,
-        "funding_bias": "neutral"
-      }
+      "ema_9": 1.3540197613479648,
+      "rsi_7": 43.262927203366694,
+      "vwap": 1.3580490858795646,
+      "atr_5": 0.002323088653732851,
+      "volume_delta": 596.6
     }
   }
 }
