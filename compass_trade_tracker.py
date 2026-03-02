@@ -5,22 +5,49 @@ Tracks trade performance and generates improvement insights
 """
 
 import pandas as pd
+import os
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
 
-TRADE_TRACKER = Path('/root/.openclaw/workspace/compass_trade_tracker.csv')
-PERFORMANCE_LOG = Path('/root/.openclaw/workspace/compass_performance.json')
+def get_workspace():
+    """Get workspace path from environment or script location"""
+    env_path = os.environ.get('COMPASS_WORKSPACE')
+    if env_path:
+        return Path(env_path)
+    return Path(__file__).resolve().parent
+
+WORKSPACE = get_workspace()
+TRADE_TRACKER = WORKSPACE / 'compass_trade_tracker.csv'
+PERFORMANCE_LOG = WORKSPACE / 'compass_performance.json'
 
 def load_trades():
-    """Load all tracked trades"""
+    """Load all tracked trades with consistent schema"""
+    columns = ['trade_id', 'timestamp', 'symbol', 'signal', 'score', 'confidence',
+               'entry_zone_low', 'entry_zone_high', 'stop_loss', 'take_profit',
+               'status', 'actual_entry', 'actual_exit', 'pnl', 'notes']
+    
     if not TRADE_TRACKER.exists():
-        return pd.DataFrame()
-    return pd.read_csv(TRADE_TRACKER)
+        return pd.DataFrame(columns=columns)
+    
+    df = pd.read_csv(TRADE_TRACKER)
+    
+    # Ensure all expected columns exist
+    for col in columns:
+        if col not in df.columns:
+            df[col] = None
+    
+    return df
 
 def update_trade_status(trade_id, status, actual_entry=None, actual_exit=None, pnl=None, notes=''):
     """Update trade with actual execution details"""
     df = load_trades()
+    
+    # Handle empty DataFrame or missing trade_id column
+    if df.empty or 'trade_id' not in df.columns:
+        print(f"Trade {trade_id} not found (no trades tracked)")
+        return False
+    
     if trade_id not in df['trade_id'].values:
         print(f"Trade {trade_id} not found")
         return False
@@ -116,7 +143,7 @@ def generate_improvement_insights():
         if high_win_rate > low_win_rate * 1.2:
             insights.append(f"✅ High score trades (>70) win {high_win_rate*100:.0f}% vs {low_win_rate*100:.0f}% for low scores")
         else:
-            insights.append(f"⚠️ Score threshold may need adjustment - high scores not outperforming significantly")
+            insights.append("⚠️ Score threshold may need adjustment - high scores not outperforming significantly")
     
     # Check confidence level performance
     for conf in ['High', 'Medium']:
@@ -157,7 +184,7 @@ def display_dashboard():
     
     # Performance summary
     if perf:
-        print(f"\n📊 PERFORMANCE SUMMARY")
+        print("\n📊 PERFORMANCE SUMMARY")
         print(f"  Total Trades: {perf['total_trades']}")
         print(f"  Win Rate: {perf['win_rate']}%")
         print(f"  Wins: {perf['wins']} | Losses: {perf['losses']} | Breakeven: {perf['breakeven']}")
@@ -167,14 +194,14 @@ def display_dashboard():
     # Recent completed trades
     completed = df[df['status'].isin(['WIN', 'LOSS', 'BREAKEVEN'])].tail(5)
     if not completed.empty:
-        print(f"\n📝 RECENT COMPLETED TRADES")
+        print("\n📝 RECENT COMPLETED TRADES")
         for _, trade in completed.iterrows():
             emoji = '✅' if trade['status'] == 'WIN' else '❌' if trade['status'] == 'LOSS' else '➖'
             pnl_str = f"${trade['pnl']:,.2f}" if pd.notna(trade['pnl']) else 'N/A'
             print(f"  {emoji} {trade['trade_id']}: {trade['status']} | PnL: {pnl_str}")
     
     # Insights
-    print(f"\n💡 IMPROVEMENT INSIGHTS")
+    print("\n💡 IMPROVEMENT INSIGHTS")
     insights = generate_improvement_insights()
     print(f"  {insights}")
     

@@ -6,11 +6,20 @@ Analyzes futures data for trading signals and alerts
 
 import csv
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 
-DATA_DIR = Path('/root/.openclaw/workspace/data/binance_futures')
-SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'BNBUSDT']
+def get_workspace():
+    """Get workspace path from environment or script location"""
+    env_path = os.environ.get('COMPASS_WORKSPACE')
+    if env_path:
+        return Path(env_path)
+    return Path(__file__).resolve().parent
+
+WORKSPACE = get_workspace()
+DATA_DIR = WORKSPACE / 'data' / 'binance_futures'
+SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT']
 
 def read_latest_data(symbol, filename):
     """Read the latest record from a CSV file"""
@@ -92,12 +101,13 @@ def check_taker_volume_alert(symbol):
     sell_vol = float(data.get('sellVol', 0))
     ratio = float(data.get('buySellRatio', 1))
     
+    # Use buy_vol and sell_vol in message for clarity
     if ratio > 1.5:
         return {
             'type': 'TAKER_BUY_DOMINANT',
             'symbol': symbol,
             'severity': 'INFO',
-            'message': f"Taker buy volume dominant: ratio {ratio:.2f}",
+            'message': f"Taker buy volume dominant: {buy_vol:.2f} vs {sell_vol:.2f} (ratio {ratio:.2f})",
             'suggestion': 'Aggressive buying pressure detected'
         }
     elif ratio < 0.67:
@@ -105,7 +115,7 @@ def check_taker_volume_alert(symbol):
             'type': 'TAKER_SELL_DOMINANT',
             'symbol': symbol,
             'severity': 'INFO',
-            'message': f"Taker sell volume dominant: ratio {ratio:.2f}",
+            'message': f"Taker sell volume dominant: {sell_vol:.2f} vs {buy_vol:.2f} (ratio {ratio:.2f})",
             'suggestion': 'Aggressive selling pressure detected'
         }
     return None
@@ -128,7 +138,7 @@ def run_alert_check():
             all_alerts.append(alert)
             print(f"  ⚠️  {alert['type']}: {alert['message']}")
         else:
-            print(f"  ✅ Funding rate normal")
+            print("  ✅ Funding rate normal")
         
         # Check sentiment
         alert = check_sentiment_alert(symbol)
@@ -136,7 +146,7 @@ def run_alert_check():
             all_alerts.append(alert)
             print(f"  ⚠️  {alert['type']}: {alert['message']}")
         else:
-            print(f"  ✅ Sentiment balanced")
+            print("  ✅ Sentiment balanced")
         
         # Check taker volume
         alert = check_taker_volume_alert(symbol)
@@ -144,14 +154,14 @@ def run_alert_check():
             all_alerts.append(alert)
             print(f"  ℹ️  {alert['type']}: {alert['message']}")
         else:
-            print(f"  ✅ Taker volume balanced")
+            print("  ✅ Taker volume balanced")
     
     print(f"\n{'='*70}")
     print(f"Alert Summary: {len(all_alerts)} alerts found")
     print('='*70)
     
     # Save alerts to file
-    alerts_file = Path('/root/.openclaw/workspace/data/alerts.json')
+    alerts_file = WORKSPACE / 'data' / 'alerts.json'
     alerts_file.parent.mkdir(parents=True, exist_ok=True)
     with open(alerts_file, 'w') as f:
         json.dump({

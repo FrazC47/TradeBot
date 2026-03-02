@@ -10,15 +10,23 @@ Extends binance_kline_simple.py with futures-specific data:
 
 import requests
 import csv
-import json
-from datetime import datetime, timedelta
+import os
+from datetime import datetime
 from pathlib import Path
 import time
 
-# Configuration
-DATA_DIR = Path('/root/.openclaw/workspace/data/binance')
-FUTURES_DATA_DIR = Path('/root/.openclaw/workspace/data/binance_futures')
-SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'BNBUSDT']
+# Configuration - dynamic workspace path
+def get_workspace():
+    """Get workspace path from environment or script location"""
+    env_path = os.environ.get('COMPASS_WORKSPACE')
+    if env_path:
+        return Path(env_path)
+    return Path(__file__).resolve().parent
+
+WORKSPACE = get_workspace()
+DATA_DIR = WORKSPACE / 'data' / 'binance'
+FUTURES_DATA_DIR = WORKSPACE / 'data' / 'binance_futures'
+SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT']
 TIMEFRAMES = ['15m', '1h', '4h', '1d']
 
 # Binance Futures API endpoints
@@ -216,7 +224,7 @@ def fetch_all_futures_data():
         print('='*70)
         
         # Open Interest
-        print(f"  Fetching Open Interest...", end=' ')
+        print("  Fetching Open Interest...", end=' ')
         oi_data = fetch_open_interest(symbol, period='1h', limit=100)
         if oi_data:
             save_oi_data(symbol, oi_data)
@@ -227,7 +235,7 @@ def fetch_all_futures_data():
         time.sleep(0.5)
         
         # Funding Rate
-        print(f"  Fetching Funding Rate...", end=' ')
+        print("  Fetching Funding Rate...", end=' ')
         funding_data = fetch_funding_rate(symbol, limit=100)
         if funding_data:
             save_funding_data(symbol, funding_data)
@@ -238,7 +246,7 @@ def fetch_all_futures_data():
         time.sleep(0.5)
         
         # Long/Short Ratio
-        print(f"  Fetching Long/Short Ratio...", end=' ')
+        print("  Fetching Long/Short Ratio...", end=' ')
         ls_data = fetch_long_short_ratio(symbol, period='1h', limit=100)
         if ls_data:
             save_ls_ratio(symbol, ls_data)
@@ -249,7 +257,7 @@ def fetch_all_futures_data():
         time.sleep(0.5)
         
         # Taker Volume
-        print(f"  Fetching Taker Volume...", end=' ')
+        print("  Fetching Taker Volume...", end=' ')
         taker_data = fetch_taker_volume(symbol, period='1h', limit=100)
         if taker_data:
             save_taker_volume(symbol, taker_data)

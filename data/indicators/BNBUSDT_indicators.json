@@ -298,14 +298,14 @@
   "5m": {
     "symbol": "BNBUSDT",
     "interval": "5m",
-    "timestamp": 1772443800000,
-    "close": 620.3,
+    "timestamp": 1772444100000,
+    "close": 620.54,
     "indicators": {
-      "ema_9": 619.4508363520604,
-      "rsi_7": 73.80952380952355,
-      "vwap": 608.2479328210607,
-      "atr_5": 1.1902982165690372,
-      "volume_delta": 0.194,
+      "ema_9": 619.7230690816484,
+      "rsi_7": 74.2388758782195,
+      "vwap": 608.2501458796058,
+      "atr_5": 1.1386385732552466,
+      "volume_delta": -2.045,
       "liquidation": {
         "nearest_long_liq": {
           "leverage_tier": 5,

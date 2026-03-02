@@ -306,14 +306,14 @@
   "5m": {
     "symbol": "XRPUSDT",
     "interval": "5m",
-    "timestamp": 1772443800000,
-    "close": 1.3561,
+    "timestamp": 1772444100000,
+    "close": 1.356,
     "indicators": {
-      "ema_9": 1.3553613723228246,
-      "rsi_7": 66.0000000000008,
-      "vwap": 1.352243155788837,
-      "atr_5": 0.00334316872199095,
-      "volume_delta": 3927.3,
+      "ema_9": 1.35555309785826,
+      "rsi_7": 62.22222222222255,
+      "vwap": 1.352244941732942,
+      "atr_5": 0.003174534977592776,
+      "volume_delta": -1929.4,
       "liquidation": {
         "nearest_long_liq": {
           "leverage_tier": 5,
