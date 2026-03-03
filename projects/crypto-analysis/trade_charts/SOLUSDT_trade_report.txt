@@ -1,24 +1,24 @@
 
-🎯 TRADE RECOMMENDATION: BTCUSDT LONG
+🎯 TRADE RECOMMENDATION: SOLUSDT SHORT
 ================================================================================
 
 📊 CURRENT MARKET STATE
-• 1h RSI: 40.5 (neutral)
+• 1h RSI: 38.9 (oversold)
 • 1h MACD: 0.00 vs Signal: 0.00
 • 1d Trend: Bearish
-• VWAP: $68,118.16
+• VWAP: $85.89
 
 📊 ENTRY STRATEGY
-• Method: Fibonacci Pullback
-• Entry Zone: $66,652.75 - $67,322.63
-• Position: 100% of normal size
+• Method: EMA Crossover (12/26)
+• Entry Zone: $83.79 - $84.63
+• Position: 50% of normal size
 
 🛡️ RISK MANAGEMENT
-• Stop Loss: $65,302.42
-  └ Risk: 2.52%
-• Target: $70,358.23
-  └ Reward: 5.03%
-• Risk/Reward: 1:2.0
+• Stop Loss: $86.74
+  └ Risk: 3.00%
+• Target: $80.84
+  └ Reward: 4.00%
+• Risk/Reward: 1:1.3
 
 📈 WHY THIS TRADE?
 
@@ -38,7 +38,7 @@
    • Minimum 1:2 R:R achieved
 
 ⚠️ INVALIDATION SCENARIOS
-• Price closes below stop loss ($65,302.42)
+• Price closes below stop loss ($86.74)
 • Structure breaks (lower low/higher high formed against position)
 • Momentum turns strongly against position
 • Volume shows distribution/accumulation against setup

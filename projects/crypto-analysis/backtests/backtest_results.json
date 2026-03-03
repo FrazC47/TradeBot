@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "strategy": "LONG",
+    "total_trades": 65,
+    "win_rate": 40.0,
+    "total_pnl": -926.6090437233628,
+    "total_pnl_pct": -92.66090437233629,
+    "max_drawdown_pct": 268.45267246552106,
+    "profit_factor": 0.6855530111600873,
+    "sharpe_ratio": -1.91967186151072
+  },
+  {
+    "symbol": "ETHUSDT",
+    "strategy": "LONG",
+    "total_trades": 7,
+    "win_rate": 71.42857142857143,
+    "total_pnl": 1249.042945972473,
+    "total_pnl_pct": 124.9042945972473,
+    "max_drawdown_pct": 40.31303393724242,
+    "profit_factor": 2.8947269634586044,
+    "sharpe_ratio": 8.429694372684718
+  },
+  {
+    "symbol": "SOLUSDT",
+    "strategy": "LONG",
+    "total_trades": 6,
+    "win_rate": 50.0,
+    "total_pnl": -33.71150602749819,
+    "total_pnl_pct": -3.3711506027498186,
+    "max_drawdown_pct": 33.475960099999995,
+    "profit_factor": 0.9334580169427387,
+    "sharpe_ratio": -0.5326088629256592
+  },
+  {
+    "symbol": "XRPUSDT",
+    "strategy": "LONG",
+    "total_trades": 8,
+    "win_rate": 37.5,
+    "total_pnl": -323.69898446562706,
+    "total_pnl_pct": -32.36989844656271,
+    "max_drawdown_pct": 53.46251769148297,
+    "profit_factor": 0.5400092188369104,
+    "sharpe_ratio": -4.718748811073131
+  }
+]
