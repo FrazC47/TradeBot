@@ -33171,3 +33171,466 @@ XRPUSDT:
 ================================================================================
 SUMMARY: 5 fetches, 500 candles added
 ================================================================================
+================================================================================
+SMART DATA FETCHER
+Started: 2026-03-03 17:55:01
+================================================================================
+
+
+BTCUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 301s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 298s
+  1h : ⏭️  SKIPPED - Next candle in 298s
+  4h : ⏭️  SKIPPED - Next candle in 7498s
+  1d : ⏭️  SKIPPED - Next candle in 50698s
+  1w : ⏭️  SKIPPED - Next candle in 482698s
+  1M : ⏭️  SKIPPED - Next candle in 2383498s
+
+ETHUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 298s
+  1h : ⏭️  SKIPPED - Next candle in 298s
+  4h : ⏭️  SKIPPED - Next candle in 7498s
+  1d : ⏭️  SKIPPED - Next candle in 50698s
+  1w : ⏭️  SKIPPED - Next candle in 482698s
+  1M : ⏭️  SKIPPED - Next candle in 2383498s
+
+BNBUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 298s
+  1h : ⏭️  SKIPPED - Next candle in 298s
+  4h : ⏭️  SKIPPED - Next candle in 7498s
+  1d : ⏭️  SKIPPED - Next candle in 50698s
+  1w : ⏭️  SKIPPED - Next candle in 482698s
+  1M : ⏭️  SKIPPED - Next candle in 2383498s
+
+SOLUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 297s
+  4h : ⏭️  SKIPPED - Next candle in 7497s
+  1d : ⏭️  SKIPPED - Next candle in 50697s
+  1w : ⏭️  SKIPPED - Next candle in 482697s
+  1M : ⏭️  SKIPPED - Next candle in 2383497s
+
+XRPUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 297s
+  4h : ⏭️  SKIPPED - Next candle in 7497s
+  1d : ⏭️  SKIPPED - Next candle in 50697s
+  1w : ⏭️  SKIPPED - Next candle in 482697s
+  1M : ⏭️  SKIPPED - Next candle in 2383497s
+
+================================================================================
+SUMMARY: 5 fetches, 500 candles added
+================================================================================
+================================================================================
+SMART DATA FETCHER
+Started: 2026-03-03 18:00:01
+================================================================================
+
+
+BTCUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 903s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : 🔄 FETCHING - Last candle 3603s ago, new candle available
+       ✅ Updated with 100 candles
+  4h : ⏭️  SKIPPED - Next candle in 7196s
+  1d : ⏭️  SKIPPED - Next candle in 50396s
+  1w : ⏭️  SKIPPED - Next candle in 482396s
+  1M : ⏭️  SKIPPED - Next candle in 2383196s
+
+ETHUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 304s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 905s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : 🔄 FETCHING - Last candle 3605s ago, new candle available
+       ✅ Updated with 100 candles
+  4h : ⏭️  SKIPPED - Next candle in 7195s
+  1d : ⏭️  SKIPPED - Next candle in 50395s
+  1w : ⏭️  SKIPPED - Next candle in 482395s
+  1M : ⏭️  SKIPPED - Next candle in 2383195s
+
+BNBUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 305s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 905s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : 🔄 FETCHING - Last candle 3605s ago, new candle available
+       ✅ Updated with 100 candles
+  4h : ⏭️  SKIPPED - Next candle in 7195s
+  1d : ⏭️  SKIPPED - Next candle in 50395s
+  1w : ⏭️  SKIPPED - Next candle in 482395s
+  1M : ⏭️  SKIPPED - Next candle in 2383195s
+
+SOLUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 305s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 905s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : 🔄 FETCHING - Last candle 3605s ago, new candle available
+       ✅ Updated with 100 candles
+  4h : ⏭️  SKIPPED - Next candle in 7195s
+  1d : ⏭️  SKIPPED - Next candle in 50395s
+  1w : ⏭️  SKIPPED - Next candle in 482395s
+  1M : ⏭️  SKIPPED - Next candle in 2383195s
+
+XRPUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 305s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 906s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : 🔄 FETCHING - Last candle 3606s ago, new candle available
+       ✅ Updated with 100 candles
+  4h : ⏭️  SKIPPED - Next candle in 7194s
+  1d : ⏭️  SKIPPED - Next candle in 50394s
+  1w : ⏭️  SKIPPED - Next candle in 482394s
+  1M : ⏭️  SKIPPED - Next candle in 2383194s
+
+================================================================================
+SUMMARY: 15 fetches, 1500 candles added
+================================================================================
+================================================================================
+SMART DATA FETCHER
+Started: 2026-03-03 18:05:01
+================================================================================
+
+
+BTCUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 301s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 598s
+  1h : ⏭️  SKIPPED - Next candle in 3298s
+  4h : ⏭️  SKIPPED - Next candle in 6898s
+  1d : ⏭️  SKIPPED - Next candle in 50098s
+  1w : ⏭️  SKIPPED - Next candle in 482098s
+  1M : ⏭️  SKIPPED - Next candle in 2382898s
+
+ETHUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 598s
+  1h : ⏭️  SKIPPED - Next candle in 3298s
+  4h : ⏭️  SKIPPED - Next candle in 6898s
+  1d : ⏭️  SKIPPED - Next candle in 50098s
+  1w : ⏭️  SKIPPED - Next candle in 482098s
+  1M : ⏭️  SKIPPED - Next candle in 2382898s
+
+BNBUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 597s
+  1h : ⏭️  SKIPPED - Next candle in 3297s
+  4h : ⏭️  SKIPPED - Next candle in 6897s
+  1d : ⏭️  SKIPPED - Next candle in 50097s
+  1w : ⏭️  SKIPPED - Next candle in 482097s
+  1M : ⏭️  SKIPPED - Next candle in 2382897s
+
+SOLUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 597s
+  1h : ⏭️  SKIPPED - Next candle in 3297s
+  4h : ⏭️  SKIPPED - Next candle in 6897s
+  1d : ⏭️  SKIPPED - Next candle in 50097s
+  1w : ⏭️  SKIPPED - Next candle in 482097s
+  1M : ⏭️  SKIPPED - Next candle in 2382897s
+
+XRPUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 597s
+  1h : ⏭️  SKIPPED - Next candle in 3297s
+  4h : ⏭️  SKIPPED - Next candle in 6897s
+  1d : ⏭️  SKIPPED - Next candle in 50097s
+  1w : ⏭️  SKIPPED - Next candle in 482097s
+  1M : ⏭️  SKIPPED - Next candle in 2382897s
+
+================================================================================
+SUMMARY: 5 fetches, 500 candles added
+================================================================================
+================================================================================
+SMART DATA FETCHER
+Started: 2026-03-03 18:10:02
+================================================================================
+
+
+BTCUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 298s
+  1h : ⏭️  SKIPPED - Next candle in 2998s
+  4h : ⏭️  SKIPPED - Next candle in 6598s
+  1d : ⏭️  SKIPPED - Next candle in 49798s
+  1w : ⏭️  SKIPPED - Next candle in 481798s
+  1M : ⏭️  SKIPPED - Next candle in 2382598s
+
+ETHUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2997s
+  4h : ⏭️  SKIPPED - Next candle in 6597s
+  1d : ⏭️  SKIPPED - Next candle in 49797s
+  1w : ⏭️  SKIPPED - Next candle in 481797s
+  1M : ⏭️  SKIPPED - Next candle in 2382597s
+
+BNBUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2997s
+  4h : ⏭️  SKIPPED - Next candle in 6597s
+  1d : ⏭️  SKIPPED - Next candle in 49797s
+  1w : ⏭️  SKIPPED - Next candle in 481797s
+  1M : ⏭️  SKIPPED - Next candle in 2382597s
+
+SOLUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2997s
+  4h : ⏭️  SKIPPED - Next candle in 6597s
+  1d : ⏭️  SKIPPED - Next candle in 49797s
+  1w : ⏭️  SKIPPED - Next candle in 481797s
+  1M : ⏭️  SKIPPED - Next candle in 2382597s
+
+XRPUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2997s
+  4h : ⏭️  SKIPPED - Next candle in 6597s
+  1d : ⏭️  SKIPPED - Next candle in 49797s
+  1w : ⏭️  SKIPPED - Next candle in 481797s
+  1M : ⏭️  SKIPPED - Next candle in 2382597s
+
+================================================================================
+SUMMARY: 5 fetches, 500 candles added
+================================================================================
+================================================================================
+SMART DATA FETCHER
+Started: 2026-03-03 18:15:01
+================================================================================
+
+
+BTCUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 902s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : ⏭️  SKIPPED - Next candle in 2697s
+  4h : ⏭️  SKIPPED - Next candle in 6297s
+  1d : ⏭️  SKIPPED - Next candle in 49497s
+  1w : ⏭️  SKIPPED - Next candle in 481497s
+  1M : ⏭️  SKIPPED - Next candle in 2382297s
+
+ETHUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 903s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : ⏭️  SKIPPED - Next candle in 2697s
+  4h : ⏭️  SKIPPED - Next candle in 6297s
+  1d : ⏭️  SKIPPED - Next candle in 49497s
+  1w : ⏭️  SKIPPED - Next candle in 481497s
+  1M : ⏭️  SKIPPED - Next candle in 2382297s
+
+BNBUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 903s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : ⏭️  SKIPPED - Next candle in 2697s
+  4h : ⏭️  SKIPPED - Next candle in 6297s
+  1d : ⏭️  SKIPPED - Next candle in 49497s
+  1w : ⏭️  SKIPPED - Next candle in 481497s
+  1M : ⏭️  SKIPPED - Next candle in 2382297s
+
+SOLUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 904s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : ⏭️  SKIPPED - Next candle in 2696s
+  4h : ⏭️  SKIPPED - Next candle in 6296s
+  1d : ⏭️  SKIPPED - Next candle in 49496s
+  1w : ⏭️  SKIPPED - Next candle in 481496s
+  1M : ⏭️  SKIPPED - Next candle in 2382296s
+
+XRPUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 304s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: 🔄 FETCHING - Last candle 904s ago, new candle available
+       ✅ Updated with 100 candles
+  1h : ⏭️  SKIPPED - Next candle in 2696s
+  4h : ⏭️  SKIPPED - Next candle in 6296s
+  1d : ⏭️  SKIPPED - Next candle in 49496s
+  1w : ⏭️  SKIPPED - Next candle in 481496s
+  1M : ⏭️  SKIPPED - Next candle in 2382296s
+
+================================================================================
+SUMMARY: 10 fetches, 1000 candles added
+================================================================================
+================================================================================
+SMART DATA FETCHER
+Started: 2026-03-03 18:20:01
+================================================================================
+
+
+BTCUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 301s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 598s
+  1h : ⏭️  SKIPPED - Next candle in 2398s
+  4h : ⏭️  SKIPPED - Next candle in 5998s
+  1d : ⏭️  SKIPPED - Next candle in 49198s
+  1w : ⏭️  SKIPPED - Next candle in 481198s
+  1M : ⏭️  SKIPPED - Next candle in 2381998s
+
+ETHUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 598s
+  1h : ⏭️  SKIPPED - Next candle in 2398s
+  4h : ⏭️  SKIPPED - Next candle in 5998s
+  1d : ⏭️  SKIPPED - Next candle in 49198s
+  1w : ⏭️  SKIPPED - Next candle in 481198s
+  1M : ⏭️  SKIPPED - Next candle in 2381998s
+
+BNBUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 598s
+  1h : ⏭️  SKIPPED - Next candle in 2398s
+  4h : ⏭️  SKIPPED - Next candle in 5998s
+  1d : ⏭️  SKIPPED - Next candle in 49198s
+  1w : ⏭️  SKIPPED - Next candle in 481198s
+  1M : ⏭️  SKIPPED - Next candle in 2381998s
+
+SOLUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 598s
+  1h : ⏭️  SKIPPED - Next candle in 2398s
+  4h : ⏭️  SKIPPED - Next candle in 5998s
+  1d : ⏭️  SKIPPED - Next candle in 49198s
+  1w : ⏭️  SKIPPED - Next candle in 481198s
+  1M : ⏭️  SKIPPED - Next candle in 2381998s
+
+XRPUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 598s
+  1h : ⏭️  SKIPPED - Next candle in 2398s
+  4h : ⏭️  SKIPPED - Next candle in 5998s
+  1d : ⏭️  SKIPPED - Next candle in 49198s
+  1w : ⏭️  SKIPPED - Next candle in 481198s
+  1M : ⏭️  SKIPPED - Next candle in 2381998s
+
+================================================================================
+SUMMARY: 5 fetches, 500 candles added
+================================================================================
+================================================================================
+SMART DATA FETCHER
+Started: 2026-03-03 18:25:01
+================================================================================
+
+
+BTCUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 298s
+  1h : ⏭️  SKIPPED - Next candle in 2098s
+  4h : ⏭️  SKIPPED - Next candle in 5698s
+  1d : ⏭️  SKIPPED - Next candle in 48898s
+  1w : ⏭️  SKIPPED - Next candle in 480898s
+  1M : ⏭️  SKIPPED - Next candle in 2381698s
+
+ETHUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 302s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2097s
+  4h : ⏭️  SKIPPED - Next candle in 5697s
+  1d : ⏭️  SKIPPED - Next candle in 48897s
+  1w : ⏭️  SKIPPED - Next candle in 480897s
+  1M : ⏭️  SKIPPED - Next candle in 2381697s
+
+BNBUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2097s
+  4h : ⏭️  SKIPPED - Next candle in 5697s
+  1d : ⏭️  SKIPPED - Next candle in 48897s
+  1w : ⏭️  SKIPPED - Next candle in 480897s
+  1M : ⏭️  SKIPPED - Next candle in 2381697s
+
+SOLUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2097s
+  4h : ⏭️  SKIPPED - Next candle in 5697s
+  1d : ⏭️  SKIPPED - Next candle in 48897s
+  1w : ⏭️  SKIPPED - Next candle in 480897s
+  1M : ⏭️  SKIPPED - Next candle in 2381697s
+
+XRPUSDT:
+--------------------------------------------------------------------------------
+  5m : 🔄 FETCHING - Last candle 303s ago, new candle available
+       ✅ Updated with 100 candles
+  15m: ⏭️  SKIPPED - Next candle in 297s
+  1h : ⏭️  SKIPPED - Next candle in 2097s
+  4h : ⏭️  SKIPPED - Next candle in 5697s
+  1d : ⏭️  SKIPPED - Next candle in 48897s
+  1w : ⏭️  SKIPPED - Next candle in 480897s
+  1M : ⏭️  SKIPPED - Next candle in 2381697s
+
+================================================================================
+SUMMARY: 5 fetches, 500 candles added
+================================================================================

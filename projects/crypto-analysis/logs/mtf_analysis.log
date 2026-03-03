@@ -39141,3 +39141,535 @@ STEP 7: TRADE SETUP IDENTIFICATION
 ==========================================================================================
 ANALYSIS COMPLETE
 ==========================================================================================
+==========================================================================================
+BTC COMPLETE MULTI-TIMEFRAME ANALYSIS
+==========================================================================================
+
+STEP 1: LOAD ALL TIMEFRAME DATA
+------------------------------------------------------------------------------------------
+✅ 5m :  870 candles | Close: $66,557.25 | Volume: 0.76
+✅ 15m: 1267 candles | Close: $66,515.02 | Volume: 0.28
+✅ 1h :  698 candles | Close: $66,987.69 | Volume: 3.15
+✅ 4h :  550 candles | Close: $68,162.74 | Volume: 1.43
+✅ 1d :  508 candles | Close: $68,823.27 | Volume: 1.68
+✅ 1w :  447 candles | Close: $65,784.37 | Volume: 1.10
+✅ 1M :  104 candles | Close: $66,971.16 | Volume: 20.30
+
+STEP 2: MULTI-TIMEFRAME TREND ANALYSIS
+------------------------------------------------------------------------------------------
+   5m : ➡️ NEUTRAL
+   15m: 📉 BEARISH
+   1h : 📉 BEARISH
+   4h : 📉 BEARISH
+   1d : 📈 BULLISH
+   1w : 📉 BEARISH
+   1M : 📉 BEARISH
+
+   Trend Alignment: 1 Bullish | 5 Bearish | 1 Neutral
+   Overall: STRONG BEARISH
+
+STEP 3: HIGHER TIMEFRAME STRUCTURE
+------------------------------------------------------------------------------------------
+   Daily (20-day) Structure:
+   High: $70,983.00 | Low: $62,510.28
+   Key Levels: 61.8%=$65,746.86, 50%=$66,746.64, 38.2%=$67,746.42
+
+   Weekly (10-week) Structure:
+   High: $97,924.49 | Low: $60,000.00
+
+   Monthly (6-month) Structure:
+   High: $126,199.63 | Low: $60,000.00
+
+STEP 4: INTERMEDIATE TIMEFRAME ANALYSIS
+------------------------------------------------------------------------------------------
+   4-Hour:
+   EMA 9: $67,902.86 | EMA 21: $67,277.00
+   ATR: $1,326.33 (1.95%)
+   Trend: Above EMA 9
+
+   1-Hour:
+   EMA 9: $67,852.62 | EMA 25: $67,875.43
+   ATR: $561.76 (0.84%)
+   Price vs EMA 9: -1.27%
+
+STEP 5: LOWER TIMEFRAME PRECISION
+------------------------------------------------------------------------------------------
+   15-Minute (last 20 candles):
+   Range: $66,340.14 - $68,617.42
+   Current: $66,515.02
+
+   5-Minute (last 20 candles):
+   Range: $66,340.14 - $68,017.21
+   Current: $66,557.25
+
+STEP 6: MULTI-TIMEFRAME CONFLUENCE CHECK
+------------------------------------------------------------------------------------------
+   ⚠️ Mixed trend signals
+   ✅ Price at Daily Fib 50.0% ($66,746.64)
+   ✅ Bearish EMA stack (Price < EMA9 < EMA25)
+
+STEP 7: TRADE SETUP IDENTIFICATION
+------------------------------------------------------------------------------------------
+   ❌ No setup found
+   Reasons:
+   - Trend mismatch between daily and hourly
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
+==========================================================================================
+BTC COMPLETE MULTI-TIMEFRAME ANALYSIS
+==========================================================================================
+
+STEP 1: LOAD ALL TIMEFRAME DATA
+------------------------------------------------------------------------------------------
+✅ 5m :  871 candles | Close: $66,633.12 | Volume: 1.19
+✅ 15m: 1268 candles | Close: $66,633.11 | Volume: 1.20
+✅ 1h :  699 candles | Close: $66,629.23 | Volume: 1.51
+✅ 4h :  550 candles | Close: $68,162.74 | Volume: 1.43
+✅ 1d :  508 candles | Close: $68,823.27 | Volume: 1.68
+✅ 1w :  447 candles | Close: $65,784.37 | Volume: 1.10
+✅ 1M :  104 candles | Close: $66,971.16 | Volume: 20.30
+
+STEP 2: MULTI-TIMEFRAME TREND ANALYSIS
+------------------------------------------------------------------------------------------
+   5m : ➡️ NEUTRAL
+   15m: 📉 BEARISH
+   1h : 📉 BEARISH
+   4h : 📉 BEARISH
+   1d : 📈 BULLISH
+   1w : 📉 BEARISH
+   1M : 📉 BEARISH
+
+   Trend Alignment: 1 Bullish | 5 Bearish | 1 Neutral
+   Overall: STRONG BEARISH
+
+STEP 3: HIGHER TIMEFRAME STRUCTURE
+------------------------------------------------------------------------------------------
+   Daily (20-day) Structure:
+   High: $70,983.00 | Low: $62,510.28
+   Key Levels: 61.8%=$65,746.86, 50%=$66,746.64, 38.2%=$67,746.42
+
+   Weekly (10-week) Structure:
+   High: $97,924.49 | Low: $60,000.00
+
+   Monthly (6-month) Structure:
+   High: $126,199.63 | Low: $60,000.00
+
+STEP 4: INTERMEDIATE TIMEFRAME ANALYSIS
+------------------------------------------------------------------------------------------
+   4-Hour:
+   EMA 9: $67,902.86 | EMA 21: $67,277.00
+   ATR: $1,326.33 (1.95%)
+   Trend: Above EMA 9
+
+   1-Hour:
+   EMA 9: $67,553.59 | EMA 25: $67,755.44
+   ATR: $555.12 (0.83%)
+   Price vs EMA 9: -1.37%
+
+STEP 5: LOWER TIMEFRAME PRECISION
+------------------------------------------------------------------------------------------
+   15-Minute (last 20 candles):
+   Range: $66,340.14 - $68,617.42
+   Current: $66,633.11
+
+   5-Minute (last 20 candles):
+   Range: $66,340.14 - $67,931.72
+   Current: $66,633.12
+
+STEP 6: MULTI-TIMEFRAME CONFLUENCE CHECK
+------------------------------------------------------------------------------------------
+   ⚠️ Mixed trend signals
+   ✅ Price at Daily Fib 50.0% ($66,746.64)
+   ✅ Bearish EMA stack (Price < EMA9 < EMA25)
+
+STEP 7: TRADE SETUP IDENTIFICATION
+------------------------------------------------------------------------------------------
+   ❌ No setup found
+   Reasons:
+   - Trend mismatch between daily and hourly
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
+==========================================================================================
+BTC COMPLETE MULTI-TIMEFRAME ANALYSIS
+==========================================================================================
+
+STEP 1: LOAD ALL TIMEFRAME DATA
+------------------------------------------------------------------------------------------
+✅ 5m :  872 candles | Close: $66,631.67 | Volume: 1.99
+✅ 15m: 1268 candles | Close: $66,633.11 | Volume: 1.20
+✅ 1h :  699 candles | Close: $66,629.23 | Volume: 1.51
+✅ 4h :  550 candles | Close: $68,162.74 | Volume: 1.43
+✅ 1d :  508 candles | Close: $68,823.27 | Volume: 1.68
+✅ 1w :  447 candles | Close: $65,784.37 | Volume: 1.10
+✅ 1M :  104 candles | Close: $66,971.16 | Volume: 20.30
+
+STEP 2: MULTI-TIMEFRAME TREND ANALYSIS
+------------------------------------------------------------------------------------------
+   5m : ➡️ NEUTRAL
+   15m: 📉 BEARISH
+   1h : 📉 BEARISH
+   4h : 📉 BEARISH
+   1d : 📈 BULLISH
+   1w : 📉 BEARISH
+   1M : 📉 BEARISH
+
+   Trend Alignment: 1 Bullish | 5 Bearish | 1 Neutral
+   Overall: STRONG BEARISH
+
+STEP 3: HIGHER TIMEFRAME STRUCTURE
+------------------------------------------------------------------------------------------
+   Daily (20-day) Structure:
+   High: $70,983.00 | Low: $62,510.28
+   Key Levels: 61.8%=$65,746.86, 50%=$66,746.64, 38.2%=$67,746.42
+
+   Weekly (10-week) Structure:
+   High: $97,924.49 | Low: $60,000.00
+
+   Monthly (6-month) Structure:
+   High: $126,199.63 | Low: $60,000.00
+
+STEP 4: INTERMEDIATE TIMEFRAME ANALYSIS
+------------------------------------------------------------------------------------------
+   4-Hour:
+   EMA 9: $67,902.86 | EMA 21: $67,277.00
+   ATR: $1,326.33 (1.95%)
+   Trend: Above EMA 9
+
+   1-Hour:
+   EMA 9: $67,553.59 | EMA 25: $67,755.44
+   ATR: $555.12 (0.83%)
+   Price vs EMA 9: -1.37%
+
+STEP 5: LOWER TIMEFRAME PRECISION
+------------------------------------------------------------------------------------------
+   15-Minute (last 20 candles):
+   Range: $66,340.14 - $68,617.42
+   Current: $66,633.11
+
+   5-Minute (last 20 candles):
+   Range: $66,340.14 - $67,752.77
+   Current: $66,631.67
+
+STEP 6: MULTI-TIMEFRAME CONFLUENCE CHECK
+------------------------------------------------------------------------------------------
+   ⚠️ Mixed trend signals
+   ✅ Price at Daily Fib 50.0% ($66,746.64)
+   ✅ Bearish EMA stack (Price < EMA9 < EMA25)
+
+STEP 7: TRADE SETUP IDENTIFICATION
+------------------------------------------------------------------------------------------
+   ❌ No setup found
+   Reasons:
+   - Trend mismatch between daily and hourly
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
+==========================================================================================
+BTC COMPLETE MULTI-TIMEFRAME ANALYSIS
+==========================================================================================
+
+STEP 1: LOAD ALL TIMEFRAME DATA
+------------------------------------------------------------------------------------------
+✅ 5m :  873 candles | Close: $66,486.07 | Volume: 0.44
+✅ 15m: 1268 candles | Close: $66,633.11 | Volume: 1.20
+✅ 1h :  699 candles | Close: $66,629.23 | Volume: 1.51
+✅ 4h :  550 candles | Close: $68,162.74 | Volume: 1.43
+✅ 1d :  508 candles | Close: $68,823.27 | Volume: 1.68
+✅ 1w :  447 candles | Close: $65,784.37 | Volume: 1.10
+✅ 1M :  104 candles | Close: $66,971.16 | Volume: 20.30
+
+STEP 2: MULTI-TIMEFRAME TREND ANALYSIS
+------------------------------------------------------------------------------------------
+   5m : ➡️ NEUTRAL
+   15m: 📉 BEARISH
+   1h : 📉 BEARISH
+   4h : 📉 BEARISH
+   1d : 📈 BULLISH
+   1w : 📉 BEARISH
+   1M : 📉 BEARISH
+
+   Trend Alignment: 1 Bullish | 5 Bearish | 1 Neutral
+   Overall: STRONG BEARISH
+
+STEP 3: HIGHER TIMEFRAME STRUCTURE
+------------------------------------------------------------------------------------------
+   Daily (20-day) Structure:
+   High: $70,983.00 | Low: $62,510.28
+   Key Levels: 61.8%=$65,746.86, 50%=$66,746.64, 38.2%=$67,746.42
+
+   Weekly (10-week) Structure:
+   High: $97,924.49 | Low: $60,000.00
+
+   Monthly (6-month) Structure:
+   High: $126,199.63 | Low: $60,000.00
+
+STEP 4: INTERMEDIATE TIMEFRAME ANALYSIS
+------------------------------------------------------------------------------------------
+   4-Hour:
+   EMA 9: $67,902.86 | EMA 21: $67,277.00
+   ATR: $1,326.33 (1.95%)
+   Trend: Above EMA 9
+
+   1-Hour:
+   EMA 9: $67,553.59 | EMA 25: $67,755.44
+   ATR: $555.12 (0.83%)
+   Price vs EMA 9: -1.37%
+
+STEP 5: LOWER TIMEFRAME PRECISION
+------------------------------------------------------------------------------------------
+   15-Minute (last 20 candles):
+   Range: $66,340.14 - $68,617.42
+   Current: $66,633.11
+
+   5-Minute (last 20 candles):
+   Range: $66,340.14 - $67,746.81
+   Current: $66,486.07
+
+STEP 6: MULTI-TIMEFRAME CONFLUENCE CHECK
+------------------------------------------------------------------------------------------
+   ⚠️ Mixed trend signals
+   ✅ Price at Daily Fib 50.0% ($66,746.64)
+   ✅ Bearish EMA stack (Price < EMA9 < EMA25)
+
+STEP 7: TRADE SETUP IDENTIFICATION
+------------------------------------------------------------------------------------------
+   ❌ No setup found
+   Reasons:
+   - Trend mismatch between daily and hourly
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
+==========================================================================================
+BTC COMPLETE MULTI-TIMEFRAME ANALYSIS
+==========================================================================================
+
+STEP 1: LOAD ALL TIMEFRAME DATA
+------------------------------------------------------------------------------------------
+✅ 5m :  874 candles | Close: $66,486.76 | Volume: 0.05
+✅ 15m: 1269 candles | Close: $66,496.68 | Volume: 2.66
+✅ 1h :  699 candles | Close: $66,629.23 | Volume: 1.51
+✅ 4h :  550 candles | Close: $68,162.74 | Volume: 1.43
+✅ 1d :  508 candles | Close: $68,823.27 | Volume: 1.68
+✅ 1w :  447 candles | Close: $65,784.37 | Volume: 1.10
+✅ 1M :  104 candles | Close: $66,971.16 | Volume: 20.30
+
+STEP 2: MULTI-TIMEFRAME TREND ANALYSIS
+------------------------------------------------------------------------------------------
+   5m : ➡️ NEUTRAL
+   15m: 📉 BEARISH
+   1h : 📉 BEARISH
+   4h : 📉 BEARISH
+   1d : 📈 BULLISH
+   1w : 📉 BEARISH
+   1M : 📉 BEARISH
+
+   Trend Alignment: 1 Bullish | 5 Bearish | 1 Neutral
+   Overall: STRONG BEARISH
+
+STEP 3: HIGHER TIMEFRAME STRUCTURE
+------------------------------------------------------------------------------------------
+   Daily (20-day) Structure:
+   High: $70,983.00 | Low: $62,510.28
+   Key Levels: 61.8%=$65,746.86, 50%=$66,746.64, 38.2%=$67,746.42
+
+   Weekly (10-week) Structure:
+   High: $97,924.49 | Low: $60,000.00
+
+   Monthly (6-month) Structure:
+   High: $126,199.63 | Low: $60,000.00
+
+STEP 4: INTERMEDIATE TIMEFRAME ANALYSIS
+------------------------------------------------------------------------------------------
+   4-Hour:
+   EMA 9: $67,902.86 | EMA 21: $67,277.00
+   ATR: $1,326.33 (1.95%)
+   Trend: Above EMA 9
+
+   1-Hour:
+   EMA 9: $67,553.59 | EMA 25: $67,755.44
+   ATR: $555.12 (0.83%)
+   Price vs EMA 9: -1.37%
+
+STEP 5: LOWER TIMEFRAME PRECISION
+------------------------------------------------------------------------------------------
+   15-Minute (last 20 candles):
+   Range: $66,340.14 - $68,416.66
+   Current: $66,496.68
+
+   5-Minute (last 20 candles):
+   Range: $66,340.14 - $67,517.76
+   Current: $66,486.76
+
+STEP 6: MULTI-TIMEFRAME CONFLUENCE CHECK
+------------------------------------------------------------------------------------------
+   ⚠️ Mixed trend signals
+   ✅ Price at Daily Fib 50.0% ($66,746.64)
+   ✅ Bearish EMA stack (Price < EMA9 < EMA25)
+
+STEP 7: TRADE SETUP IDENTIFICATION
+------------------------------------------------------------------------------------------
+   ❌ No setup found
+   Reasons:
+   - Trend mismatch between daily and hourly
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
+==========================================================================================
+BTC COMPLETE MULTI-TIMEFRAME ANALYSIS
+==========================================================================================
+
+STEP 1: LOAD ALL TIMEFRAME DATA
+------------------------------------------------------------------------------------------
+✅ 5m :  875 candles | Close: $66,538.75 | Volume: 1.20
+✅ 15m: 1269 candles | Close: $66,496.68 | Volume: 2.66
+✅ 1h :  699 candles | Close: $66,629.23 | Volume: 1.51
+✅ 4h :  550 candles | Close: $68,162.74 | Volume: 1.43
+✅ 1d :  508 candles | Close: $68,823.27 | Volume: 1.68
+✅ 1w :  447 candles | Close: $65,784.37 | Volume: 1.10
+✅ 1M :  104 candles | Close: $66,971.16 | Volume: 20.30
+
+STEP 2: MULTI-TIMEFRAME TREND ANALYSIS
+------------------------------------------------------------------------------------------
+   5m : ➡️ NEUTRAL
+   15m: 📉 BEARISH
+   1h : 📉 BEARISH
+   4h : 📉 BEARISH
+   1d : 📈 BULLISH
+   1w : 📉 BEARISH
+   1M : 📉 BEARISH
+
+   Trend Alignment: 1 Bullish | 5 Bearish | 1 Neutral
+   Overall: STRONG BEARISH
+
+STEP 3: HIGHER TIMEFRAME STRUCTURE
+------------------------------------------------------------------------------------------
+   Daily (20-day) Structure:
+   High: $70,983.00 | Low: $62,510.28
+   Key Levels: 61.8%=$65,746.86, 50%=$66,746.64, 38.2%=$67,746.42
+
+   Weekly (10-week) Structure:
+   High: $97,924.49 | Low: $60,000.00
+
+   Monthly (6-month) Structure:
+   High: $126,199.63 | Low: $60,000.00
+
+STEP 4: INTERMEDIATE TIMEFRAME ANALYSIS
+------------------------------------------------------------------------------------------
+   4-Hour:
+   EMA 9: $67,902.86 | EMA 21: $67,277.00
+   ATR: $1,326.33 (1.95%)
+   Trend: Above EMA 9
+
+   1-Hour:
+   EMA 9: $67,553.59 | EMA 25: $67,755.44
+   ATR: $555.12 (0.83%)
+   Price vs EMA 9: -1.37%
+
+STEP 5: LOWER TIMEFRAME PRECISION
+------------------------------------------------------------------------------------------
+   15-Minute (last 20 candles):
+   Range: $66,340.14 - $68,416.66
+   Current: $66,496.68
+
+   5-Minute (last 20 candles):
+   Range: $66,340.14 - $67,362.00
+   Current: $66,538.75
+
+STEP 6: MULTI-TIMEFRAME CONFLUENCE CHECK
+------------------------------------------------------------------------------------------
+   ⚠️ Mixed trend signals
+   ✅ Price at Daily Fib 50.0% ($66,746.64)
+   ✅ Bearish EMA stack (Price < EMA9 < EMA25)
+
+STEP 7: TRADE SETUP IDENTIFICATION
+------------------------------------------------------------------------------------------
+   ❌ No setup found
+   Reasons:
+   - Trend mismatch between daily and hourly
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
+==========================================================================================
+BTC COMPLETE MULTI-TIMEFRAME ANALYSIS
+==========================================================================================
+
+STEP 1: LOAD ALL TIMEFRAME DATA
+------------------------------------------------------------------------------------------
+✅ 5m :  876 candles | Close: $66,638.62 | Volume: 0.02
+✅ 15m: 1269 candles | Close: $66,496.68 | Volume: 2.66
+✅ 1h :  699 candles | Close: $66,629.23 | Volume: 1.51
+✅ 4h :  550 candles | Close: $68,162.74 | Volume: 1.43
+✅ 1d :  508 candles | Close: $68,823.27 | Volume: 1.68
+✅ 1w :  447 candles | Close: $65,784.37 | Volume: 1.10
+✅ 1M :  104 candles | Close: $66,971.16 | Volume: 20.30
+
+STEP 2: MULTI-TIMEFRAME TREND ANALYSIS
+------------------------------------------------------------------------------------------
+   5m : ➡️ NEUTRAL
+   15m: 📉 BEARISH
+   1h : 📉 BEARISH
+   4h : 📉 BEARISH
+   1d : 📈 BULLISH
+   1w : 📉 BEARISH
+   1M : 📉 BEARISH
+
+   Trend Alignment: 1 Bullish | 5 Bearish | 1 Neutral
+   Overall: STRONG BEARISH
+
+STEP 3: HIGHER TIMEFRAME STRUCTURE
+------------------------------------------------------------------------------------------
+   Daily (20-day) Structure:
+   High: $70,983.00 | Low: $62,510.28
+   Key Levels: 61.8%=$65,746.86, 50%=$66,746.64, 38.2%=$67,746.42
+
+   Weekly (10-week) Structure:
+   High: $97,924.49 | Low: $60,000.00
+
+   Monthly (6-month) Structure:
+   High: $126,199.63 | Low: $60,000.00
+
+STEP 4: INTERMEDIATE TIMEFRAME ANALYSIS
+------------------------------------------------------------------------------------------
+   4-Hour:
+   EMA 9: $67,902.86 | EMA 21: $67,277.00
+   ATR: $1,326.33 (1.95%)
+   Trend: Above EMA 9
+
+   1-Hour:
+   EMA 9: $67,553.59 | EMA 25: $67,755.44
+   ATR: $555.12 (0.83%)
+   Price vs EMA 9: -1.37%
+
+STEP 5: LOWER TIMEFRAME PRECISION
+------------------------------------------------------------------------------------------
+   15-Minute (last 20 candles):
+   Range: $66,340.14 - $68,416.66
+   Current: $66,496.68
+
+   5-Minute (last 20 candles):
+   Range: $66,340.14 - $67,194.79
+   Current: $66,638.62
+
+STEP 6: MULTI-TIMEFRAME CONFLUENCE CHECK
+------------------------------------------------------------------------------------------
+   ⚠️ Mixed trend signals
+   ✅ Price at Daily Fib 50.0% ($66,746.64)
+   ✅ Bearish EMA stack (Price < EMA9 < EMA25)
+
+STEP 7: TRADE SETUP IDENTIFICATION
+------------------------------------------------------------------------------------------
+   ❌ No setup found
+   Reasons:
+   - Trend mismatch between daily and hourly
+
+==========================================================================================
+ANALYSIS COMPLETE
+==========================================================================================
