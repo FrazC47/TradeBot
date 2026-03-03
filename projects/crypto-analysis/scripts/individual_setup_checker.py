@@ -289,3 +289,32 @@ for symbol in symbols:
 print("=" * 90)
 print(f"Total setups found: {len(setups_found)}")
 print("=" * 90)
+
+# Generate detailed reports with charts for each setup
+if setups_found:
+    print("\n" + "=" * 90)
+    print("GENERATING TRADE REPORTS WITH CHARTS...")
+    print("=" * 90)
+    
+    import sys
+    sys.path.insert(0, '/root/.openclaw/workspace/projects/crypto-analysis')
+    from trade_reporter import report_trade
+    
+    for setup in setups_found:
+        # Format setup for reporter
+        report_setup = {
+            'direction': setup['direction'],
+            'entry': setup['entry'],
+            'entry_low': setup['entry'] * 0.995,
+            'entry_high': setup['entry'] * 1.005,
+            'stop': setup['stop'],
+            'target': setup['target'],
+            'strategy': setup['strategy'],
+            'position_factor': setup.get('position_factor', 1.0)
+        }
+        
+        try:
+            result = report_trade(setup['symbol'], report_setup)
+            print(f"\n✅ Report generated for {setup['symbol']}")
+        except Exception as e:
+            print(f"\n⚠️  Could not generate report for {setup['symbol']}: {e}")
