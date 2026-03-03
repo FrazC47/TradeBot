@@ -1,0 +1,520 @@
+{
+  "BTCUSDT": {
+    "symbol": "BTCUSDT",
+    "total_losing_trades": 5,
+    "total_loss": -175.95,
+    "avg_loss": -35.19,
+    "reason_counts": {
+      "DATA_UNAVAILABLE": 5
+    },
+    "trades": [
+      {
+        "trade_id": "2",
+        "symbol": "BTCUSDT",
+        "entry_time": "2026-01-16 12:00:00",
+        "entry_price": 86800.75,
+        "exit_time": "2026-01-16 18:00:00",
+        "exit_price": 86150.25,
+        "stop_loss": 86200.0,
+        "take_profit": 87500.0,
+        "net_pnl": -32.34,
+        "exit_reason": "STOP_LOSS",
+        "duration": 6.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "4",
+        "symbol": "BTCUSDT",
+        "entry_time": "2026-01-20 10:00:00",
+        "entry_price": 87250.25,
+        "exit_time": "2026-01-20 22:00:00",
+        "exit_price": 86500.0,
+        "stop_loss": 86600.0,
+        "take_profit": 88500.0,
+        "net_pnl": -35.3,
+        "exit_reason": "STOP_LOSS",
+        "duration": 12.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "6",
+        "symbol": "BTCUSDT",
+        "entry_time": "2026-01-24 02:00:00",
+        "entry_price": 87500.75,
+        "exit_time": "2026-01-24 10:00:00",
+        "exit_price": 86800.25,
+        "stop_loss": 86900.0,
+        "take_profit": 89000.0,
+        "net_pnl": -36.13,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "8",
+        "symbol": "BTCUSDT",
+        "entry_time": "2026-01-28 08:00:00",
+        "entry_price": 87850.25,
+        "exit_time": "2026-01-28 16:00:00",
+        "exit_price": 87100.0,
+        "stop_loss": 87200.0,
+        "take_profit": 89500.0,
+        "net_pnl": -36.86,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "10",
+        "symbol": "BTCUSDT",
+        "entry_time": "2026-02-01 10:00:00",
+        "entry_price": 88500.25,
+        "exit_time": "2026-02-01 18:00:00",
+        "exit_price": 87750.0,
+        "stop_loss": 87800.0,
+        "take_profit": 90000.0,
+        "net_pnl": -35.32,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      }
+    ]
+  },
+  "ETHUSDT": {
+    "symbol": "ETHUSDT",
+    "total_losing_trades": 3,
+    "total_loss": -255.54000000000002,
+    "avg_loss": -85.18,
+    "reason_counts": {
+      "DATA_UNAVAILABLE": 2,
+      "LOW_VOLUME": 1,
+      "LATE_ENTRY_HIGH": 1
+    },
+    "trades": [
+      {
+        "trade_id": "2",
+        "symbol": "ETHUSDT",
+        "entry_time": "2026-01-18 12:00:00",
+        "entry_price": 2280.25,
+        "exit_time": "2026-01-18 20:00:00",
+        "exit_price": 2245.5,
+        "stop_loss": 2250.0,
+        "take_profit": 2360.0,
+        "net_pnl": -87.41,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "4",
+        "symbol": "ETHUSDT",
+        "entry_time": "2026-01-25 10:00:00",
+        "entry_price": 2300.5,
+        "exit_time": "2026-01-25 18:00:00",
+        "exit_price": 2265.25,
+        "stop_loss": 2270.0,
+        "take_profit": 2380.0,
+        "net_pnl": -83.68,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "7",
+        "symbol": "ETHUSDT",
+        "entry_time": "2026-02-07 14:00:00",
+        "entry_price": 2400.5,
+        "exit_time": "2026-02-07 22:00:00",
+        "exit_price": 2365.75,
+        "stop_loss": 2375.0,
+        "take_profit": 2490.0,
+        "net_pnl": -84.45,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": {
+          "trend_direction": "UP",
+          "atr_pct": 1.8549990984833242,
+          "volume_ratio": 0.5619962824650765,
+          "range_location": 82.99566191543116,
+          "recent_high": 2119.46,
+          "recent_low": 1909.69,
+          "sma10": 2066.3509999999997,
+          "sma20": 2028.373
+        },
+        "loss_reasons": [
+          "LOW_VOLUME",
+          "LATE_ENTRY_HIGH"
+        ]
+      }
+    ]
+  },
+  "SOLUSDT": {
+    "symbol": "SOLUSDT",
+    "total_losing_trades": 7,
+    "total_loss": -622.5,
+    "avg_loss": -88.92857142857143,
+    "reason_counts": {
+      "DATA_UNAVAILABLE": 4,
+      "CHOPPY_MARKET": 1,
+      "LATE_ENTRY_HIGH": 2,
+      "LOW_VOLUME": 1,
+      "STOP_TOO_WIDE": 1
+    },
+    "trades": [
+      {
+        "trade_id": "1",
+        "symbol": "SOLUSDT",
+        "entry_time": "2026-01-16 10:00:00",
+        "entry_price": 98.5,
+        "exit_time": "2026-01-16 18:00:00",
+        "exit_price": 95.25,
+        "stop_loss": 95.55,
+        "take_profit": 102.44,
+        "net_pnl": -99.6,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "2",
+        "symbol": "SOLUSDT",
+        "entry_time": "2026-01-20 14:00:00",
+        "entry_price": 102.75,
+        "exit_time": "2026-01-20 22:00:00",
+        "exit_price": 99.67,
+        "stop_loss": 99.67,
+        "take_profit": 106.86,
+        "net_pnl": -95.89,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "4",
+        "symbol": "SOLUSDT",
+        "entry_time": "2026-01-28 16:00:00",
+        "entry_price": 88.25,
+        "exit_time": "2026-01-29 02:00:00",
+        "exit_price": 85.6,
+        "stop_loss": 85.6,
+        "take_profit": 91.78,
+        "net_pnl": -88.33,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "5",
+        "symbol": "SOLUSDT",
+        "entry_time": "2026-02-01 12:00:00",
+        "entry_price": 85.5,
+        "exit_time": "2026-02-01 20:00:00",
+        "exit_price": 82.94,
+        "stop_loss": 82.94,
+        "take_profit": 88.92,
+        "net_pnl": -90.6,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "7",
+        "symbol": "SOLUSDT",
+        "entry_time": "2026-02-10 14:00:00",
+        "entry_price": 88.75,
+        "exit_time": "2026-02-11 00:00:00",
+        "exit_price": 86.09,
+        "stop_loss": 86.09,
+        "take_profit": 92.3,
+        "net_pnl": -79.34,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": {
+          "trend_direction": "CHOPPY",
+          "atr_pct": 1.424416188814092,
+          "volume_ratio": 2.1104024471749834,
+          "range_location": 53.00171526586628,
+          "recent_high": 88.69,
+          "recent_low": 82.86,
+          "sma10": 86.771,
+          "sma20": 86.093
+        },
+        "loss_reasons": [
+          "CHOPPY_MARKET"
+        ]
+      },
+      {
+        "trade_id": "8",
+        "symbol": "SOLUSDT",
+        "entry_time": "2026-02-15 06:00:00",
+        "entry_price": 92.5,
+        "exit_time": "2026-02-15 16:00:00",
+        "exit_price": 89.73,
+        "stop_loss": 89.73,
+        "take_profit": 96.2,
+        "net_pnl": -85.36,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": {
+          "trend_direction": "UP",
+          "atr_pct": 1.0008272640269906,
+          "volume_ratio": 0.749031123707988,
+          "range_location": 90.2912621359222,
+          "recent_high": 88.47,
+          "recent_low": 84.35,
+          "sma10": 87.616,
+          "sma20": 86.549
+        },
+        "loss_reasons": [
+          "LATE_ENTRY_HIGH"
+        ]
+      },
+      {
+        "trade_id": "10",
+        "symbol": "SOLUSDT",
+        "entry_time": "2026-02-25 18:00:00",
+        "entry_price": 92.0,
+        "exit_time": "2026-02-26 04:00:00",
+        "exit_price": 89.24,
+        "stop_loss": 89.24,
+        "take_profit": 95.68,
+        "net_pnl": -83.38,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": {
+          "trend_direction": "UP",
+          "atr_pct": 1.2418221468378974,
+          "volume_ratio": 0.5382949289302599,
+          "range_location": 93.88586956521755,
+          "recent_high": 82.99,
+          "recent_low": 75.63,
+          "sma10": 81.745,
+          "sma20": 79.9795
+        },
+        "loss_reasons": [
+          "LOW_VOLUME",
+          "LATE_ENTRY_HIGH",
+          "STOP_TOO_WIDE"
+        ]
+      }
+    ]
+  },
+  "XRPUSDT": {
+    "symbol": "XRPUSDT",
+    "total_losing_trades": 8,
+    "total_loss": -613.72,
+    "avg_loss": -76.715,
+    "reason_counts": {
+      "DATA_UNAVAILABLE": 5,
+      "CHOPPY_MARKET": 1,
+      "LOW_VOLUME": 1,
+      "LATE_ENTRY_HIGH": 1,
+      "COUNTER_TREND_ENTRY": 2,
+      "EARLY_ENTRY_LOW": 2,
+      "STOP_TOO_WIDE": 1
+    },
+    "trades": [
+      {
+        "trade_id": "1",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-01-17 08:00:00",
+        "entry_price": 2.45,
+        "exit_time": "2026-01-17 16:00:00",
+        "exit_price": 2.3765,
+        "stop_loss": 2.3765,
+        "take_profit": 2.548,
+        "net_pnl": -75.5,
+        "exit_reason": "STOP_LOSS",
+        "duration": 8.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "3",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-01-25 14:00:00",
+        "entry_price": 2.52,
+        "exit_time": "2026-01-26 00:00:00",
+        "exit_price": 2.4444,
+        "stop_loss": 2.4444,
+        "take_profit": 2.6208,
+        "net_pnl": -77.04,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "4",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-01-29 10:00:00",
+        "entry_price": 2.41,
+        "exit_time": "2026-01-29 20:00:00",
+        "exit_price": 2.3377,
+        "stop_loss": 2.3377,
+        "take_profit": 2.5064,
+        "net_pnl": -73.26,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "5",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-02-02 16:00:00",
+        "entry_price": 2.35,
+        "exit_time": "2026-02-03 04:00:00",
+        "exit_price": 2.2795,
+        "stop_loss": 2.2795,
+        "take_profit": 2.444,
+        "net_pnl": -75.78,
+        "exit_reason": "STOP_LOSS",
+        "duration": 12.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "6",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-02-07 08:00:00",
+        "entry_price": 2.28,
+        "exit_time": "2026-02-07 18:00:00",
+        "exit_price": 2.2116,
+        "stop_loss": 2.2116,
+        "take_profit": 2.3712,
+        "net_pnl": -77.55,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": null,
+        "loss_reasons": [
+          "DATA_UNAVAILABLE"
+        ]
+      },
+      {
+        "trade_id": "8",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-02-18 06:00:00",
+        "entry_price": 2.32,
+        "exit_time": "2026-02-18 16:00:00",
+        "exit_price": 2.2504,
+        "stop_loss": 2.2504,
+        "take_profit": 2.4128,
+        "net_pnl": -80.37,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": {
+          "trend_direction": "CHOPPY",
+          "atr_pct": 1.2394943825633238,
+          "volume_ratio": 0.2785653084771303,
+          "range_location": 83.72434017595293,
+          "recent_high": 1.495,
+          "recent_low": 1.4268,
+          "sma10": 1.46897,
+          "sma20": 1.4704650000000001
+        },
+        "loss_reasons": [
+          "CHOPPY_MARKET",
+          "LOW_VOLUME",
+          "LATE_ENTRY_HIGH"
+        ]
+      },
+      {
+        "trade_id": "9",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-02-23 12:00:00",
+        "entry_price": 2.26,
+        "exit_time": "2026-02-24 00:00:00",
+        "exit_price": 2.1922,
+        "stop_loss": 2.1922,
+        "take_profit": 2.3504,
+        "net_pnl": -78.48,
+        "exit_reason": "STOP_LOSS",
+        "duration": 12.0,
+        "market_conditions": {
+          "trend_direction": "DOWN",
+          "atr_pct": 0.9606168395493011,
+          "volume_ratio": 0.9232829664696325,
+          "range_location": 11.77083333333321,
+          "recent_high": 1.4261,
+          "recent_low": 1.3301,
+          "sma10": 1.37271,
+          "sma20": 1.38956
+        },
+        "loss_reasons": [
+          "COUNTER_TREND_ENTRY",
+          "EARLY_ENTRY_LOW"
+        ]
+      },
+      {
+        "trade_id": "10",
+        "symbol": "XRPUSDT",
+        "entry_time": "2026-02-28 18:00:00",
+        "entry_price": 2.18,
+        "exit_time": "2026-03-01 04:00:00",
+        "exit_price": 2.1146,
+        "stop_loss": 2.1146,
+        "take_profit": 2.2672,
+        "net_pnl": -75.74,
+        "exit_reason": "STOP_LOSS",
+        "duration": 10.0,
+        "market_conditions": {
+          "trend_direction": "DOWN",
+          "atr_pct": 1.208455837143529,
+          "volume_ratio": 1.1239573815710038,
+          "range_location": 6.054687499999981,
+          "recent_high": 1.3741,
+          "recent_low": 1.2717,
+          "sma10": 1.3305099999999999,
+          "sma20": 1.342675
+        },
+        "loss_reasons": [
+          "COUNTER_TREND_ENTRY",
+          "EARLY_ENTRY_LOW",
+          "STOP_TOO_WIDE"
+        ]
+      }
+    ]
+  }
+}
