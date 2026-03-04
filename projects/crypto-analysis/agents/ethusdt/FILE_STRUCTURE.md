@@ -1,127 +1,128 @@
-# ETHUSDT Dedicated Run - Complete File Structure
+# ETHUSDT Dedicated Run - File Architecture
 
-## Overview
-This document shows all files involved in the ETHUSDT dedicated trading system.
-
-## 1. DATA PULLING (Global - All Currencies)
-
-### Primary Fetcher
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/scripts/smart_data_fetcher.py`
-- Runs every 5 minutes via cron
-- Fetches OHLCV data for ALL currencies (including ETHUSDT)
-- Uses smart fetching (only when new candles available)
-- Saves to: `/root/.openclaw/workspace/data/binance/ETHUSDT/{timeframe}.csv`
-
-### Cron Job
-```
-*/5 * * * * cd /root/.openclaw/workspace/projects/crypto-analysis && \
-  /usr/bin/python3 scripts/smart_data_fetcher.py >> \
-  /root/.openclaw/workspace/projects/crypto-analysis/logs/fetcher.log 2>&1
-```
-
----
-
-## 2. INDICATOR CALCULATION (Global - All Currencies)
-
-### Primary Calculator
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/scripts/calculate_all_indicators.py`
-- Runs every 5 minutes (10s after fetcher)
-- Calculates indicators for ALL currencies
-- Saves to: `/root/.openclaw/workspace/data/indicators/ETHUSDT_indicators.json`
-
-### Cron Job
-```
-*/5 * * * * sleep 10 && cd /root/.openclaw/workspace/projects/crypto-analysis && \
-  /usr/bin/python3 scripts/calculate_all_indicators.py >> \
-  /root/.openclaw/workspace/projects/crypto-analysis/logs/indicators.log 2>&1
-```
-
----
-
-## 3. ETHUSDT DEDICATED AGENT
-
-### Main Agent
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/ethusdt_agent.py`
-- **Runs:** Every 15 minutes
-- **Purpose:** Dedicated ETHUSDT analysis and trade identification
-- **Loads:** All 7 timeframes (1M, 1w, 1d, 4h, 1h, 15m, 5m)
-- **Uses:** Indicators from global calculator
-- **Outputs:** Trade setups to logs
-
-### Agent Runner Script
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/scripts/run_agent.sh`
-
-### Agent Configuration
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/config/agent.conf`
-
-### Agent State
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/state/agent_state.json`
-
-### Agent Logs
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/logs/agent.log`
-
----
-
-## 4. ETHUSDT IMPROVEMENT AGENT
-
-### Improvement Engine
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/improver/ethusdt_improver.py`
-- **Runs:** Daily at 6 AM
-- **Purpose:** Continuous optimization
-
-### Improvement Runner
-**File:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/improver/scripts/run_improver.sh`
-
-### Improvement Reports
-**Location:** `/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/analysis/`
-
----
-
-## 5. DATA FLOW
+## Complete Data Flow
 
 ```
-Global Data Fetcher (5 min) ──▶ ETHUSDT CSV Files
-                                      │
-Global Indicator Calc (5 min) ──▶ ETHUSDT_indicators.json
-                                      │
-ETHUSDT Agent (15 min) ────────▶ Analysis & Setup Detection
-                                      │
-ETHUSDT Improver (Daily) ──────▶ Optimization & Reports
+┌─────────────────────────────────────────────────────────────────┐
+│                    ETHUSDT DATA PIPELINE                         │
+└─────────────────────────────────────────────────────────────────┘
+
+STEP 1: DATA PULLING (Every 5 minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+File: scripts/smart_data_fetcher.py
+Cron: */5 * * * *
+Output: data/binance/ETHUSDT/{1M,1w,1d,4h,1h,15m,5m}.csv
+
+STEP 2: INDICATOR CALCULATION (Every 5 minutes + 10s delay)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+File: scripts/calculate_all_indicators.py
+Cron: */5 * * * * (sleep 10)
+Output: data/indicators/ETHUSDT_indicators.json
+
+STEP 3: ETHUSDT AGENT ANALYSIS (Every 15 minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+File: agents/ethusdt/ethusdt_agent.py
+Cron: */15 * * * *
+Input: 
+  - data/binance/ETHUSDT/*.csv (all 7 timeframes)
+  - data/indicators/ETHUSDT_indicators.json
+Output: agents/ethusdt/logs/agent.log
+
+STEP 4: IMPROVEMENT AGENT (Daily at 6 AM)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+File: agents/ethusdt/improver/ethusdt_improver.py
+Cron: 0 6 * * *
+Input: 
+  - backtest_data/ETHUSDT_trade_history.csv
+  - agents/ethusdt/logs/agent.log
+Output: agents/ethusdt/analysis/improvement_report_*.md
 ```
 
----
+## File Descriptions
 
-## 6. CRON JOBS FOR ETHUSDT
+### Global Scripts (All Symbols)
 
-| Job | Frequency | File |
-|-----|-----------|------|
-| Data Fetch | */5 * * * * | `scripts/smart_data_fetcher.py` |
-| Indicators | */5 * * * * | `scripts/calculate_all_indicators.py` |
-| **ETH Agent** | */15 * * * * | `agents/ethusdt/scripts/run_agent.sh` |
-| **ETH Improver** | 0 6 * * * | `agents/ethusdt/improver/scripts/run_improver.sh` |
+| File | Purpose | Output |
+|------|---------|--------|
+| `scripts/smart_data_fetcher.py` | Pulls OHLCV from Binance API | CSV files per symbol/timeframe |
+| `scripts/calculate_all_indicators.py` | Calculates EMA, RSI, MACD, VWAP, ATR, Bollinger | JSON indicators per symbol |
 
----
+### ETHUSDT Dedicated Files
 
-## 7. KEY FILES LIST
+| File | Purpose | Runs |
+|------|---------|------|
+| `agents/ethusdt/ethusdt_agent.py` | Main trading agent | Every 15 min |
+| `agents/ethusdt/scripts/run_agent.sh` | Execution wrapper | Every 15 min |
+| `agents/ethusdt/config/agent.conf` | Configuration | - |
+| `agents/ethusdt/state/agent_state.json` | Agent memory | Persistent |
+| `agents/ethusdt/logs/agent.log` | Trading logs | Every 15 min |
 
-### Global (All Currencies)
-- `scripts/smart_data_fetcher.py` - Data pulling
-- `scripts/calculate_all_indicators.py` - Indicator calculation
-- `logs/fetcher.log` - Fetch logs
-- `logs/indicators.log` - Calculation logs
+### ETHUSDT Improvement Files
 
-### ETHUSDT Data
-- `data/binance/ETHUSDT/{1M,1w,1d,4h,1h,15m,5m}.csv` - OHLCV data
-- `data/indicators/ETHUSDT_indicators.json` - Calculated indicators
+| File | Purpose | Runs |
+|------|---------|------|
+| `agents/ethusdt/improver/ethusdt_improver.py` | Performance analyzer | Daily 6 AM |
+| `agents/ethusdt/improver/scripts/run_improver.sh` | Execution wrapper | Daily 6 AM |
+| `agents/ethusdt/improver/state.json` | Improver memory | Persistent |
+| `agents/ethusdt/analysis/improvement_report_*.md` | Generated reports | Daily |
 
-### ETHUSDT Agent
-- `agents/ethusdt/ethusdt_agent.py` - Main agent
-- `agents/ethusdt/scripts/run_agent.sh` - Runner
-- `agents/ethusdt/config/agent.conf` - Configuration
-- `agents/ethusdt/state/agent_state.json` - State
-- `agents/ethusdt/logs/agent.log` - Logs
+## Data Storage
 
-### ETHUSDT Improver
-- `agents/ethusdt/improver/ethusdt_improver.py` - Improvement engine
-- `agents/ethusdt/improver/scripts/run_improver.sh` - Runner
-- `agents/ethusdt/analysis/improvement_report_*.md` - Reports
+### Raw OHLCV Data
+```
+data/binance/ETHUSDT/
+├── 1M.csv    (Monthly - 8 indicators)
+├── 1w.csv    (Weekly - 8 indicators)
+├── 1d.csv    (Daily - 11 indicators)
+├── 4h.csv    (4 Hour - 11 indicators)
+├── 1h.csv    (1 Hour - 8 indicators) ← Primary TF
+├── 15m.csv   (15 Minute - 8 indicators)
+└── 5m.csv    (5 Minute - 5 indicators) ← Execution TF
+```
+
+### Calculated Indicators
+```
+data/indicators/ETHUSDT_indicators.json
+{
+  "1M": {"ema_50": ..., "ema_200": ..., "macd_line": ...},
+  "1w": {"ema_50": ..., "ema_200": ..., "macd_line": ...},
+  "1d": {"ema_20": ..., "ema_50": ..., "vwap": ..., "rsi_14": ...},
+  "4h": {"ema_9": ..., "ema_21": ..., "rsi_14": ..., "bb_upper": ...},
+  "1h": {"ema_9": ..., "ema_25": ..., "rsi_14": ..., "vwap": ...},
+  "15m": {"ema_9": ..., "ema_21": ..., "ema_50": ..., "rsi_9": ...},
+  "5m": {"ema_9": ..., "rsi_7": ..., "vwap": ..., "atr_5": ...}
+}
+```
+
+## Cron Job Schedule
+
+```
+# Global Pipeline (All Symbols)
+*/5    * * * *  Data Fetcher
+*/5    * * * *  Indicators (10s delay)
+
+# ETHUSDT Dedicated
+*/15   * * * *  ETH Agent (Trading)
+0      6 * * *  ETH Improver (Analysis)
+```
+
+## Key Relationships
+
+1. **Data Fetcher** → Creates/Updates CSV files
+2. **Indicators** → Reads CSV → Calculates → Writes JSON
+3. **ETH Agent** → Reads CSV + JSON → Analyzes → Logs results
+4. **Improver** → Reads logs + history → Generates reports
+
+## Dependencies
+
+```
+ethusdt_agent.py
+  ├── requires: data/binance/ETHUSDT/*.csv (all 7 TFs)
+  ├── requires: data/indicators/ETHUSDT_indicators.json
+  └── outputs: agents/ethusdt/logs/agent.log
+
+ethusdt_improver.py
+  ├── requires: agents/ethusdt/logs/agent.log
+  ├── requires: backtest_data/ETHUSDT_trade_history.csv
+  └── outputs: agents/ethusdt/analysis/improvement_report_*.md
+```
