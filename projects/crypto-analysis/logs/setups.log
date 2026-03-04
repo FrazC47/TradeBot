@@ -33370,3 +33370,100 @@ GENERATING TRADE REPORTS WITH CHARTS...
 📄 Report saved: /root/.openclaw/workspace/projects/crypto-analysis/trade_charts/BTCUSDT_trade_report.txt
 
 ✅ Report generated for BTCUSDT
+/usr/local/lib/python3.12/dist-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+/root/.openclaw/workspace/projects/crypto-analysis/trade_reporter.py:222: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()
+/root/.openclaw/workspace/projects/crypto-analysis/trade_reporter.py:222: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()
+==========================================================================================
+INDIVIDUAL SETUP CHECKER - ALL 5 COINS
+==========================================================================================
+
+🎯 BTCUSDT LONG
+   Strategy: Fibonacci Pullback
+   Setup: At 0.5 Fib
+   Entry: $68187.90
+   Stop: $66365.51 (2.67%)
+   Target: $71832.69 (5.35%)
+
+ETHUSDT: No setup found
+SOLUSDT: No setup found
+XRPUSDT: No setup found
+==========================================================================================
+Total setups found: 1
+==========================================================================================
+
+==========================================================================================
+GENERATING TRADE REPORTS WITH CHARTS...
+==========================================================================================
+
+================================================================================
+🎯 TRADE SETUP: BTCUSDT
+================================================================================
+
+📊 Generating candlestick charts with indicators...
+  ✅ 15m Chart: /root/.openclaw/workspace/projects/crypto-analysis/trade_charts/BTCUSDT_15m_trade.png
+  ✅ 1h Chart: /root/.openclaw/workspace/projects/crypto-analysis/trade_charts/BTCUSDT_1h_trade.png
+
+🎯 TRADE RECOMMENDATION: BTCUSDT LONG
+================================================================================
+
+📊 CURRENT MARKET STATE
+• 1h RSI: 52.8 (neutral)
+• 1h MACD: 0.00 vs Signal: 0.00
+• 1d Trend: Bearish
+• VWAP: $68,085.47
+
+📊 ENTRY STRATEGY
+• Method: Fibonacci Pullback
+• Entry Zone: $67,846.96 - $68,528.84
+• Position: 100% of normal size
+
+🛡️ RISK MANAGEMENT
+• Stop Loss: $66,365.51
+  └ Risk: 2.67%
+• Target: $71,832.69
+  └ Reward: 5.35%
+• Risk/Reward: 1:2.0
+
+📈 WHY THIS TRADE?
+
+1. TECHNICAL SETUP:
+   • Price at key support/resistance level
+   • Structure intact on higher timeframes
+   • Volume profile supporting the move
+
+2. INDICATOR CONFLUENCE:
+   • EMA alignment: Mixed
+   • RSI: Neutral zone
+   • MACD: Bearish crossover
+
+3. RISK/REWARD:
+   • Entry at favorable price level
+   • Stop placed at technical invalidation
+   • Minimum 1:2 R:R achieved
+
+⚠️ INVALIDATION SCENARIOS
+• Price closes below stop loss ($66,365.51)
+• Structure breaks (lower low/higher high formed against position)
+• Momentum turns strongly against position
+• Volume shows distribution/accumulation against setup
+
+⏱️ EXECUTION PLAN
+• Monitor 15m and 1h closes for confirmation
+• Enter on price reaching entry zone
+• Set stop loss immediately
+• Scale out 50% at target 1, move stop to breakeven
+• Let remaining 50% run to target 2
+
+📋 PRE-TRADE CHECKLIST
+□ Entry zone reached
+□ Volume confirmation on entry candle
+□ No major news/events pending
+□ Risk amount within limits (max 3% account)
+
+
+📄 Report saved: /root/.openclaw/workspace/projects/crypto-analysis/trade_charts/BTCUSDT_trade_report.txt
+
+✅ Report generated for BTCUSDT

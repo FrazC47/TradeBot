@@ -1,43 +1,43 @@
 {
   "BTCUSDT_5m": {
-    "last_fetch": 1772606101837,
-    "last_candle": 1772606100000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "BTCUSDT_15m": {
-    "last_fetch": 1772605801263,
-    "last_candle": 1772605800000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "ETHUSDT_5m": {
-    "last_fetch": 1772606101837,
-    "last_candle": 1772606100000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "ETHUSDT_15m": {
-    "last_fetch": 1772605801263,
-    "last_candle": 1772605800000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "BNBUSDT_5m": {
-    "last_fetch": 1772606101837,
-    "last_candle": 1772606100000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "BNBUSDT_15m": {
-    "last_fetch": 1772605801263,
-    "last_candle": 1772605800000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "SOLUSDT_5m": {
-    "last_fetch": 1772606101837,
-    "last_candle": 1772606100000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "SOLUSDT_15m": {
-    "last_fetch": 1772605801263,
-    "last_candle": 1772605800000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "XRPUSDT_5m": {
-    "last_fetch": 1772606101837,
-    "last_candle": 1772606100000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "XRPUSDT_15m": {
-    "last_fetch": 1772605801263,
-    "last_candle": 1772605800000
+    "last_fetch": 1772606702058,
+    "last_candle": 1772606700000
   },
   "BTCUSDT_1h": {
     "last_fetch": 1772604001103,
