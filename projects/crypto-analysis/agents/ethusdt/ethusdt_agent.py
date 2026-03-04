@@ -370,6 +370,12 @@ class ETHUSDTAgent:
             self.logger.info("🎯 TRADE OPPORTUNITY IDENTIFIED")
             self.logger.info(json.dumps(setup['trade'], indent=2))
             
+            # ACTIVATE GRANULAR MODE for precision entry/exit
+            self.logger.info("⚡ ACTIVATING GRANULAR MODE (1m data) for precision entry")
+            self.state['granular_mode_active'] = True
+            self.state['granular_mode_activated_at'] = datetime.now().isoformat()
+            self.state['granular_mode_reason'] = 'SETUP_IDENTIFIED'
+            
             # Here you would:
             # 1. Send alert to user
             # 2. Log the setup
@@ -377,6 +383,17 @@ class ETHUSDTAgent:
             
             # Update state
             self.state['active_setup'] = setup
+            
+        else:
+            # No setup - check if we should deactivate granular mode
+            if self.state.get('granular_mode_active'):
+                activated_at = datetime.fromisoformat(self.state.get('granular_mode_activated_at', datetime.now().isoformat()))
+                age_minutes = (datetime.now() - activated_at).total_seconds() / 60
+                
+                if age_minutes > 30:  # 30 minute timeout
+                    self.logger.info("⏱️ DEACTIVATING GRANULAR MODE (timeout)")
+                    self.state['granular_mode_active'] = False
+                    self.state['granular_mode_deactivated_at'] = datetime.now().isoformat()
         else:
             self.logger.info("No valid setup found this cycle")
         
