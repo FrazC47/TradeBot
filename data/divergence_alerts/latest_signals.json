@@ -4,8 +4,20 @@
     "datetime": "2026-03-04 17:00",
     "symbol": "BTCUSDT",
     "interval": "1h",
+    "type": "FUTURES_PREMIUM",
+    "price_diff_pct": 0.1891,
+    "spot_price": 71010.94,
+    "futures_price": 71145.2,
+    "severity": "MEDIUM",
+    "interpretation": "Leverage longs paying premium. Risk of long squeeze if price drops."
+  },
+  {
+    "timestamp": 1772614800000,
+    "datetime": "2026-03-04 17:00",
+    "symbol": "BTCUSDT",
+    "interval": "1h",
     "type": "FUTURES_VOLUME_HIGH",
-    "volume_diff_pct": 135602.3,
+    "volume_diff_pct": 163003.93,
     "severity": "HIGH",
     "interpretation": "Speculation driving futures volume"
   },
@@ -15,9 +27,9 @@
     "symbol": "BTCUSDT",
     "interval": "4h",
     "type": "FUTURES_PREMIUM",
-    "price_diff_pct": 2.1146,
+    "price_diff_pct": 2.3417,
     "spot_price": 69535.99,
-    "futures_price": 71006.4,
+    "futures_price": 71164.3,
     "severity": "HIGH",
     "interpretation": "Leverage longs paying premium. Risk of long squeeze if price drops."
   },
@@ -27,7 +39,7 @@
     "symbol": "BTCUSDT",
     "interval": "4h",
     "type": "FUTURES_VOLUME_HIGH",
-    "volume_diff_pct": 1906569.66,
+    "volume_diff_pct": 1990177.33,
     "severity": "HIGH",
     "interpretation": "Speculation driving futures volume"
   },
@@ -36,8 +48,20 @@
     "datetime": "2026-03-04 17:00",
     "symbol": "ETHUSDT",
     "interval": "1h",
+    "type": "FUTURES_PREMIUM",
+    "price_diff_pct": 0.3715,
+    "spot_price": 2064.36,
+    "futures_price": 2072.03,
+    "severity": "MEDIUM",
+    "interpretation": "Leverage longs paying premium. Risk of long squeeze if price drops."
+  },
+  {
+    "timestamp": 1772614800000,
+    "datetime": "2026-03-04 17:00",
+    "symbol": "ETHUSDT",
+    "interval": "1h",
     "type": "FUTURES_VOLUME_HIGH",
-    "volume_diff_pct": 52219.99,
+    "volume_diff_pct": 65554.22,
     "severity": "HIGH",
     "interpretation": "Speculation driving futures volume"
   },
@@ -47,9 +71,9 @@
     "symbol": "ETHUSDT",
     "interval": "4h",
     "type": "FUTURES_PREMIUM",
-    "price_diff_pct": 2.9159,
+    "price_diff_pct": 3.2088,
     "spot_price": 2007.61,
-    "futures_price": 2066.15,
+    "futures_price": 2072.03,
     "severity": "HIGH",
     "interpretation": "Leverage longs paying premium. Risk of long squeeze if price drops."
   },
@@ -59,7 +83,7 @@
     "symbol": "ETHUSDT",
     "interval": "4h",
     "type": "FUTURES_VOLUME_HIGH",
-    "volume_diff_pct": 2396237.52,
+    "volume_diff_pct": 2520921.77,
     "severity": "HIGH",
     "interpretation": "Speculation driving futures volume"
   },
@@ -69,9 +93,9 @@
     "symbol": "BNBUSDT",
     "interval": "1h",
     "type": "FUTURES_PREMIUM",
-    "price_diff_pct": 0.1965,
+    "price_diff_pct": 0.152,
     "spot_price": 651.4,
-    "futures_price": 652.68,
+    "futures_price": 652.39,
     "severity": "MEDIUM",
     "interpretation": "Leverage longs paying premium. Risk of long squeeze if price drops."
   },
@@ -81,7 +105,7 @@
     "symbol": "BNBUSDT",
     "interval": "1h",
     "type": "FUTURES_VOLUME_HIGH",
-    "volume_diff_pct": 10554.12,
+    "volume_diff_pct": 13097.16,
     "severity": "HIGH",
     "interpretation": "Speculation driving futures volume"
   },
@@ -91,9 +115,9 @@
     "symbol": "BNBUSDT",
     "interval": "4h",
     "type": "FUTURES_PREMIUM",
-    "price_diff_pct": 1.9324,
+    "price_diff_pct": 1.9152,
     "spot_price": 640.13,
-    "futures_price": 652.5,
+    "futures_price": 652.39,
     "severity": "HIGH",
     "interpretation": "Leverage longs paying premium. Risk of long squeeze if price drops."
   },
@@ -103,7 +127,7 @@
     "symbol": "BNBUSDT",
     "interval": "4h",
     "type": "FUTURES_VOLUME_HIGH",
-    "volume_diff_pct": 3209800.42,
+    "volume_diff_pct": 3403702.36,
     "severity": "HIGH",
     "interpretation": "Speculation driving futures volume"
   }
