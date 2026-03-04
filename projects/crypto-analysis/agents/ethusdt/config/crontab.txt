@@ -1,0 +1,17 @@
+# ETHUSDT Agent - Cron Configuration
+# Add these lines to crontab
+
+# Run ETHUSDT agent every 15 minutes
+# This gives enough time for analysis without being too noisy
+
+# Standard run every 15 minutes
+*/15 * * * * /root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/scripts/run_agent.sh
+
+# Alternative: Run more frequently during high volatility periods
+# */10 * * * * /root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/scripts/run_agent.sh
+
+# Alternative: Run only during specific hours (e.g., 8am-10pm UTC)
+# */15 8-22 * * * /root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/scripts/run_agent.sh
+
+# Log rotation - keep last 7 days of logs
+0 0 * * * find /root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/logs -name "cron_*.log" -mtime +7 -delete

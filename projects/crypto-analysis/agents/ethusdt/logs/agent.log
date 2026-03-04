@@ -1,0 +1,15 @@
+2026-03-04 14:38:27,270 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 14:38:27,271 - ETHUSDT_AGENT - INFO - ETHUSDT AGENT STARTING
+2026-03-04 14:38:27,271 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 14:38:27,271 - ETHUSDT_AGENT - INFO - Analyzing ETHUSDT for trade setup...
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO - ETH Analysis @ $1970.62
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO -   EMA9: $1971.14, EMA21: $1975.63
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO -   RSI: 42.6, ATR%: 1.06%
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO -   Volume: 0.00x, Range: 36.7%
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO -   Bullish candles: 0, Breakout: False
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO -   Filters passed: 3/7
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO - ❌ Filters failed: ema_aligned, volume_ok, momentum_ok, breakout
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO - No valid setup found this cycle
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO - ETHUSDT AGENT COMPLETE
+2026-03-04 14:38:27,278 - ETHUSDT_AGENT - INFO - ============================================================
