@@ -3,21 +3,21 @@
 ================================================================================
 
 📊 CURRENT MARKET STATE
-• 1h RSI: 52.8 (neutral)
+• 1h RSI: 56.3 (neutral)
 • 1h MACD: 0.00 vs Signal: 0.00
 • 1d Trend: Bearish
-• VWAP: $68,085.47
+• VWAP: $68,146.98
 
 📊 ENTRY STRATEGY
 • Method: Fibonacci Pullback
-• Entry Zone: $67,846.96 - $68,528.84
+• Entry Zone: $68,166.46 - $68,851.56
 • Position: 100% of normal size
 
 🛡️ RISK MANAGEMENT
-• Stop Loss: $66,365.51
-  └ Risk: 2.67%
-• Target: $71,832.69
-  └ Reward: 5.35%
+• Stop Loss: $66,721.13
+  └ Risk: 2.61%
+• Target: $72,084.78
+  └ Reward: 5.22%
 • Risk/Reward: 1:2.0
 
 📈 WHY THIS TRADE?
@@ -38,7 +38,7 @@
    • Minimum 1:2 R:R achieved
 
 ⚠️ INVALIDATION SCENARIOS
-• Price closes below stop loss ($66,365.51)
+• Price closes below stop loss ($66,721.13)
 • Structure breaks (lower low/higher high formed against position)
 • Momentum turns strongly against position
 • Volume shows distribution/accumulation against setup

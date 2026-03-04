@@ -16,3 +16,45 @@
 2026-03-04 14:45:02,011 - ETHUSDT_AGENT - INFO - ============================================================
 [2026-03-04 14:45:02] ETHUSDT Agent completed successfully
 ---
+[2026-03-04 15:00:01] Starting ETHUSDT Agent
+2026-03-04 15:00:01,843 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 15:00:01,843 - ETHUSDT_AGENT - INFO - ETHUSDT AGENT STARTING
+2026-03-04 15:00:01,843 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 15:00:01,844 - ETHUSDT_AGENT - INFO - Analyzing ETHUSDT using full MTF framework...
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   4h trend not aligned
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO - ETH MTF Analysis @ $1970.62
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   Timeframes: 1M,1w,1d,4h,1h,15m,5m (all loaded)
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   Primary (1h) EMA9: $1971.14, EMA21: $1975.63
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   Primary (1h) RSI: 42.6, ATR%: 1.06%
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   Volume (1h): 0.00x, Range: 36.7%
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   HTF Trend Aligned: False
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   Bullish candles (1h): 0, Breakout: False
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO -   Filters passed: 3/8
+2026-03-04 15:00:01,879 - ETHUSDT_AGENT - INFO - ❌ Filters failed: htf_trend_aligned, ema_aligned, volume_ok, momentum_ok, breakout
+2026-03-04 15:00:01,880 - ETHUSDT_AGENT - INFO - No valid setup found this cycle
+2026-03-04 15:00:01,880 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 15:00:01,880 - ETHUSDT_AGENT - INFO - ETHUSDT AGENT COMPLETE
+2026-03-04 15:00:01,880 - ETHUSDT_AGENT - INFO - ============================================================
+[2026-03-04 15:00:01] ETHUSDT Agent completed successfully
+---
+[2026-03-04 15:15:01] Starting ETHUSDT Agent
+2026-03-04 15:15:01,632 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 15:15:01,632 - ETHUSDT_AGENT - INFO - ETHUSDT AGENT STARTING
+2026-03-04 15:15:01,632 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 15:15:01,632 - ETHUSDT_AGENT - INFO - Analyzing ETHUSDT using full MTF framework...
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   4h trend not aligned
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO - ETH MTF Analysis @ $1980.20
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   Timeframes: 1M,1w,1d,4h,1h,15m,5m (all loaded)
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   Primary (1h) EMA9: $1974.53, EMA21: $1975.97
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   Primary (1h) RSI: 49.8, ATR%: 1.04%
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   Volume (1h): 0.00x, Range: 54.3%
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   HTF Trend Aligned: False
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   Bullish candles (1h): 0, Breakout: False
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO -   Filters passed: 3/8
+2026-03-04 15:15:01,667 - ETHUSDT_AGENT - INFO - ❌ Filters failed: htf_trend_aligned, ema_aligned, volume_ok, momentum_ok, breakout
+2026-03-04 15:15:01,668 - ETHUSDT_AGENT - INFO - No valid setup found this cycle
+2026-03-04 15:15:01,668 - ETHUSDT_AGENT - INFO - ============================================================
+2026-03-04 15:15:01,668 - ETHUSDT_AGENT - INFO - ETHUSDT AGENT COMPLETE
+2026-03-04 15:15:01,668 - ETHUSDT_AGENT - INFO - ============================================================
+[2026-03-04 15:15:01] ETHUSDT Agent completed successfully
+---
