@@ -24,7 +24,10 @@ AGENT_CONFIG = {
     'log_file': '/root/.openclaw/workspace/projects/crypto-analysis/agents/ethusdt/logs/agent.log',
     
     # Trading Parameters (ETH-specific)
-    'timeframes': ['1h', '4h', '1d'],  # Focus on higher TFs for ETH
+    # Uses ALL timeframes as per original MTF framework agreement
+    'timeframes': ['1M', '1w', '1d', '4h', '1h', '15m', '5m'],
+    'primary_timeframe': '1h',  # Main entry/exit decisions
+    'execution_timeframe': '5m',  # Precision entries
     'strategy': 'selective_momentum_v2',
     
     # Entry Parameters
@@ -207,20 +210,26 @@ class ETHUSDTAgent:
     
     def analyze_eth_setup(self) -> Optional[Dict]:
         """
-        ETH-specific setup analysis
-        Optimized for ETH's volatility and patterns
+        ETH-specific setup analysis using full MTF framework
+        Analyzes all timeframes: 1M -> 1w -> 1d -> 4h -> 1h -> 15m -> 5m
         """
-        self.logger.info("Analyzing ETHUSDT for trade setup...")
+        self.logger.info("Analyzing ETHUSDT using full MTF framework...")
         
-        # Load data
-        data_1h = self.load_ohlcv('1h')
+        # Load ALL timeframe data as per original agreement
+        data_1M = self.load_ohlcv('1M')
+        data_1w = self.load_ohlcv('1w')
+        data_1d = self.load_ohlcv('1d')
         data_4h = self.load_ohlcv('4h')
+        data_1h = self.load_ohlcv('1h')
+        data_15m = self.load_ohlcv('15m')
+        data_5m = self.load_ohlcv('5m')
         
+        # Primary analysis on 1h (as per strategy)
         if not data_1h or len(data_1h) < 50:
             self.logger.warning("Insufficient 1h data")
             return None
         
-        # Get recent data
+        # Get recent data from primary timeframe
         recent = data_1h[-50:]
         prices = [c['close'] for c in recent]
         highs = [c['high'] for c in recent]
@@ -229,23 +238,34 @@ class ETHUSDTAgent:
         
         current_price = prices[-1]
         
-        # Calculate indicators
+        # Calculate indicators on 1h
         ema9 = self.calculate_ema(prices[-20:], self.config['entry']['ema_fast'])
         ema21 = self.calculate_ema(prices[-30:], self.config['entry']['ema_slow'])
         atr = self.calculate_atr(recent)
         atr_pct = (atr / current_price) * 100
         rsi = self.calculate_rsi(prices)
         
-        # Volume analysis
+        # Volume analysis on 1h
         avg_volume = sum(volumes[-20:]) / 20
         volume_ratio = recent[-1]['volume'] / avg_volume
         
-        # Range location
+        # Range location on 1h
         recent_high = max(highs[-30:])
         recent_low = min(lows[-30:])
         range_pct = (current_price - recent_low) / (recent_high - recent_low) * 100
         
-        # Check consecutive bullish candles
+        # Check higher timeframe trend (4h and 1d)
+        trend_aligned = True
+        if data_4h and len(data_4h) > 30:
+            prices_4h = [c['close'] for c in data_4h[-30:]]
+            ema9_4h = self.calculate_ema(prices_4h[-20:], 9)
+            ema21_4h = self.calculate_ema(prices_4h[-30:], 21)
+            trend_4h = prices_4h[-1] > ema9_4h > ema21_4h
+            if not trend_4h:
+                trend_aligned = False
+                self.logger.info("  4h trend not aligned")
+        
+        # Check consecutive bullish candles on 1h
         bullish_count = 0
         for i in range(-1, -6, -1):
             if prices[i] > prices[i-1]:
@@ -253,22 +273,26 @@ class ETHUSDTAgent:
             else:
                 break
         
-        # Check breakout
+        # Check breakout on 1h
         recent_resistance = max(highs[-10:-1])
         broke_resistance = current_price > recent_resistance
         
-        # Log analysis
-        self.logger.info(f"ETH Analysis @ ${current_price:.2f}")
-        self.logger.info(f"  EMA9: ${ema9:.2f}, EMA21: ${ema21:.2f}")
-        self.logger.info(f"  RSI: {rsi:.1f}, ATR%: {atr_pct:.2f}%")
-        self.logger.info(f"  Volume: {volume_ratio:.2f}x, Range: {range_pct:.1f}%")
-        self.logger.info(f"  Bullish candles: {bullish_count}, Breakout: {broke_resistance}")
+        # Log full MTF analysis
+        self.logger.info(f"ETH MTF Analysis @ ${current_price:.2f}")
+        self.logger.info(f"  Timeframes: 1M,1w,1d,4h,1h,15m,5m (all loaded)")
+        self.logger.info(f"  Primary (1h) EMA9: ${ema9:.2f}, EMA21: ${ema21:.2f}")
+        self.logger.info(f"  Primary (1h) RSI: {rsi:.1f}, ATR%: {atr_pct:.2f}%")
+        self.logger.info(f"  Volume (1h): {volume_ratio:.2f}x, Range: {range_pct:.1f}%")
+        self.logger.info(f"  HTF Trend Aligned: {trend_aligned}")
+        self.logger.info(f"  Bullish candles (1h): {bullish_count}, Breakout: {broke_resistance}")
         
         # Apply ETH-specific filters
         setup = {
             'symbol': self.symbol,
             'timestamp': datetime.now().isoformat(),
             'price': current_price,
+            'timeframes_analyzed': ['1M', '1w', '1d', '4h', '1h', '15m', '5m'],
+            'primary_timeframe': '1h',
             'indicators': {
                 'ema9': ema9,
                 'ema21': ema21,
@@ -279,6 +303,7 @@ class ETHUSDTAgent:
                 'range_pct': range_pct,
             },
             'signals': {
+                'htf_trend_aligned': trend_aligned,  # Higher timeframe trend
                 'ema_aligned': current_price > ema9 > ema21,
                 'rsi_ok': self.config['entry']['rsi_min'] < rsi < self.config['entry']['rsi_max'],
                 'volume_ok': volume_ratio >= self.config['entry']['volume_threshold'],
