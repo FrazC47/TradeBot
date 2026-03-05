@@ -1,8 +1,0 @@
-loss_reason,count,percentage,affected_currencies,severity,primary_fix,expected_improvement
-CHOPPY_MARKET,102,41.5%,"BTC,SOL,XRP",HIGH,Add ADX > 25 filter,+45% win rate
-COUNTER_TREND,68,27.6%,"BTC,XRP",CRITICAL,Add daily trend filter,+28% win rate
-TIGHT_STOP,40,16.3%,BTC,MEDIUM,Increase ATR multiplier to 4x,+18% win rate
-LATE_ENTRY,23,9.3%,"BTC,SOL",MEDIUM,Wait for 0.618 fib entry,+8% win rate
-LARGE_LOSS,8,3.3%,ETH,CRITICAL,Implement position scaling,+5% win rate
-FALSE_BREAKOUT,4,1.6%,ETH,MEDIUM,Require confirmation candle,+3% win rate
-SLIPPAGE,1,0.4%,XRP,MEDIUM,Reduce position size or pause,+1% win rate
