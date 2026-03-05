@@ -22,12 +22,6 @@ if [ -d "/root/.openclaw/workspace/projects/falcon" ]; then
     mv /root/.openclaw/workspace/projects/falcon /root/.openclaw/workspace/_MOVED_PROJECTS/falcon-uat
 fi
 
-# Move Headhunting project
-if [ -d "/root/.openclaw/workspace/projects/headhunting" ]; then
-    echo "  Moving projects/headhunting -> _MOVED_PROJECTS/headhunting"
-    mv /root/.openclaw/workspace/projects/headhunting /root/.openclaw/workspace/_MOVED_PROJECTS/headhunting
-fi
-
 echo ""
 echo "Step 2: Cleaning up root-level non-crypto files"
 echo "--------------------------------------------------------"
@@ -118,7 +112,6 @@ echo "  - AGENTS.md, SOUL.md, TOOLS.md, USER.md (workspace config)"
 echo ""
 echo "📦 Moved to _MOVED_PROJECTS/:"
 echo "  - falcon-uat/ (UAT testing framework)"
-echo "  - headhunting/ (recruitment tools)"
 echo ""
 echo "📁 Archived to _ARCHIVED/:"
 echo "  - Old MTF framework documentation"
